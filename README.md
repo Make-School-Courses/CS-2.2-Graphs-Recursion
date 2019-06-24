@@ -35,8 +35,9 @@ Students by the end of the course will be able to ...
 **Class Times:** Monday and Wednesday at 1:30–3:20pm
 
 
-| Class |          Date          |                 Topics    | Assignments              |  
-|:-----:|:----------------------:|:---------------------------------------:|  
+
+| Class |          Date          |                 Topics    | Assignments |  
+|:-----:|:----------------------:|:---------------------------------------:| :--------------------------------: |  
 |  1 |  Mon, July 8                         | [Introduction to Graph Theory] | Start Tutorial |  
 |  2 |  Wed, July 10                      |  [Graph Properties & Modeling]  | Challenge #1  |  
 |  3 |  Mon, July 15  |                         [Graph Traversals] | Challenge #2 <br> Quiz #1 |  
@@ -47,8 +48,9 @@ Students by the end of the course will be able to ...
 |  8 |  Wed, July 31                    | [Algorithm Classification] | Challenge #5 |  
 |  9 |  Mon, Aug 5                        | [Building Algorithms and Proofs]  | Quiz #4 |  
 | 10 |  Wed, Aug 7                        | [Advanced Modeling] | Challenge #6 |  
-| 11 |  Mon, Aug 12                           |  Final Presentations  |  Quiz #5 <br> Project Due <br> Project Presentations |  
+| 11 |  Mon, Aug 12                           |  Final Presentations  |  Quiz #5 <br> Project Due <br> Project Presentations | .  
 | 12 |  Wed, Aug 14                        | No Class - Mock Interviews | - |  
+
 
 
 [Introduction to Graph Theory]: Lessons/1.Intro-Graph-Theory.md
