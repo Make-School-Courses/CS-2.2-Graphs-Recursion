@@ -7,17 +7,22 @@ This course covers graph theory, data structures, algorithms, and analysis. Key 
 
 ### Why you should know this:
 
-- COMING SOON
+Graphs can be used to model and solve a wide variety of problems, including systems of roads, airline flights from city to city, how the Internet is connected, or even the sequence of classes you must take to complete get your degree here at Make School!  Understanding graphs allows you to build models of these problems and use those models to find optimal or best case solutions.
+
 
 ## Prerequisites:  
 
-- CS 1.3
+- [CS 1.3](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures)
 
 ## Learning Outcomes
 
 Students by the end of the course will be able to ...
 
-- COMING SOON
+- Describe graphs and common graph algorithms.
+- Model and solve a variety of real world problems using graphs and graph algorithms.
+- Implement the graph abstract data type and common graph algorithms in code.
+- Develop algorithmic thinking skills to expand on common graph algorithms and improve problem solving approaches.
+
 
 ## Schedule
 
@@ -29,54 +34,53 @@ Students by the end of the course will be able to ...
 
 **Class Times:** Monday and Wednesday at 1:30–3:20pm
 
-| Class |          Date          |                 Topics                  |
+| Class |          Date          |                 Topics    | Assignments              |
 |:-----:|:----------------------:|:---------------------------------------:|
-|  1 |  Mon, July 8                         | [Lesson 1] |
-|  2 |  Wed, July 10                      |  [Lesson 2]  |
-|  3 |  Mon, July 15                         | [Lesson 3] |
-|  4 |  Wed, July 17                     | [Lesson 4] |
-|  5 |  Mon, July 22                        | [Lesson 5] |
-|  6 |  Wed, July 24                     | [Lesson 6] |
-|  7 |  Mon, July 29                        | [Lesson 7] <br/> **/** <br/> [Lesson 8] |
-|  8 |  Wed, July 31                    | [Lesson 9] |
-|  9 |  Mon, Aug 5                        | [Lesson 10] <br/> **/** <br/> [Lesson 11] |
-| 10 |  Wed, Aug 7                        | [Lesson 12] |
-| 11 |  Mon, Aug 12                           | [Lesson 13] |  
-| 12 |  Wed, Aug 14                        | Final Exams/Presentations |
+|  1 |  Mon, July 8                         | [Introduction to Graph Theory] | Start Tutorial |
+|  2 |  Wed, July 10                      |  [Graph Properties & Modeling]  | Challenge #1  |
+|  3 |  Mon, July 15  | [Graph Traversals] | Challenge #2 <br> Quiz #1 |
+|  4 |  Wed, July 17 | [Paths and Routing] | Challenge #3|
+|  5 |  Mon, July 22 | [Paths and Routing Part 2] |  Challenge #4 <br> Quiz #2  |
+|  6 |  Wed, July 24   | [Topological Sorting and Scheduling] | Tutorial Due <br>  Project Proposal Due |
+|  7 |  Mon, July 29                        | [Graph Coloring] | Quiz #3  |
+|  8 |  Wed, July 31                    | [Algorithm Classification] | Challenge #5 |
+|  9 |  Mon, Aug 5                        | [Building Algorithms and Proofs]  | Quiz #4 |
+| 10 |  Wed, Aug 7                        | [Advanced Modeling] | Challenge #6 |
+| 11 |  Mon, Aug 12                           |  Final Presentations  |  Quiz #5 <br> Project Due <br> Project Presentations |
+| 12 |  Wed, Aug 14                        | No Class - Mock Interviews | - |
 
 
-[Lesson 1]: Lessons/Lesson1.md
-[Lesson 2]: Lessons/Lesson2.md
-[Lesson 3]: Lessons/Lesson3.md
-[Lesson 4]: Lessons/Lesson4.md
-[Lesson 5]: Lessons/Lesson5.md
-[Lesson 6]: Lessons/Lesson6.md
-[Lesson 7]: Lessons/Lesson7.md
-[Lesson 8]: Lessons/Lesson8.md
-[Lesson 9]: Lessons/Lesson9.md
-[Lesson 10]: Lessons/Lesson10.md
-[Lesson 11]: Lessons/Lesson11.md
-[Lesson 12]: Lessons/Lesson12.md
-[Lesson 13]: Lessons/Lesson13.md
+[Introduction to Graph Theory]: Lessons/1.Intro-Graph-Theory.md
+[Graph Properties & Modeling]: Lessons/2.Graph-Properties.md
+[Graph Traversals]: Lessons/3.Graph-Traversals.md
+[Paths and Routing]: Lessons/4.Routing.md
+[Paths and Routing Part 2]: Lessons/5.Routing-2.md
+[Topological Sorting and Scheduling]: Lessons/6.Scheduling.md
+[Graph Coloring]: Lessons/7.Graph-Coloring.md
+[Algorithm Classification]: Lessons/8.Algorithm-Classification.md
+[Building Algorithms and Proofs]: Lessons/9.Building-Algoritms.md
+[Advanced Modeling]: Lessons/10.Advanced-Modeling.md
 
 ## Class Assignments
 
+### Challenges
+- [Challenge Descriptions](Assignments/Challenges.md)
 ### Tutorials
 
-- COMING SOON
+- [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md)
 
 ### Projects
 
-- COMING SOON
+- [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)
 
 ## Evaluation
 
 To pass this course you must meet the following requirements:
 
-- Complete all required assignments
-- Pass all projects according to the associated project rubric
-- Pass the final summative assessment according to the rubric as specified in this class
-    - This will be further explained in the [study guide](ADD_STUDY_GUIDE_LNK)
+- Complete all required challenges.
+- Pass the [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md) according to the associated [Tutorial Rubric](Assignments/Tutorial-Rubric.md)
+- Pass the - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)  according to the associated [Project Rubric](Graph-Project-Rubric.md)
+- Pass 4 of the 5 Quizzes given during the term.
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
