@@ -81,7 +81,7 @@ Students by the end of the course will be able to ...
 To pass this course you must meet the following requirements:
 
 - Complete all required challenges.
-- Pass the [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md) according to the associated [Tutorial Rubric](Assignments/Tutorial-Rubric.md)
+- Pass the [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md) according to the associated [Tutorial Rubric](Assignments/Graph-Tutorial-Rubric.md)
 - Pass the - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)  according to the associated [Project Rubric](Graph-Project-Rubric.md)
 - Pass 4 of the 5 Quizzes given during the term.
 - Actively participate in class and abide by the attendance policy
