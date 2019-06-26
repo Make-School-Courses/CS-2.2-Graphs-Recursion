@@ -1,7 +1,5 @@
 # CS 2.2 Advanced Recursion and Graphs
 
-Course Description
-
 This course covers graph theory, data structures, algorithms, and analysis. Key concepts include recursion, greedy algorithms, memoization and dynamic programming. Students will build an original project whose underlying structure requires the use of graph structures and algorithms to solve real-world problems such as airplane routing, social networking, and board games.
 
 
@@ -28,12 +26,9 @@ Students by the end of the course will be able to ...
 
 **NOTE:** Due to the shorter summer sessions, for some class sessions you will see multiple topics covered. This is to ensure that we cover the same material that we normally would in non-summer terms.
 
-
----
 **Course Dates:** Monday, July 8 – Wednesday, August 14, 2019 (6 weeks)
 
 **Class Times:** Monday and Wednesday at 1:30–3:20pm
-
 
 
 | Class |          Date          |                 Topics    | Assignments |  
@@ -67,7 +62,9 @@ Students by the end of the course will be able to ...
 ## Class Assignments
 
 ### Challenges
+
 - [Challenge Descriptions](Assignments/Challenges.md)
+
 ### Tutorials
 
 - [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md)
