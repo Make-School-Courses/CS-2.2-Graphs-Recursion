@@ -5,7 +5,7 @@ This course covers graph theory, data structures, algorithms, and analysis. Key 
 
 ### Why you should know this:
 
-Graphs can be used to model and solve a wide variety of problems, including systems of roads, airline flights from city to city, how the Internet is connected, or even the sequence of classes you must take to complete get your degree here at Make School!  Understanding graphs allows you to build models of these problems and use those models to find optimal or best case solutions.
+Graphs can be used to model and solve a wide variety of problems, including systems of roads, airline flights from city to city, how the Internet is connected, or even the sequence of classes you must take to complete your degree here at Make School!  Understanding graphs allows you to build models of these problems and use those models to find optimal or best case solutions.
 
 
 ## Prerequisites:  
@@ -16,9 +16,9 @@ Graphs can be used to model and solve a wide variety of problems, including syst
 
 Students by the end of the course will be able to ...
 
-- Describe graphs and common graph algorithms.
-- Model and solve a variety of real world problems using graphs and graph algorithms.
-- Implement the graph abstract data type and common graph algorithms in code.
+- Describe common graph algorithms.
+- Model and solve real world problems using graph algorithms.
+- Implement graph algorithms in code.
 - Develop algorithmic thinking skills to expand on common graph algorithms and improve problem solving approaches.
 
 
@@ -83,6 +83,15 @@ To pass this course you must meet the following requirements:
 - Pass 4 of the 5 Quizzes given during the term.
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
+
+## Resources
+The following resources were used in developing this course and are a great place to start for learning more.  These resources are used through the Attribution / Share Alike license.
+[Geeks for Geeks]()
+[Wikipedia Graph Theory]()
+[Runestone Academy Data Structures and Algorithms]()
+
+## A note on code:
+Much of the code you will be implementing in this class is for standard algorithms and thus is readily available from many sources. By using these resources, we can focus on deepening our understanding of the algorithms themselves and on the process of solving real world problems with these algorithms.  So while I don't expect each class member to have vastly different algorithmic implementation,  I do expect, in keeping with the [Academic Honesty](https://make.sc/academic-honesty-policy), that you always give credit to code sources (online or classmates), write each line of code yourself with full understanding, add appropriate comments, and fully test your code.
 
 ## Make School Course Policies
 
