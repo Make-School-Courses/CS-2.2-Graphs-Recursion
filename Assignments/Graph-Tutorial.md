@@ -1,15 +1,15 @@
 # The Faker Network
 
-## Chapter 1: Set up
-How many social network platforms are you currently on? Each of those is an example of graph theory being applied to solve the problem of finding connections – and reccomending appropriate ones.
+## Chapter 0: Set up
+How many social network platforms are you currently on? Each of those is an example of graph theory being applied to solve the problem of finding connections – and recommending appropriate ones.
 
-In this tutorial, you'll be given a graph built using [Faker](https://faker.readthedocs.io/en/master/) that will act as your social network. You'll be working with your ten closest (fake) friends to figure out interesting data about them, how to expand your network, and how to categorize them
+In this tutorial, you'll be given a graph built using [Faker](https://faker.readthedocs.io/en/master/) that will act as your social network. You'll be working with your nine closest (fake) friends to figure out interesting data about them, how to expand your network, and how to categorize them
 
 ### Learning Outcomes
 By the end of this tutorial, you will be able to...
 
 1. Use a variety of neighbor lookup algorithms for a given graph
-1. Traverse a graph through various search methods 
+1. Traverse a graph through various search methods
 1. Categorize your graph based on data or known attributes
 
 ### Using Git/GitHub
@@ -22,8 +22,29 @@ Let's get your repo set up!
 1. Go to GitHub and create an _empty_, public repository called REPO-NAME, and now associate it as a remote for your cloned starter code, and then push to it.
 1. Go to your repo on GitHub and make sure your previously empty repo is now full with starter code! Now when you add/commit/push, it'll be to your repo!
 
+## Chapter 1: Who do you know?
+This tutorial will focus on properties of a social network.  To begin with, we'll need to define a network as a set of people (vertices) and the people they know.  If person *A* knows person *B* then there is an edge between them.  
+
+1. Draw a graph with you at the center connected by and edge to another 9 people you know.  Do any of these 9 know each other? If so draw an edge between them.  This will be your "Social Graph" to use as a sample in the rest of this tutorial.
+
+### Implement in code
+The Graph Abstract Data Type (ADT) is defined as follows:
+- A class `Graph()`` creates a new, empty graph.
+- The methods `addVertex(vert)` and
+`addEdge(fromVert, toVert)` add a new vertex and directed edge respectively.
+- While `addEdge(fromVert, toVert, weight)` Adds a  weighted, directed edge.
+- The methods `getVertex(vertKey)` finds the named vertKey and `getVertices()` returns the list of all vertices.
+
+There are two common ways to implement the graph ADT in Python; the adjacency matrix and the adjacency list. There are trade-offs in each representation.
+
+**Challenge:** Implement the graph ADT with an adjacency list in the file `graph-adt-list.py`.
+
+**Challenge:** Implement the graph ADT with an adjacency matrix in the file `graph-adt-matrix.py`.
+
+**Challenge:** Create a graph reader in the file `graph-reader.py` that reads in a graph from a text file and creates an instance of this class via the graph ADT. Assume the graph is represented in the text file by a list of vertices on line 1 followed by edges represented as ordered pairs, one per line.
+
 ## Chapter 2: Won't you Be My Neighbor?
-Have you ever had that moment where you find out a friend knows another one of your friends? Having one of those "worlds collide" moments can be exciting, scary, or a whole mixture of emotions. Instead of having that sitation surprise us, what if we had a way to look know this information. in advanced?
+Have you ever had that moment where you find out a friend knows another one of your friends? Having one of those "worlds collide" moments can be exciting, scary, or a whole mixture of emotions. Instead of having that situation surprise us, what if we had a way to look know this information. in advanced?
 
 ### Find Your Neighbors
 Turns out we do! We can utilize a **neighbor lookup** for a given node in our graph to see what other nodes it is connected with. If you and a friend are connected, you two share a friendship. How do we know if two nodes are connected? _They share an edge!_
@@ -44,7 +65,7 @@ Alright, no more surprise connections for us! But what if we want to go even _fu
 
 ## Chapter 3: Breadth of Fresh Neighbors
 
-How does Facebook or LinkedIn know what friends to reccomend to you? They look at who your friends are friends with, and who their friends are friends with, and so on
+How does Facebook or LinkedIn know what friends to recommend to you? They look at who your friends are friends with, and who their friends are friends with, and so on
 
 ![two friends](https://media1.giphy.com/media/r73emnWNwTWRq/giphy.gif)
 
@@ -74,10 +95,10 @@ There's this idea of [six degrees of separation](https://en.wikipedia.org/wiki/S
 
 _Source: [MisterDressup](https://www.teepublic.com/t-shirt/4930303-kevin-bacon-bacon-lover-funny-t-shirt)_
 
-You may not know Kevin Bacon (or _do_ you?), but we can still apply this to our graph of friends to find the connections that create a chain between two people. This is an application of **path finding** 
+You may not know Kevin Bacon (or _do_ you?), but we can still apply this to our graph of friends to find the connections that create a chain between two people. This is an application of **path finding**
 
 ### Finding the Path
-Think of a graph as a neighborhood, each house as a node, and immediate neighbors as nodes that share an edge. If you wanted to figure out how to get from one house to another, you'd walk to that house, passing other houses along the way. _You'd be walking a path, walking from one node to another via edges!_ 
+Think of a graph as a neighborhood, each house as a node, and immediate neighbors as nodes that share an edge. If you wanted to figure out how to get from one house to another, you'd walk to that house, passing other houses along the way. _You'd be walking a path, walking from one node to another via edges!_
 
 **Challenge:** Write a function that takes in a graph and two nodes (A and B) as input, and outputs the list of nodes that must be traversed to get from A to B. The output list of nodes _must be in order of nodes visited starting from A and ending at B._
 
@@ -119,14 +140,14 @@ For a given graph, it may take more work to traverse one edge over another. Thes
 
 We can't use BFS or DFS anymore to find the shortest path since those two algorithms don't take weights into consideration. So what can we use instead?
 
-**[Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)** is a shortest path algorithm that takes weighted edges into consideration! From the starting node, the algorithmvisits neighbors one by one and _assigns them a distance value based on the cumulative weights of the shortest path to get to that neighbor_. Distances are updated if a shorter path can be found, and once we're at the target node, we'll know the shortest path to get to there. It's like running a more thoughtful BFS!
+**[Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)** is a shortest path algorithm that takes weighted edges into consideration! From the starting node, the algorithm visits neighbors one by one and _assigns them a distance value based on the cumulative weights of the shortest path to get to that neighbor_. Distances are updated if a shorter path can be found, and once we're at the target node, we'll know the shortest path to get to there. It's like running a more thoughtful BFS!
 
 **Note:** For the below challenge, you'll be using the weighted graph from the starter code, which can be found [here](INSERT_LINK_TO_WEIGHTED_GRAPH)
 
 **Challenge 2:** Write a function that takes in a weighted graph and two nodes (A and B) as input, and outputs the shortest path from A to B using Dijkstra's algorithm.
 
 ### **`CODE GOES HERE`**
-- step by step walkthrough of implementing Dijkstra 
+- step by step walkthrough of implementing Dijkstra
 
 ### The Long and Short of it is...
 Now we can handle the shortest path for both unweighted _and_ weighted graphs! Great work! It's great to find the _shortest_ path, but sometimes we want to know more about a graph. There's a lot of properties around distance we can measure, and we'll dive into another one of them in the next chapter!
@@ -136,7 +157,7 @@ Now we can handle the shortest path for both unweighted _and_ weighted graphs! G
 We know you're six degrees away from Kevin Bacon, but who are you the _furthest_ away from? Not your pen pal in Bhutan (that would still be a neighbor!), but someone you _don't_ know, and who you in fact know the least!
 
 ### Graph Diameter
-One concept around graph distance that helps us solve this problem is finding the **diameter** of a graph. The diameter of a graph is the calculated by _finding the shortest path between every possible pair of nodes, and then selecting the longest of those paths._ 
+One concept around graph distance that helps us solve this problem is finding the **diameter** of a graph. The diameter of a graph is the calculated by _finding the shortest path between every possible pair of nodes, and then selecting the longest of those paths._
 
 **Challenge:** Write a function that takes in a weighted graph as input, and outputs the diameter of the graph
 
@@ -148,7 +169,7 @@ One concept around graph distance that helps us solve this problem is finding th
 
 - A radius of a graph _must_ also have a diameter.
 - Radius can be calculated by finding the minimum distance among all the maximum distances between a node to all other nodes
-- The center of a graph is the set of all nodes where the greatest distance to other nodes is the shortest. 
+- The center of a graph is the set of all nodes where the greatest distance to other nodes is the shortest.
     - Read up on [eccentricity](https://en.wikipedia.org/wiki/Distance_(graph_theory)) to help with this!
 
 
@@ -169,7 +190,7 @@ PageRank is currently implemented using concepts from graph theory, assigning sc
 ### **`CODE GOES HERE`**
 - walk through implementing page rank on the graph, step by step
 
-### Cliquethrough
+### Clique through
 
 So now you've ranked your fake friends (do they feel real, yet?), but as with any large group of people, smaller groups start to form within the larger ones. We can find these cliques through graph theory! One more chapter to go, you _got this!_
 
