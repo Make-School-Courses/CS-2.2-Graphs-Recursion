@@ -33,18 +33,18 @@ Students by the end of the course will be able to ...
 
 | Class |          Date          |                 Topics    | Assignments |  
 |:-----:|:----------------------:|:---------------------------------------:| :--------------------------------: |  
-|  1 |  Mon, July 8                         | [Introduction to Graph Theory] | Start Tutorial |  
-|  2 |  Wed, July 10                      |  [Graph Properties & Modeling]  | Challenge #1  |  
-|  3 |  Mon, July 15  |                         [Graph Traversals] | Challenge #2 <br> Quiz #1 |  
-|  4 |  Wed, July 17 | [Paths and Routing] | Challenge #3|  
-|  5 |  Mon, July 22 | [Paths and Routing Part 2] |  Challenge #4 <br> Quiz #2  |  
-|  6 |  Wed, July 24   | [Topological Sorting and Scheduling] | Tutorial Due <br>  Project Proposal Due |  
-|  7 |  Mon, July 29                        | [Graph Coloring] | Quiz #3  |  
-|  8 |  Wed, July 31                    | [Algorithm Classification] | Challenge #5 |  
-|  9 |  Mon, Aug 5                        | [Building Algorithms and Proofs]  | Quiz #4 |  
-| 10 |  Wed, Aug 7                        | [Advanced Modeling] | Challenge #6 |  
-| 11 |  Mon, Aug 12                           |  Final Presentations  |  Quiz #5 <br> Project Due <br> Project Presentations | .  
-| 12 |  Wed, Aug 14                        | No Class - Mock Interviews | - |  
+|  1 |  Mon, July 8    | No Class | --|
+|  2 |  Wed, July 10                      | [Introduction to Graph Theory] | Start Tutorial |  
+|  3 |  Mon, July 15  |  [Graph Properties & Modeling]  | Challenge #1  |  
+|  4 |  Wed, July 17 | [Graph Traversals] | Challenge #2 <br> Quiz #1 |  
+|  5 |  Mon, July 22 | [Paths and Routing] | Challenge #3|  
+|  6 |  Wed, July 24  | [Paths and Routing Part 2] |  Challenge #4 <br> Quiz #2  |  
+|  7 |  Mon, July 29   | [Topological Sorting and Scheduling] | Tutorial Due <br>  Project Proposal Due |  
+|  8 |  Wed, July 31    | [Graph Coloring] | Quiz #3  |  
+|  9 |  Mon, Aug 5      | [Algorithm Classification] | Challenge #5 |   
+| 10 |  Wed, Aug 7      | [Advanced Modeling] | Challenge #6 <br> Quiz #4 |  
+| 11 |  Mon, Aug 12                           |  Final Presentations  |   Project Due <br> Project Presentations <br> Optional quiz retake|
+| 12 |  Wed, Aug 14   | No Class - Mock Interviews | - |  
 
 
 
@@ -80,18 +80,18 @@ To pass this course you must meet the following requirements:
 - Complete all required challenges.
 - Pass the [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md) according to the associated [Tutorial Rubric](Assignments/Graph-Tutorial-Rubric.md)
 - Pass the - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)  according to the associated [Project Rubric](Assignments/Graph-Project-Rubric.md)
-- Pass 4 of the 5 Quizzes given during the term.
+- Pass the 4 quizzes given during the term (1 retake allowed).
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
 ## Resources
 The following resources were used in developing this course and are a great place to start for learning more.  These resources are used through the Attribution / Share Alike license.
-[Geeks for Geeks]()
-[Wikipedia Graph Theory]()
-[Runestone Academy Data Structures and Algorithms]()
+- [Geeks for Geeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+- [Wikipedia Graph Theory](https://en.wikipedia.org/wiki/Graph_theory)
+- [Runestone Academy Data Structures and Algorithms](https://runestone.academy/runestone/static/pythonds/index.html)
 
 ## A note on code:
-Much of the code you will be implementing in this class is for standard algorithms and thus is readily available from many sources. By using these resources, we can focus on deepening our understanding of the algorithms themselves and on the process of solving real world problems with these algorithms.  So while I don't expect each class member to have vastly different algorithmic implementation,  I do expect, in keeping with the [Academic Honesty](https://make.sc/academic-honesty-policy), that you always give credit to code sources (online or classmates), write each line of code yourself with full understanding, add appropriate comments, and fully test your code.
+Much of the code you will be implementing in this class is for standard algorithms and thus is readily available from many sources. By using these resources, we can focus on deepening our understanding of the algorithms themselves and on the process of solving real world problems with these algorithms.  This means it may be likely that class members will have relatively similar algorithmic implementations, however, in keeping with the [Academic Honesty Policy](https://make.sc/academic-honesty-policy), you are expected to always give credit to code sources (online or classmates), write each line of code yourself with full understanding, add appropriate comments, and fully test your code.
 
 ## Make School Course Policies
 
