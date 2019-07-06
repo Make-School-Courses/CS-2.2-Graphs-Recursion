@@ -56,8 +56,7 @@ Students by the end of the course will be able to ...
 [Topological Sorting and Scheduling]: Lessons/6.Scheduling.md
 [Graph Coloring]: Lessons/7.Graph-Coloring.md
 [Algorithm Classification]: Lessons/8.Algorithm-Classification.md
-[Building Algorithms and Proofs]: Lessons/9.Building-Algoritms.md
-[Advanced Modeling]: Lessons/10.Advanced-Modeling.md
+[Advanced Modeling]: Lessons/9.Advanced-Modeling.md
 
 ## Class Assignments
 
