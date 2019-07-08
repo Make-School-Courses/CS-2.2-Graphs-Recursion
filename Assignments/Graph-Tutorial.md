@@ -1,47 +1,55 @@
-# The Faker Network
+# Your Social Network - Graph Tutorial
 
 ## Chapter 0: Set up
 How many social network platforms are you currently on? Each of those is an example of graph theory being applied to solve the problem of finding connections – and recommending appropriate ones.
 
-In this tutorial, you'll be given a graph built using [Faker](https://faker.readthedocs.io/en/master/) that will act as your social network. You'll be working with your nine closest (fake) friends to figure out interesting data about them, how to expand your network, and how to categorize them
+In this tutorial, you'll build a graph of your nine closest friends and use graph theory to figure out interesting data about them.
 
 ### Learning Outcomes
 By the end of this tutorial, you will be able to...
 
+1. Implement a graph in code.
 1. Use a variety of neighbor lookup algorithms for a given graph
 1. Traverse a graph through various search methods
-1. Categorize your graph based on data or known attributes
+
 
 ### Using Git/GitHub
 Much like we've done in earlier tutorials, make sure you're committing your code as you complete milestones. At a minimum, you should make a commit whenever the tutorial prompts you.
 
 Let's get your repo set up!
 
-1. Go to the [starter repo](LINK_HERE_TO_REPO) and clone the repo locally
+1. Go to the [Graph Tutorial](https://github.com/Make-School-Labs/CS-2.2-Labs) and clone the repo locally.
 1. Now we need to change the remote so that you can commit/push/pull the changes you make to your own repo. **It is very important you do the below steps in order to get everything working properly.**
-1. Go to GitHub and create an _empty_, public repository called REPO-NAME, and now associate it as a remote for your cloned starter code, and then push to it.
+1. Go to GitHub and create an _empty_, public repository called Graph-Tutorial, and now associate it as a remote for your cloned starter code, and then push to it.
 1. Go to your repo on GitHub and make sure your previously empty repo is now full with starter code! Now when you add/commit/push, it'll be to your repo!
 
 ## Chapter 1: Who do you know?
-This tutorial will focus on properties of a social network.  To begin with, we'll need to define a network as a set of people (vertices) and the people they know.  If person *A* knows person *B* then there is an edge between them.  
+This tutorial will focus on properties of a social network.  To begin with, we'll need to define a network as a set of people (vertices) and the people they know.  If person *A* knows person *B* then there is an edge between them.  We will begin by assuming that if person *A* knows person *B* then the reverse is also true. (So the edge is undirected).
 
-1. Draw a graph with you at the center connected by and edge to another 9 people you know.  Do any of these 9 know each other? If so draw an edge between them.  This will be your "Social Graph" to use as a sample in the rest of this tutorial.
+1. Draw a graph with you at the center connected by and edge to another 9 people you know.  Do any of these 9 know each other? If so draw an edge between them.  This will be your "Social Graph" to use as a sample in the rest of this tutorial.  Your graph must have the following properties:
+- Every person knows at least 2 other people.  
+- No person knows more than 5 people.
+
+**Challenge** Add a diagram (or hand drawn image) of your friend network to the readme of your tutorial code.  Label the nodes with you and your 9 friends names.  If you don't want to use your real friends, feel free to use [Faker](https://faker.readthedocs.io/en/master/) to give fake names.
 
 ### Implement in code
-The Graph Abstract Data Type (ADT) is defined as follows:
-- A class `Graph()`` creates a new, empty graph.
-- The methods `addVertex(vert)` and
-`addEdge(fromVert, toVert)` add a new vertex and directed edge respectively.
-- While `addEdge(fromVert, toVert, weight)` Adds a  weighted, directed edge.
-- The methods `getVertex(vertKey)` finds the named vertKey and `getVertices()` returns the list of all vertices.
 
-There are two common ways to implement the graph ADT in Python; the adjacency matrix and the adjacency list. There are trade-offs in each representation.
+Throughout this tutorial we will build up a *graph data structure* that will implement our graph and graph algorithms in python.
 
-**Challenge:** Implement the graph ADT with an adjacency list in the file `graph-adt-list.py`.
+We will be building onto the basic Graph Abstract Data Type (ADT) which is defined as follows:
 
-**Challenge:** Implement the graph ADT with an adjacency matrix in the file `graph-adt-matrix.py`.
+```python
 
-**Challenge:** Create a graph reader in the file `graph-reader.py` that reads in a graph from a text file and creates an instance of this class via the graph ADT. Assume the graph is represented in the text file by a list of vertices on line 1 followed by edges represented as ordered pairs, one per line.
+Graph() #creates a new, empty graph.
+addVertex(vert) #adds an instance of Vertex to the graph.
+addEdge(fromVert, toVert) #Adds a new, directed edge to the graph that connects two vertices.
+addEdge(fromVert, toVert, weight) #Adds a new, weighted, directed edge to the graph that connects two vertices.
+getVertex(vertKey) #finds the vertex in the graph named vertKey.
+getVertices() #returns the list of all vertices in the graph.
+
+```
+
+**Challenge:** Implement the `Graph` class in the file *graph.py* and input your personal Social Graph with vertices and edges matching the diagram you drew of your friends.
 
 ## Chapter 2: Won't you Be My Neighbor?
 Have you ever had that moment where you find out a friend knows another one of your friends? Having one of those "worlds collide" moments can be exciting, scary, or a whole mixture of emotions. Instead of having that situation surprise us, what if we had a way to look know this information. in advanced?
@@ -49,15 +57,15 @@ Have you ever had that moment where you find out a friend knows another one of y
 ### Find Your Neighbors
 Turns out we do! We can utilize a **neighbor lookup** for a given node in our graph to see what other nodes it is connected with. If you and a friend are connected, you two share a friendship. How do we know if two nodes are connected? _They share an edge!_
 
-**Challenge:** Write a function that takes in a graph and a node as input, and outputs all nodes connected to the input node.
+**Challenge:** Write a method `getNeighbors` in the `Graph()` class that takes in node as input, and outputs all nodes connected to the input node.
 
-
-### **`CODE GOES HERE`**
-
-1. Make sure the input node is actually in the graph
-1. Find all edges for the input node
-1. See what nodes are connected to the input node via the edge
-1. return the connected nodes
+```python
+def getNeighbors(self):
+    # Make sure the input node is actually in the graph
+    # Find all edges for the input node
+    # See what nodes are connected to the input node via the edge
+    # return the connected nodes
+```
 
 ### Down The Friend Chain We Go
 Alright, no more surprise connections for us! But what if we want to go even _further_ than one connection? Onward!
@@ -78,12 +86,15 @@ Think back to CS 1.3: what's an algorithm at your disposal we could use here?
 
 Since we want to find _all_ friends at a certain connection level away (friend's friend would be 2 connections from you), this sounds like a perfect application of **Breadth First Search (BFS)**. Check out the [Tree Traversals lesson](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/TreeTraversals.md) from CS 1.3 if you want a refresher.
 
-**Challenge:** Write a function that takes in a graph, a node, and `n` (an integer) as input, and outputs all nodes that are `n` connections  away from the input node.
+**Challenge:** Write a method `BFS(vertex, n)`in the `Graph()` class that takes in a node, and `n` (an integer) as input, and outputs all nodes that are `n` connections away from the input node.
 
-### **`CODE GOES HERE`**
-1. Make sure the input node is actually in the graph
-1. Run BFS starting from the input node and going `n` levels deep
-1. Return all nodes found at the `n`th level
+
+```python
+def BFS(self, vertex, n):
+# Make sure the input node is actually in the graph
+# Run BFS starting from the input node and going `n` levels deep
+# Return all nodes found at the `n`th level
+```
 
 ### A More Granular Approach
 Great application of BFS! But as with anything related to BFS, specificity isn't a strong suite. Having _all_ of your 3rd, 4th, 5th degree connections is daunting. What if we just want to see how two _specific_ people are connected? We'll solve this in the next chapter!
@@ -100,17 +111,20 @@ You may not know Kevin Bacon (or _do_ you?), but we can still apply this to our 
 ### Finding the Path
 Think of a graph as a neighborhood, each house as a node, and immediate neighbors as nodes that share an edge. If you wanted to figure out how to get from one house to another, you'd walk to that house, passing other houses along the way. _You'd be walking a path, walking from one node to another via edges!_
 
-**Challenge:** Write a function that takes in a graph and two nodes (A and B) as input, and outputs the list of nodes that must be traversed to get from A to B. The output list of nodes _must be in order of nodes visited starting from A and ending at B._
+**Challenge:** Write a method `findPath()` that takes in two nodes (A and B) as input, and outputs the list of nodes that must be traversed to get from A to B. The output list of nodes _must be in order of nodes visited starting from A and ending at B._
 
 **Hint:** BFS or it's familiar friend **Depth First Search (DFS)** could be useful here. Again if you need a refresher, here's that [Tree Traversals lesson](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/TreeTraversals.md) from CS 1.3
 
-### **`CODE GOES HERE`**
-1. Make sure that both nodes A and B are actually in the graph
-1. Run BFS or DFS starting from A
-    1. Figure out a way to keep track of each path you take
-1. Once you find B, end the search.
-1. Since you've been tracking the paths, find the path that goes from A to B
-1. Return the path, in the order of nodes visited starting with A and ending with B
+```python
+def findPath(self):
+
+# Make sure that both nodes A and B are actually in the graph
+# Run BFS or DFS starting from A
+# Figure out a way to keep track of each path you take
+# Once you find B, end the search.
+# Since you've been tracking the paths, find the path that goes from A to B
+# Return the path, in the order of nodes visited starting with A and ending with B
+```
 
 ### Optimizing our Path
 This works, but what if there are multiple paths between two nodes? What if one of those paths is significantly longer than the other? Do you know Veronica from high school from your cousin Ricky, who went to college with Sarah, who dated Jane, who is friends with Billy, who was on the swim team with Veronica? Or do you know Veronica from your friend Tom who also is friends with Veronica? In the next chapter, we'll learn how to differentiate paths in order to optimize our route.
@@ -122,35 +136,24 @@ If you were trying to show how two people are socially connected, you would want
 
 In order to solve this problem, we want to find the **shortest path** between two nodes in a graph.
 
-**Challenge 1:** Write a function that takes in a graph and two nodes (A and B) as input, and outputs the list of nodes that make up the _shortest path_ from A to B. The output list of nodes _must be in order of nodes visited starting from A and ending at B._
+**Challenge 1:** Write a method `findShortestPath()` that takes two nodes (A and B) as input, and outputs the list of nodes that make up the _shortest path_ from A to B. The output list of nodes _must be in order of nodes visited starting from A and ending at B._
 
-### **`CODE GOES HERE`**
-1. Make sure that both nodes A and B are actually in the graph
-1. Run BFS starting from A
-    1. Figure out a way to keep track of each path you take
-1. Once you find B, end the search.
-1. Since you've been tracking the paths, find the shortest path that goes from A to B
-1. Return the shortest path, in the order of nodes visited starting with A and ending with B
+```python
+def findShortestPath(self, fromVert, toVert):
+# Make sure that both nodes A and B are actually in the graph
+# Run BFS starting from A
+# Figure out a way to keep track of each path you take
+# Once you find B, end the search.
+# Since you've been tracking the paths, find the shortest path that goes from A to B
+# Return the shortest path, in the order of nodes visited starting with A and ending with B
+```
 
-This seems pretty similar to what we did in an earlier chapter, right? What if not all edges were of equal connection?
-
-### Dijkstra's Algorithm
-
-For a given graph, it may take more work to traverse one edge over another. These are show through **edge weights, or weighted edges**. Up until now, all of our edges have had an implicit weight of one (1), so they were all equal. But in many cases, weights could be any value. Going back to our house example, some places are more challenging to walk through than others (hills, no sidewalk, a horde of gnomes blocking the path, etc.).
-
-We can't use BFS or DFS anymore to find the shortest path since those two algorithms don't take weights into consideration. So what can we use instead?
-
-**[Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)** is a shortest path algorithm that takes weighted edges into consideration! From the starting node, the algorithm visits neighbors one by one and _assigns them a distance value based on the cumulative weights of the shortest path to get to that neighbor_. Distances are updated if a shorter path can be found, and once we're at the target node, we'll know the shortest path to get to there. It's like running a more thoughtful BFS!
-
-**Note:** For the below challenge, you'll be using the weighted graph from the starter code, which can be found [here](INSERT_LINK_TO_WEIGHTED_GRAPH)
-
-**Challenge 2:** Write a function that takes in a weighted graph and two nodes (A and B) as input, and outputs the shortest path from A to B using Dijkstra's algorithm.
-
-### **`CODE GOES HERE`**
-- step by step walkthrough of implementing Dijkstra
 
 ### The Long and Short of it is...
-Now we can handle the shortest path for both unweighted _and_ weighted graphs! Great work! It's great to find the _shortest_ path, but sometimes we want to know more about a graph. There's a lot of properties around distance we can measure, and we'll dive into another one of them in the next chapter!
+Now we can handle the shortest path for  unweighted graphs! Great work!  When it comes to weighted graphs, we need a stronger algorithm which we'll explore in later tutorials.  If you're feeling curious, you can read about [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) and even implement it in your class.
+
+
+ It's great to find the _shortest_ path, but sometimes we want to know more about a graph. There's a lot of properties around distance we can measure, and we'll dive into another one of them in the next chapter!
 
 ## Chapter 6: Long-Distance Friendships
 
@@ -159,18 +162,19 @@ We know you're six degrees away from Kevin Bacon, but who are you the _furthest_
 ### Graph Diameter
 One concept around graph distance that helps us solve this problem is finding the **diameter** of a graph. The diameter of a graph is the calculated by _finding the shortest path between every possible pair of nodes, and then selecting the longest of those paths._
 
-**Challenge:** Write a function that takes in a weighted graph as input, and outputs the diameter of the graph
+**Challenge:** Write a method  `diameter` that outputs the diameter of the graph
 
-### **`CODE GOES HERE`**
-1. For every node, find the shortest path from it to every other node in the graph and track the paths and their length
-1. From your list of path/length pairs, pick the one with the largest length and return the length.
-
+```python
+def diameter(self):
+# For every node, find the shortest path from it to every other node in the graph and track the paths and their length
+# From your list of path/length pairs, pick the one with the largest length and return the length.
+```
 **Stretch Challenges:** Find other properties of a graph! See if you can calculate the center or radius of a weighted graph. Keep these notes in mind:
 
 - A radius of a graph _must_ also have a diameter.
 - Radius can be calculated by finding the minimum distance among all the maximum distances between a node to all other nodes
 - The center of a graph is the set of all nodes where the greatest distance to other nodes is the shortest.
-    - Read up on [eccentricity](https://en.wikipedia.org/wiki/Distance_(graph_theory)) to help with this!
+    - Read up on [eccentricity](https://en.wikipedia.org/wiki/Distance_(graph_theory) to help with this!
 
 
 ### Becoming an Influencer
@@ -185,10 +189,14 @@ Google's [PageRank](https://en.wikipedia.org/wiki/PageRank) algorithm is what th
 
 PageRank is currently implemented using concepts from graph theory, assigning scores of "relevance" to links. We're going to model that by doing the same thing to our social networks (what, you've never ranked your friends before?). _This is how social media influence is calculated!_ Let's find out which of our fake friends have the most influence in the network:
 
-**Note:** For the below challenge, you'll be using a _directed_ weighted graph from the starter code, which can be found [here](INSERT_LINK_TO_WEIGHTED_GRAPH)
+**Note:** For the below challenge, you'll be using a _directed_ weighted graph.
 
-### **`CODE GOES HERE`**
-- walk through implementing page rank on the graph, step by step
+**Challenge:** Write a method  `influencer()` that uses the PageRank algorithm to rank your friends according to their influence.
+
+```python
+def influencer(self):
+# walk through implementing page rank on the graph, step by step
+```
 
 ### Clique through
 
@@ -209,10 +217,14 @@ While we are confident that we're not bound by wearing pink on Wednesdays, solvi
 
 Among other applications, the clique problem can arise in a social network. With our social network, a clique will represent a subset of people (nodes) who all know each other (share edges), and we can use various algorithms to find these cliques.
 
-**Challenge:** Write a function that given a graph as input, finds **INSERT SOMETHING ABOUT CLIQUES**
+**Challenge:** Write a method `cliqueNumber` that finds the largest clique in a graph.
 
-### **`CODE GOES HERE`**
-- walk through clique algorithm, step by step
+
+```python
+def cliqueNumber(self):
+# walk through clique algorithm, step by step
+```
+
 
 **Congrats on completing your journey through the Faker Network!**
 
