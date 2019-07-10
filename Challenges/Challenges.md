@@ -1,5 +1,8 @@
 # Challenges
 
+1. [General Instructions](## General instructions)
+1. [Challenge 1](##Challenge 1)
+
 ## General instructions
 - Your code should meet the following minimum requirements
     - meets PEP8 style guidelines
