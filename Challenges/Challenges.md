@@ -2,6 +2,11 @@
 
 1. [General Instructions](#general-instructions)
 1. [Challenge 1](#challenge-1)
+1. [Challenge 2](#challenge-2)
+1. [Challenge 3](#challenge-3)
+1. [Challenge 4](#challenge-4)
+1. [Challenge 5](#challenge-5)
+
 
 ## General instructions
 - Your code should meet the following minimum requirements
