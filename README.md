@@ -74,7 +74,7 @@ Students by the end of the course will be able to ...
 
 ## Evaluation
 
-To pass this course you must meet the following requirements:
+To pass this course you must meet the following requirements ( submit to [course progress tracker](https://docs.google.com/spreadsheets/d/15hcKLR304z73YXmMATaA9FvrAi5rWPnLyISCwZMwNXE/edit#gid=0)
 
 - Complete all required challenges.
 - Pass the [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md) according to the associated [Tutorial Rubric](Assignments/Graph-Tutorial-Rubric.md)
