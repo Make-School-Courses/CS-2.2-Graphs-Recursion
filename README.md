@@ -62,7 +62,7 @@ Students by the end of the course will be able to ...
 
 ### Challenges
 
-- [Challenge Descriptions](Assignments/Challenges.md)
+- [Challenge Descriptions](Challenges/Challenges.md)
 
 ### Tutorials
 
