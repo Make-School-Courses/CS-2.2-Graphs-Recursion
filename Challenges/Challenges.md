@@ -9,6 +9,7 @@
 
 
 ## General instructions
+- Your code should go in the Challenge Folder of your personal repo that you created for this class.
 - Your code should meet the following minimum requirements
     - meets PEP8 style guidelines
     - is well tested
