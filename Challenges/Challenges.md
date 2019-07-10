@@ -1,7 +1,7 @@
 # Challenges
 
-1. [General Instructions](## General instructions)
-1. [Challenge 1](##Challenge 1)
+1. [General Instructions](#general-instructions)
+1. [Challenge 1](#challenge-1)
 
 ## General instructions
 - Your code should meet the following minimum requirements
