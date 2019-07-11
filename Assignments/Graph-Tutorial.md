@@ -60,7 +60,7 @@ Turns out we do! We can utilize a **neighbor lookup** for a given node in our gr
 **Challenge:** Write a method `getNeighbors` in the `Graph()` class that takes in node as input, and outputs all nodes connected to the input node.
 
 ```python
-def getNeighbors(self):
+def getNeighbors(self, vertex):
     # Make sure the input node is actually in the graph
     # Find all edges for the input node
     # See what nodes are connected to the input node via the edge
@@ -86,7 +86,7 @@ Think back to CS 1.3: what's an algorithm at your disposal we could use here?
 
 Since we want to find _all_ friends at a certain connection level away (friend's friend would be 2 connections from you), this sounds like a perfect application of **Breadth First Search (BFS)**. Check out the [Tree Traversals lesson](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/TreeTraversals.md) from CS 1.3 if you want a refresher.
 
-**Challenge:** Write a method `BFS(vertex, n)`in the `Graph()` class that takes in a node, and `n` (an integer) as input, and outputs all nodes that are `n` connections away from the input node.
+**Challenge:** Write a method `BFS(vertex, n)`in the `Graph()` class that takes in a node, and `n` (an integer) as input, and outputs all nodes that are exactly `n` connections away from the input node.
 
 
 ```python
@@ -116,7 +116,7 @@ Think of a graph as a neighborhood, each house as a node, and immediate neighbor
 **Hint:** BFS or it's familiar friend **Depth First Search (DFS)** could be useful here. Again if you need a refresher, here's that [Tree Traversals lesson](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/TreeTraversals.md) from CS 1.3
 
 ```python
-def findPath(self):
+def findPath(self, fromVert, toVert):
 
 # Make sure that both nodes A and B are actually in the graph
 # Run BFS or DFS starting from A
@@ -187,7 +187,7 @@ Google's [PageRank](https://en.wikipedia.org/wiki/PageRank) algorithm is what th
 
 ### PageRank Your Friends
 
-PageRank is currently implemented using concepts from graph theory, assigning scores of "relevance" to links. We're going to model that by doing the same thing to our social networks (what, you've never ranked your friends before?). _This is how social media influence is calculated!_ Let's find out which of our fake friends have the most influence in the network:
+PageRank is currently implemented using concepts from graph theory, assigning scores of "relevance" to links. We're going to model that by doing the same thing to our social networks (what, you've never ranked your friends before?). _This is how social media influence is calculated!_ Let's find out which of our friends have the most influence in the network:
 
 **Note:** For the below challenge, you'll be using a _directed_ weighted graph.
 
@@ -217,7 +217,7 @@ While we are confident that we're not bound by wearing pink on Wednesdays, solvi
 
 Among other applications, the clique problem can arise in a social network. With our social network, a clique will represent a subset of people (nodes) who all know each other (share edges), and we can use various algorithms to find these cliques.
 
-**Challenge:** Write a method `cliqueNumber` that finds the largest clique in a graph.
+**Challenge:** Write a method `cliqueNumber()` that finds the largest clique in a graph.
 
 
 ```python
