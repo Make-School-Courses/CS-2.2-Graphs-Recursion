@@ -49,7 +49,7 @@ getVertices() #returns the list of all vertices in the graph.
 
 ```
 
-**Challenge:** Implement the `Graph` class in the file *graph.py* and input your personal Social Graph with vertices and edges matching the diagram you drew of your friends.
+**Challenge:** Implement the `Graph` class in the file *graph.py* and input your personal Social Graph with vertices and edges matching the diagram you drew of your friends.  Note: Initially we'll create a `Vertex` class as a helper class to the `Graph` class. 
 
 ## Chapter 2: Won't you Be My Neighbor?
 Have you ever had that moment where you find out a friend knows another one of your friends? Having one of those "worlds collide" moments can be exciting, scary, or a whole mixture of emotions. Instead of having that situation surprise us, what if we had a way to look know this information. in advanced?
@@ -57,10 +57,10 @@ Have you ever had that moment where you find out a friend knows another one of y
 ### Find Your Neighbors
 Turns out we do! We can utilize a **neighbor lookup** for a given node in our graph to see what other nodes it is connected with. If you and a friend are connected, you two share a friendship. How do we know if two nodes are connected? _They share an edge!_
 
-**Challenge:** Write a method `getNeighbors` in the `Graph()` class that takes in node as input, and outputs all nodes connected to the input node.
+**Challenge:** Write a method `getNeighbors` in the `Vertex` class that outputs all nodes connected to the current node.
 
 ```python
-def getNeighbors(self, vertex):
+def getNeighbors(self):
     # Make sure the input node is actually in the graph
     # Find all edges for the input node
     # See what nodes are connected to the input node via the edge
