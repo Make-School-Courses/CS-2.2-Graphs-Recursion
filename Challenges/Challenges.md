@@ -34,7 +34,7 @@ G
 
 - Each challenge should be run from the command line and provide output in the format requested.
 
-- Your code should be in at least two files.  File 1 must be named challege-X.py where X is the challenge number.  This file will be run from the command line with arguments of the graph text file and (possibly) additional arguments needed for the challenge.  `python3 challenge-1.py graph-data.txt`
+- Your code should be in at least two files.  File 1 must be named challege_X.py where X is the challenge number.  This file will be run from the command line with arguments of the graph text file and (possibly) additional arguments needed for the challenge.  `python3 challenge_1.py graph_data.txt`
 
 - Other files should follow best practices for code architecture (classes in a file with the class name, etc) but the structure is up to you.
 
@@ -44,12 +44,32 @@ G
 - Implement the Graph ADT with an adjacency list
 - Implement code to read in a graph from a text file to create an instance of the Graph ADT and use it's methods.
 
-**Input:** A graph file (can contain a directed or undirected graph with or without  weights)
+**Input:** A graph file (can contain a directed or undirected graph with or without weights)
+```
+G
+1,2,3,4
+(1,2,10)
+(1,4,5)
+(2,3,5)
+(2,4,7)
+```
 
 **Output:**
 * The # vertices in the graph.
 * The # edges in the graph.
 * A list of the edges with their weights (if weighted)
+
+```
+# Vertices: 4
+# Edges: 4
+Edge List: 
+(1,2,10)
+(1,4,5)
+(2,3,5)
+(2,4,7)
+
+```
+
 
 
 ### Stretch Challenges 1
