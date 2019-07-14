@@ -38,13 +38,14 @@ G
 
 - Other files should follow best practices for code architecture (classes in a file with the class name, etc) but the structure is up to you.
 
-- You will be graded on if your code works (produces the correct output), and code quality based on the [Challenge Rubric]()
-
+- You will be graded on if your code works (produces the correct output), and code quality based on the [Challenge Rubric Online - Beta Testing](https://www.makeschool.com/rubrics/UnVicmljLTQ=)
+or [Challenge Rubric Document](https://docs.google.com/document/d/1mRnSLMeuHLODGGxVI1-0AsTS7lqjNiemZCO9fo1gUzg/edit?usp=sharing)
 ## Challenge 1
 - Implement the Graph ADT with an adjacency list
 - Implement code to read in a graph from a text file to create an instance of the Graph ADT and use it's methods.
 
 **Input:** A graph file (can contain a directed or undirected graph with or without weights)
+`python3 challenge_1.py graph_data.txt`
 ```
 G
 1,2,3,4
@@ -62,7 +63,7 @@ G
 ```
 # Vertices: 4
 # Edges: 4
-Edge List: 
+Edge List:
 (1,2,10)
 (1,4,5)
 (2,3,5)
@@ -73,16 +74,36 @@ Edge List:
 
 
 ### Stretch Challenges 1
-- Re-implement the Graph ADT using one of the [python collections](https://docs.python.org/3.6/library/collections.html#module-collections)
+- Re-implement the Graph ADT using one of the [python collections](https://docs.python.org/3.6/library/collections.html#module-collections).  
+
 
 ## Challenge 2
-- Add properties to your Graph ADT
+Update your Graph ADT code to use Breadth First Search to compute the shortest path between two provided vertices in your graph.  
+
+**Input:** A graph file (can contain a weighted directed or weighted undirected graph), a fromVertex and a toVertex. `python3 challenge_2.py graph_data.txt 1 4`
+
+```
+G
+1,2,3,4
+(1,2,2)
+(1,4,7)
+(2,3,5)
+(2,4,3)
+```
+
+**Output:**
+The vertices in a shortest path from `fromVertex` to `toVertex` and the weight of the path.
+```
+Vertices in Path: 1,2,4
+Weight of Path: 5
 
 
 ## Challenge 3
-- DFS and BFS
+Depth First Search - Iterative
 
 ### Stretch Challenges 3
+- Depth First Search - Recursive
+- Spanning Trees
 
 ## Challenge 4
 - Dijkstra's Algorithm
@@ -100,7 +121,6 @@ Edge List:
 
 ## Challenge 6
 - Dynamic Programming
-
 
 ### Stretch Challenges 6
 - - NP Reduction

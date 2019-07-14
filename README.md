@@ -35,12 +35,12 @@ Students by the end of the course will be able to ...
 |:-----:|:----------------------:|:---------------------------------------:| :--------------------------------: |  
 |  1 |  Mon, July 8    | No Class | --|
 |  2 |  Wed, July 10                      | [Introduction to Graph Theory] | Start Tutorial |  
-|  3 |  Mon, July 15  |  [Graph Properties & Modeling]  | Challenge #1  |  
-|  4 |  Wed, July 17 | [Graph Traversals] | Challenge #2 <br> Quiz #1 |  
-|  5 |  Mon, July 22 | [Paths and Routing] | Challenge #3|  
-|  6 |  Wed, July 24  | [Paths and Routing Part 2] |  Challenge #4 <br> Quiz #2  |  
+|  3 |  Mon, July 15  |  [Graph Properties & Modeling]  | Challenge #1 - Midnight |  
+|  4 |  Wed, July 17 | [Graph Traversals] |  Quiz #1 |  
+|  5 |  Mon, July 22 | [Graph Traversals - DFS] | Challenge #2|  
+|  6 |  Wed, July 24  | [Paths and Routing Part 2] |  Challenge #3 <br> Quiz #2  |  
 |  7 |  Mon, July 29   | [Topological Sorting and Scheduling] | Tutorial Due <br>  Project Proposal Due |  
-|  8 |  Wed, July 31    | [Graph Coloring] | Quiz #3  |  
+|  8 |  Wed, July 31    | Challege #4 <br>[Graph Coloring] | Challenge #4 <br> Quiz #3  |  
 |  9 |  Mon, Aug 5      | [Algorithm Classification] | Challenge #5 |   
 | 10 |  Wed, Aug 7      | [Advanced Modeling] | Challenge #6 <br> Quiz #4 |  
 | 11 |  Mon, Aug 12                           |  Final Presentations  |   Project Due <br> Project Presentations <br> Optional quiz retake|
