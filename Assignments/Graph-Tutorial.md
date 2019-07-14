@@ -86,7 +86,7 @@ Think back to CS 1.3: what's an algorithm at your disposal we could use here?
 
 Since we want to find _all_ friends at a certain connection level away (friend's friend would be 2 connections from you), this sounds like a perfect application of **Breadth First Search (BFS)**. Check out the [Tree Traversals lesson](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/TreeTraversals.md) from CS 1.3 if you want a refresher.
 
-**Challenge:** Write a method `BFS(vertex, n)`in the `Graph()` class that takes in a node, and `n` (an integer) as input, and outputs all nodes that are exactly `n` connections away from the input node.
+**Challenge:** Write a method `BFS(self, vertex, n)`in the `Graph()` class that takes in a node, and `n` (an integer) as input, and outputs all nodes that are exactly `n` connections away from the input node. 
 
 
 ```python
@@ -111,19 +111,19 @@ You may not know Kevin Bacon (or _do_ you?), but we can still apply this to our 
 ### Finding the Path
 Think of a graph as a neighborhood, each house as a node, and immediate neighbors as nodes that share an edge. If you wanted to figure out how to get from one house to another, you'd walk to that house, passing other houses along the way. _You'd be walking a path, walking from one node to another via edges!_
 
-**Challenge:** Write a method `findPath()` that takes in two nodes (A and B) as input, and outputs the list of nodes that must be traversed to get from A to B. The output list of nodes _must be in order of nodes visited starting from A and ending at B._
+**Challenge:** Write a method `findPath(self, fromVert, toVert)` in the `Graph()` class that takes in two nodes (`fromVert` and `toVert`) as input, and outputs the list of nodes that must be traversed to get from `fromVert` to `toVert`. The output list of nodes _must be in order of nodes visited starting from `fromVert`  and ending at `toVert`._
 
 **Hint:** BFS or it's familiar friend **Depth First Search (DFS)** could be useful here. Again if you need a refresher, here's that [Tree Traversals lesson](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/TreeTraversals.md) from CS 1.3
 
 ```python
 def findPath(self, fromVert, toVert):
 
-# Make sure that both nodes A and B are actually in the graph
-# Run BFS or DFS starting from A
+# Make sure that both nodes fromVert and toVert are actually in the graph
+# Run BFS or DFS starting from fromVert
 # Figure out a way to keep track of each path you take
-# Once you find B, end the search.
-# Since you've been tracking the paths, find the path that goes from A to B
-# Return the path, in the order of nodes visited starting with A and ending with B
+# Once you find toVert, end the search.
+# Since you've been tracking the paths, find the path that goes from fromVert to toVert
+# Return the path, in the order of nodes visited starting with fromVert and ending with toVert
 ```
 
 ### Optimizing our Path
@@ -136,10 +136,10 @@ If you were trying to show how two people are socially connected, you would want
 
 In order to solve this problem, we want to find the **shortest path** between two nodes in a graph.
 
-**Challenge 1:** Write a method `findShortestPath()` that takes two nodes (A and B) as input, and outputs the list of nodes that make up the _shortest path_ from A to B. The output list of nodes _must be in order of nodes visited starting from A and ending at B._
+**Challenge 1:** Write a method `findShortestPath(self, A, B)` that takes two nodes (A and B) as input, and outputs the list of nodes that make up the _shortest path_ from A to B. The output list of nodes _must be in order of nodes visited starting from A and ending at B._
 
 ```python
-def findShortestPath(self, fromVert, toVert):
+def findShortestPath(self, A, B):
 # Make sure that both nodes A and B are actually in the graph
 # Run BFS starting from A
 # Figure out a way to keep track of each path you take
@@ -162,7 +162,7 @@ We know you're six degrees away from Kevin Bacon, but who are you the _furthest_
 ### Graph Diameter
 One concept around graph distance that helps us solve this problem is finding the **diameter** of a graph. The diameter of a graph is the calculated by _finding the shortest path between every possible pair of nodes, and then selecting the longest of those paths._
 
-**Challenge:** Write a method  `diameter` that outputs the diameter of the graph
+**Challenge:** Write a method  `diameter(self)` that outputs the diameter of the graph
 
 ```python
 def diameter(self):
@@ -177,11 +177,37 @@ def diameter(self):
     - Read up on [eccentricity](https://en.wikipedia.org/wiki/Distance_(graph_theory) to help with this!
 
 
+### Clique through
+As with any large group of people, smaller groups start to form within the larger ones. We can find these cliques through graph theory.  On to the next chapter to discover how..
+
+## Chapter 7: Find your friend group
+Find “cliques” of friends (small groups of tightly-connected users), etc…
+
+The [clique problem](https://en.wikipedia.org/wiki/Clique_problem) is a popular computational problem in computer science. 
+### Clique Discovery
+
+Among other applications, the clique problem can arise in a social network. With our social network, a clique will represent a subset of people (nodes) who all know each other (share edges), and we can use various algorithms to find these cliques.
+
+**Challenge:** Write a method `clique(self)` that finds a clique in a graph that cannot have any other vertices added to it (note this is called a *maximal* clique).
+
+
+```python
+def clique(self):
+# 
+Start with an arbitrary vertex u and add it to the clique
+
+For v in remaining vertices not in the clique
+If v is adjacent to every other vertex already in the clique.
+	Add v to the clique 
+	Discard v otherwise
+
+```
+
 ### Becoming an Influencer
 We've seen a lot of social network applications with our graph so far, but there are other real applications of graph theory throughout the industry! One of the biggest applications is in the tool you use every day...
 
 
-## Chapter 7: How to Win Friends and Influence Users
+## Chapter 8: How to Win Friends and Influence Users (Stretch)
 Google's [PageRank](https://en.wikipedia.org/wiki/PageRank) algorithm is what they use to show you the most relevant search results for your query. Through this, Google influences what you see on that first page every single time you search something (and how often are you going past the first page?)
 
 
@@ -191,42 +217,16 @@ PageRank is currently implemented using concepts from graph theory, assigning sc
 
 **Note:** For the below challenge, you'll be using a _directed_ weighted graph.
 
-**Challenge:** Write a method  `influencer()` that uses the PageRank algorithm to rank your friends according to their influence.
+**Stretch Challenge:** Write a method  `influencer(self)` that uses the PageRank algorithm to rank you and your friends according to influence.
 
 ```python
 def influencer(self):
 # walk through implementing page rank on the graph, step by step
 ```
 
-### Clique through
-
-So now you've ranked your fake friends (do they feel real, yet?), but as with any large group of people, smaller groups start to form within the larger ones. We can find these cliques through graph theory! One more chapter to go, you _got this!_
-
-## Chapter 8: On Wednesdays We Wear Pink
-Find “cliques” of friends (small groups of tightly-connected users), etc…
-
-The [clique problem](https://en.wikipedia.org/wiki/Clique_problem) is a popular computational problem in computer science. Contrary to popular belief, this problem was not caused by people being personally victimized by Regina George.
-
-![mean girls](https://media.giphy.com/media/3otPowYz6GbeQdvda8/giphy.gif)
-
-_Source: [Giphy](https://giphy.com/gifs/filmeditor-mean-girls-movie-3otPowYz6GbeQdvda8)_
-
-While we are confident that we're not bound by wearing pink on Wednesdays, solving clique problems is a whole other issue. These problems tend to be challenging, but it's nothing we can't take on!
-
-### Clique Discovery
-
-Among other applications, the clique problem can arise in a social network. With our social network, a clique will represent a subset of people (nodes) who all know each other (share edges), and we can use various algorithms to find these cliques.
-
-**Challenge:** Write a method `cliqueNumber()` that finds the largest clique in a graph.
 
 
-```python
-def cliqueNumber(self):
-# walk through clique algorithm, step by step
-```
-
-
-**Congrats on completing your journey through the Faker Network!**
+**Congrats on completing your journey through your Social Network!**
 
 ### Feedback and Review - 2 minutes
 
