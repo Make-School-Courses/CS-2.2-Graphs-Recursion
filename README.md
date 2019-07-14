@@ -37,7 +37,7 @@ Students by the end of the course will be able to ...
 |  2 |  Wed, July 10                      | [Introduction to Graph Theory] | Start Tutorial |  
 |  3 |  Mon, July 15  |  [Graph Properties & Modeling]  | Challenge #1 - Midnight |  
 |  4 |  Wed, July 17 | [Graph Traversals] |  Quiz #1 |  
-|  5 |  Mon, July 22 | [Graph Traversals - DFS] | Challenge #2|  
+|  5 |  Mon, July 22 | [Paths and Routing] | Challenge #2|  
 |  6 |  Wed, July 24  | [Paths and Routing Part 2] |  Challenge #3 <br> Quiz #2  |  
 |  7 |  Mon, July 29   | [Topological Sorting and Scheduling] | Tutorial Due <br>  Project Proposal Due |  
 |  8 |  Wed, July 31    | Challege #4 <br>[Graph Coloring] | Challenge #4 <br> Quiz #3  |  
