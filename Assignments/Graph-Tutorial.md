@@ -41,15 +41,15 @@ We will be building onto the basic Graph Abstract Data Type (ADT) which is defin
 ```python
 
 Graph() #creates a new, empty graph.
-addVertex(vert) #adds an instance of Vertex to the graph.
-addEdge(fromVert, toVert) #Adds a new, directed edge to the graph that connects two vertices.
-addEdge(fromVert, toVert, weight) #Adds a new, weighted, directed edge to the graph that connects two vertices.
-getVertex(vertKey) #finds the vertex in the graph named vertKey.
-getVertices() #returns the list of all vertices in the graph.
+add_vertex(vert) #adds an instance of vertex to the graph.
+add_edge(from_vert, to_vert) #Adds a new, directed edge to the graph that connects two vertices.
+add_edge(from_vert, to_vert, weight) #Adds a new, weighted, directed edge to the graph that connects two vertices.
+get_vertex(vertKey) #finds the vertex in the graph named vertKey.
+get_vertices() #returns the list of all vertices in the graph.
 
 ```
 
-**Challenge:** Implement the `Graph` class in the file *graph.py* and input your personal Social Graph with vertices and edges matching the diagram you drew of your friends.  Note: Initially we'll create a `Vertex` class as a helper class to the `Graph` class. 
+**Challenge:** Implement the `Graph` class in the file *graph.py* and input your personal Social Graph with vertices and edges matching the diagram you drew of your friends.  Note: Initially we'll create a `Vertex` class as a helper class to the `Graph` class.
 
 ## Chapter 2: Won't you Be My Neighbor?
 Have you ever had that moment where you find out a friend knows another one of your friends? Having one of those "worlds collide" moments can be exciting, scary, or a whole mixture of emotions. Instead of having that situation surprise us, what if we had a way to look know this information. in advanced?
@@ -57,10 +57,10 @@ Have you ever had that moment where you find out a friend knows another one of y
 ### Find Your Neighbors
 Turns out we do! We can utilize a **neighbor lookup** for a given node in our graph to see what other nodes it is connected with. If you and a friend are connected, you two share a friendship. How do we know if two nodes are connected? _They share an edge!_
 
-**Challenge:** Write a method `getNeighbors` in the `Vertex` class that outputs all nodes connected to the current node.
+**Challenge:** Write a method `get_neighbors` in the `Vertex` class that outputs all nodes connected to the current node.
 
 ```python
-def getNeighbors(self):
+def get_neighbors(self):
     # Make sure the input node is actually in the graph
     # Find all edges for the input node
     # See what nodes are connected to the input node via the edge
@@ -86,13 +86,13 @@ Think back to CS 1.3: what's an algorithm at your disposal we could use here?
 
 Since we want to find _all_ friends at a certain connection level away (friend's friend would be 2 connections from you), this sounds like a perfect application of **Breadth First Search (BFS)**. Check out the [Tree Traversals lesson](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/TreeTraversals.md) from CS 1.3 if you want a refresher.
 
-**Challenge:** Write a method `BFS(self, vertex, n)`in the `Graph()` class that takes in a node, and `n` (an integer) as input, and outputs all nodes that are exactly `n` connections away from the input node. 
+**Challenge:** Write a method `breadth_first_search(self, vertex, n)`in the `Graph()` class that takes in a node, and `n` (an integer) as input, and outputs all nodes that are exactly `n` connections away from the input node.
 
 
 ```python
-def BFS(self, vertex, n):
+def breadth_first_search(self, vertex, n):
 # Make sure the input node is actually in the graph
-# Run BFS starting from the input node and going `n` levels deep
+# Run breadth_first_search starting from the input node and going `n` levels deep
 # Return all nodes found at the `n`th level
 ```
 
@@ -111,19 +111,19 @@ You may not know Kevin Bacon (or _do_ you?), but we can still apply this to our 
 ### Finding the Path
 Think of a graph as a neighborhood, each house as a node, and immediate neighbors as nodes that share an edge. If you wanted to figure out how to get from one house to another, you'd walk to that house, passing other houses along the way. _You'd be walking a path, walking from one node to another via edges!_
 
-**Challenge:** Write a method `findPath(self, fromVert, toVert)` in the `Graph()` class that takes in two nodes (`fromVert` and `toVert`) as input, and outputs the list of nodes that must be traversed to get from `fromVert` to `toVert`. The output list of nodes _must be in order of nodes visited starting from `fromVert`  and ending at `toVert`._
+**Challenge:** Write a method `findPath(self, from_vert, to_vert)` in the `Graph()` class that takes in two nodes (`from_vert` and `to_vert`) as input, and outputs the list of nodes that must be traversed to get from `from_vert` to `to_vert`. The output list of nodes _must be in order of nodes visited starting from `from_vert`  and ending at `to_vert`._
 
 **Hint:** BFS or it's familiar friend **Depth First Search (DFS)** could be useful here. Again if you need a refresher, here's that [Tree Traversals lesson](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/TreeTraversals.md) from CS 1.3
 
 ```python
-def findPath(self, fromVert, toVert):
+def findPath(self, from_vert, to_vert):
 
-# Make sure that both nodes fromVert and toVert are actually in the graph
-# Run BFS or DFS starting from fromVert
+# Make sure that both nodes from_vert and to_vert are actually in the graph
+# Run BFS or DFS starting from from_vert
 # Figure out a way to keep track of each path you take
-# Once you find toVert, end the search.
-# Since you've been tracking the paths, find the path that goes from fromVert to toVert
-# Return the path, in the order of nodes visited starting with fromVert and ending with toVert
+# Once you find to_vert, end the search.
+# Since you've been tracking the paths, find the path that goes from from_vert to to_vert
+# Return the path, in the order of nodes visited starting with from_vert and ending with to_vert
 ```
 
 ### Optimizing our Path
@@ -136,10 +136,10 @@ If you were trying to show how two people are socially connected, you would want
 
 In order to solve this problem, we want to find the **shortest path** between two nodes in a graph.
 
-**Challenge 1:** Write a method `findShortestPath(self, A, B)` that takes two nodes (A and B) as input, and outputs the list of nodes that make up the _shortest path_ from A to B. The output list of nodes _must be in order of nodes visited starting from A and ending at B._
+**Challenge 1:** Write a method `find_shortest_path(self, A, B)` that takes two nodes (A and B) as input, and outputs the list of nodes that make up the _shortest path_ from A to B. The output list of nodes _must be in order of nodes visited starting from A and ending at B._
 
 ```python
-def findShortestPath(self, A, B):
+def find_shortest_path(self, A, B):
 # Make sure that both nodes A and B are actually in the graph
 # Run BFS starting from A
 # Figure out a way to keep track of each path you take
@@ -183,7 +183,7 @@ As with any large group of people, smaller groups start to form within the large
 ## Chapter 7: Find your friend group
 Find “cliques” of friends (small groups of tightly-connected users), etc…
 
-The [clique problem](https://en.wikipedia.org/wiki/Clique_problem) is a popular computational problem in computer science. 
+The [clique problem](https://en.wikipedia.org/wiki/Clique_problem) is a popular computational problem in computer science.
 ### Clique Discovery
 
 Among other applications, the clique problem can arise in a social network. With our social network, a clique will represent a subset of people (nodes) who all know each other (share edges), and we can use various algorithms to find these cliques.
@@ -193,12 +193,12 @@ Among other applications, the clique problem can arise in a social network. With
 
 ```python
 def clique(self):
-# 
+#
 Start with an arbitrary vertex u and add it to the clique
 
 For v in remaining vertices not in the clique
 If v is adjacent to every other vertex already in the clique.
-	Add v to the clique 
+	Add v to the clique
 	Discard v otherwise
 
 ```
