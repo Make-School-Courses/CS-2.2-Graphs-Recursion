@@ -42,7 +42,7 @@ G
 or [Challenge Rubric Document](https://docs.google.com/document/d/1mRnSLMeuHLODGGxVI1-0AsTS7lqjNiemZCO9fo1gUzg/edit?usp=sharing)
 ## Challenge 1
 - Implement the Graph ADT with an adjacency list
-- Implement code to read in a graph from a text file to create an instance of the Graph ADT and use it's methods.
+- Implement code to read in a graph from a text file to create an instance of the Graph ADT and use its methods.
 
 **Input:** A graph file (can contain a directed or undirected graph with or without weights)
 `python3 challenge_1.py graph_data.txt`
