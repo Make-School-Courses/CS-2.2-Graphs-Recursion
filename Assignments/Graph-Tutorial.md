@@ -51,8 +51,36 @@ get_vertices() #returns the list of all vertices in the graph.
 
 **Challenge:** Implement the `Graph` class in the file *graph.py* and input your personal Social Graph with vertices and edges matching the diagram you drew of your friends.  Note: Initially we'll create a `Vertex` class as a helper class to the `Graph` class.
 
+**Stretch Challenge:** Write a method that reads in graph data from a file and returns an instance of the `Graph` class. The file format should look like this:
+
+```
+G
+1,2,3,4
+(1,2)
+(1,3)
+(2,4)
+```
+
+Your method might look something like this:
+
+```python
+def make_graph_from_file(filename):
+# Check if first line is 'G' or 'D' and store the value. If neither, raise an exception
+# For each vertex id in first line, add a vertex to the graph
+# For each of the following lines:
+    # Extract the vertex ids and the (optional) weight, and add an edge to the graph
+    # If it is a Graph and not a Digraph, add another edge in the opposite direction
+    # Raise an exception if line contains too many (or too few) items
+```
+
+If the file is not formatted correctly, you can raise an exception:
+
+```python
+raise Exception(f"File must begin with G or D, found {firstline}")
+```
+
 ## Chapter 2: Won't you Be My Neighbor?
-Have you ever had that moment where you find out a friend knows another one of your friends? Having one of those "worlds collide" moments can be exciting, scary, or a whole mixture of emotions. Instead of having that situation surprise us, what if we had a way to look know this information. in advanced?
+Have you ever had that moment where you find out a friend knows another one of your friends? Having one of those "worlds collide" moments can be exciting, scary, or a whole mixture of emotions. Instead of having that situation surprise us, what if we had a way to know this information in advance?
 
 ### Find Your Neighbors
 Turns out we do! We can utilize a **neighbor lookup** for a given node in our graph to see what other nodes it is connected with. If you and a friend are connected, you two share a friendship. How do we know if two nodes are connected? _They share an edge!_
@@ -68,7 +96,7 @@ def get_neighbors(self):
 ```
 
 ### Down The Friend Chain We Go
-Alright, no more surprise connections for us! But what if we want to go even _further_ than one connection? Onward!
+All right, no more surprise connections for us! But what if we want to go even _further_ than one connection? Onward!
 
 
 ## Chapter 3: Breadth of Fresh Neighbors
