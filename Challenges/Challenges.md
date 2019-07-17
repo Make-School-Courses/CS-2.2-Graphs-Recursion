@@ -10,6 +10,7 @@
 
 ## General instructions
 - Your code should go in the Challenge Folder of your personal repo that you created for this class.
+- Create a separate folder for each challenge, and copy any code you are re-using from the previous challenge before modifying.  The code in each folder should only solve that challenge. 
 - Your code should meet the following minimum requirements
     - meets PEP8 style guidelines
     - is well tested
@@ -73,11 +74,14 @@ Edge List:
 
 
 
-### Stretch Challenges 1
+### Stretch Challenge 1
 - Re-implement the Graph ADT using one of the [python collections](https://docs.python.org/3.6/library/collections.html#module-collections).  
 
 
 ## Challenge 2
+
+**Create a Challenge_2 folder in your challenge repository.  Copy any code you want to re-use from Challenge 1 to that folder before modifying** 
+
 Update your Graph ADT code to use Breadth First Search to compute the shortest path between two provided vertices in your graph.  
 
 **Input:** A graph file (can contain a weighted directed or weighted undirected graph), a fromVertex and a toVertex. `python3 challenge_2.py graph_data.txt 1 4`
@@ -92,10 +96,12 @@ G
 ```
 
 **Output:**
-The vertices in a shortest path from `fromVertex` to `toVertex` and the weight of the path.
+The vertices in a shortest path from `from_vertex` to `to_vertex` and the weight of the path.
 ```
 Vertices in Path: 1,2,4
 Weight of Path: 5
+
+```
 
 
 ## Challenge 3
