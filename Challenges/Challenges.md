@@ -84,7 +84,9 @@ Edge List:
 
 Update your Graph ADT code to use Breadth-first Search to compute the shortest path between two provided vertices in your graph.  
 
-**Input:** A graph file (containing an undirected, unweighted graph), a from_vertex and a to_vertex. `python3 challenge_2.py graph_data.txt 1 5`
+**Input:** A graph file (containing an undirected, unweighted graph), a from_vertex and a to_vertex. 
+
+`python3 challenge_2.py graph_data.txt 1 5`
 
 ```
 G
