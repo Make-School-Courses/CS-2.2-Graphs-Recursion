@@ -82,24 +82,26 @@ Edge List:
 
 **Create a Challenge_2 folder in your challenge repository.  Copy any code you want to re-use from Challenge 1 to that folder before modifying** 
 
-Update your Graph ADT code to use Breadth First Search to compute the shortest path between two provided vertices in your graph.  
+Update your Graph ADT code to use Breadth-first Search to compute the shortest path between two provided vertices in your graph.  
 
-**Input:** A graph file (can contain a weighted directed or weighted undirected graph), a fromVertex and a toVertex. `python3 challenge_2.py graph_data.txt 1 4`
+**Input:** A graph file (containing an undirected, unweighted graph), a from_vertex and a to_vertex. `python3 challenge_2.py graph_data.txt 1 5`
 
 ```
 G
-1,2,3,4
-(1,2,2)
-(1,4,7)
-(2,3,5)
-(2,4,3)
+1,2,3,4,5
+(1,2)
+(1,4)
+(2,3)
+(2,4)
+(2,5)
+(3,5)
 ```
 
 **Output:**
-The vertices in a shortest path from `from_vertex` to `to_vertex` and the weight of the path.
+The vertices in a shortest path from `from_vertex` to `to_vertex` and the number of edges in that path.
 ```
-Vertices in Path: 1,2,4
-Weight of Path: 5
+Vertices in shortest path: 1,2,5
+Number of edges in shortest path: 3
 
 ```
 
