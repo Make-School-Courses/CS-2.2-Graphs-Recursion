@@ -37,10 +37,10 @@ Students by the end of the course will be able to ...
 |  2 |  Wed, July 10                      | [Introduction to Graph Theory] | Start Tutorial |  
 |  3 |  Mon, July 15  |  [Graph Properties & Modeling]  | Challenge #1 - Midnight |  
 |  4 |  Wed, July 17 | [Graph Traversals] |  Quiz #1 |  
-|  5 |  Mon, July 22 | [Paths and Routing] | Challenge #2|  
-|  6 |  Wed, July 24  | [Paths and Routing Part 2] |  Challenge #3 <br> Quiz #2  |  
-|  7 |  Mon, July 29   | [Topological Sorting and Scheduling] | Tutorial Due <br>  Project Proposal Due |  
-|  8 |  Wed, July 31    | Challege #4 <br>[Graph Coloring] | Challenge #4 <br> Quiz #3  |  
+|  5 |  Mon, July 22 | [Weighted Graph Algorithms] | Challenge #2 - Midnight|  
+|  6 |  Wed, July 24  | [Advanced Recursion & Dynamic Programming] |  Challenge #3 <br> Quiz #2  |  
+|  7 |  Mon, July 29   | [Traveling Salesman Problem] | Tutorial Due <br>  Project Proposal Due |  
+|  8 |  Wed, July 31    | [Graph Coloring and Scheduling] | Challenge #4 <br> Quiz #3  |  
 |  9 |  Mon, Aug 5      | [Algorithm Classification] | Challenge #5 |   
 | 10 |  Wed, Aug 7      | [Advanced Modeling] | Challenge #6 <br> Quiz #4 |  
 | 11 |  Mon, Aug 12                           |  Final Presentations  |   Project Due <br> Project Presentations <br> Optional quiz retake|
@@ -51,10 +51,10 @@ Students by the end of the course will be able to ...
 [Introduction to Graph Theory]: Lessons/1.Intro-Graph-Theory.md
 [Graph Properties & Modeling]: Lessons/2.Graph-Properties.md
 [Graph Traversals]: Lessons/3.Graph-Traversals.md
-[Paths and Routing]: Lessons/4.Routing.md
-[Paths and Routing Part 2]: Lessons/5.Routing-2.md
-[Topological Sorting and Scheduling]: Lessons/6.Scheduling.md
-[Graph Coloring]: Lessons/7.Graph-Coloring.md
+[Weighted Graph Algorithms]: Lessons/4.Weighted-Graph-Algorithms.md
+[Advanced Recursion & Dynamic Programming]: Lessons/5.Advanced-Recursion-Dynamic-Programming.md
+[Traveling Salesman Problem]: Lessons/5.Routing-2
+[Graph Coloring and Scheduling]: Lessons/7.Graph-Coloring.md
 [Algorithm Classification]: Lessons/8.Algorithm-Classification.md
 [Advanced Modeling]: Lessons/9.Advanced-Modeling.md
 
@@ -79,7 +79,8 @@ To pass this course you must meet the following requirements ( submit to [course
 - Complete all required challenges.
 - Pass the [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md) according to the associated [Tutorial Rubric](Assignments/Graph-Tutorial-Rubric.md)
 - Pass the - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)  according to the associated [Project Rubric](Assignments/Graph-Project-Rubric.md)
-- Pass the 4 quizzes given during the term (1 retake allowed).
+- Pass the 4 quizzes given during the term (1 retake allowed).  See the [Quiz Study Guide](Assignments/Quiz-Study-Guide.md) for more information. 
+
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
