@@ -53,7 +53,7 @@ Students by the end of the course will be able to ...
 [Graph Traversals]: Lessons/3.Graph-Traversals.md
 [Weighted Graph Algorithms]: Lessons/4.Weighted-Graph-Algorithms.md
 [Advanced Recursion & Dynamic Programming]: Lessons/5.Advanced-Recursion-Dynamic-Programming.md
-[Traveling Salesman Problem]: Lessons/5.Routing-2
+[Traveling Salesman Problem]: Lessons/5.Routing-2.md
 [Graph Coloring and Scheduling]: Lessons/7.Graph-Coloring.md
 [Algorithm Classification]: Lessons/8.Algorithm-Classification.md
 [Advanced Modeling]: Lessons/9.Advanced-Modeling.md
@@ -79,7 +79,7 @@ To pass this course you must meet the following requirements ( submit to [course
 - Complete all required challenges.
 - Pass the [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md) according to the associated [Tutorial Rubric](Assignments/Graph-Tutorial-Rubric.md)
 - Pass the - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)  according to the associated [Project Rubric](Assignments/Graph-Project-Rubric.md)
-- Pass the 4 quizzes given during the term (1 retake allowed).  See the [Quiz Study Guide](Assignments/Quiz-Study-Guide.md) for more information. 
+- Pass the 4 quizzes given during the term (1 retake allowed).  See the [Quiz Study Guide](Assignments/Quiz-Study-Guide.md) for more information.
 
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
