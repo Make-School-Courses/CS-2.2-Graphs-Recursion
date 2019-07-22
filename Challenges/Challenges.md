@@ -106,7 +106,7 @@ G
 The vertices in a shortest path from `from_vertex` to `to_vertex` and the number of edges in that path.
 ```
 Vertices in shortest path: 1,2,5
-Number of edges in shortest path: 3
+Number of edges in shortest path: 2 
 
 ```
 ### [Challenge 2 Rubric](https://www.makeschool.com/rubrics/UnVicmljLTk=)
