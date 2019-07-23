@@ -23,6 +23,9 @@ Quizzes will be given in class either using on online format, paper format, or o
 - Implement Recursive Depth-first search on an unweighted graph or digraph.
 - Generate a spanning tree from DFS or BFS.
 - Write pseudocode for BFS, Iterative DFS or Recursive DFS
+- Model solutions to applications using BFS or DFS such as: 
+  - How should I get home? (Shortest path with BFS)
+  - Is there a way to send data to all the computers on the network? (Connected graph with DFS))
 
 
 ## Quiz 3
