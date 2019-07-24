@@ -53,7 +53,7 @@ Students by the end of the course will be able to ...
 [Graph Traversals]: Lessons/3.Graph-Traversals.md
 [Weighted Graph Algorithms]: Lessons/4.Weighted-Graph-Algorithms.md
 [Advanced Recursion & Dynamic Programming]: Lessons/5.Advanced-Recursion-Dynamic-Programming.md
-[Advanced Recursion & Dynamic Programming Part 2]: Lessons/5.Advanced-Recursion-Dynamic-Programming.md
+[Advanced Recursion & Dynamic Programming Part 2]: Lessons/6.Advanced-Recursion-Dynamic-Programming-2.md
 [Traveling Salesman Problem]: Lessons/5.Routing-2.md
 [Graph Coloring and Scheduling]: Lessons/7.Graph-Coloring.md
 [Algorithm Classification]: Lessons/8.Algorithm-Classification.md
@@ -68,6 +68,7 @@ Students by the end of the course will be able to ...
 ### Tutorials
 
 - [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md)
+ - [Graph Tutorial Rubric](https://docs.google.com/document/d/1ICVRzuDMIapVhpqbG7oHpk7_yCWu2bET8EYv6o_J9io/edit?usp=sharing)
 
 ### Projects
 
@@ -78,8 +79,8 @@ Students by the end of the course will be able to ...
 To pass this course you must meet the following requirements ( submit to [course progress tracker](https://docs.google.com/spreadsheets/d/15hcKLR304z73YXmMATaA9FvrAi5rWPnLyISCwZMwNXE/edit#gid=0)
 
 - Complete all required challenges.
-- Pass the [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md) according to the associated [Tutorial Rubric](Assignments/Graph-Tutorial-Rubric.md)
-- Pass the - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)  according to the associated [Project Rubric](Assignments/Graph-Project-Rubric.md)
+- Pass the [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md) according to the associated [Graph Tutorial Rubric](https://docs.google.com/document/d/1ICVRzuDMIapVhpqbG7oHpk7_yCWu2bET8EYv6o_J9io/edit?usp=sharing)
+- Pass the - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)  according to the associated [Project Rubric]()
 - Pass the 4 quizzes given during the term (1 retake allowed).  See the [Quiz Study Guide](Assignments/Quiz-Study-Guide.md) for more information.
 
 - Actively participate in class and abide by the attendance policy
