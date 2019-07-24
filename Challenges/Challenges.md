@@ -106,7 +106,7 @@ G
 The vertices in a shortest path from `from_vertex` to `to_vertex` and the number of edges in that path.
 ```
 Vertices in shortest path: 1,2,5
-Number of edges in shortest path: 2 
+Number of edges in shortest path: 2
 
 ```
 ### [Challenge 2 Rubric](https://www.makeschool.com/rubrics/UnVicmljLTk=)
@@ -115,7 +115,6 @@ Number of edges in shortest path: 2
 
 Update your Graph ADT code to do the following
 1. Implement Recursive Depth-first search to determine if there is a path between two vertices in a weighted directed graph.  
-1. Implement Dijkstra's Algorithm to find the minimum weight path between two vertices in a weighted directed graph.
 
 **Input:** A file containing a weighted directed graph, a from_vertex and a to_vertex.
 
@@ -140,22 +139,25 @@ The weight of the minimum weight path between vertex 1 and 5 is: 10
 
 ```
 
+### Stretch Challenges 3 : Dijkstra's and Priority Queue
+1. Implement Dijkstra's Algorithm to find the minimum weight path between two vertices in a weighted directed graph.
 
-### Stretch Challenges 3 : Implement Priority Queue
-- (From CS 2.1).  Implement BinaryMinHeap using a dynamic array and then implement Priory Queue using BinaryMinHeap.  See [binary heap starter code](https://github.com/Make-School-Courses/CS-2.1-Advanced-Trees-and-Sorting-Algorithms/blob/master/Code/binaryheap.py) and [priority queue starter code](https://github.com/Make-School-Courses/CS-2.1-Advanced-Trees-and-Sorting-Algorithms/blob/master/Code/priorityqueue.py) for outline.
+1. (From CS 2.1).  Implement BinaryMinHeap using a dynamic array and then implement Priory Queue using BinaryMinHeap.  See [binary heap starter code](https://github.com/Make-School-Courses/CS-2.1-Advanced-Trees-and-Sorting-Algorithms/blob/master/Code/binaryheap.py) and [priority queue starter code](https://github.com/Make-School-Courses/CS-2.1-Advanced-Trees-and-Sorting-Algorithms/blob/master/Code/priorityqueue.py) for outline.
 
-### [Challenge 3 Rubric]() - If unable to fill out - use [Challenge Rubric Document](https://docs.google.com/document/d/1mRnSLMeuHLODGGxVI1-0AsTS7lqjNiemZCO9fo1gUzg/edit?usp=sharing).
+
+### [Challenge 3 Rubric](https://docs.google.com/document/d/1mRnSLMeuHLODGGxVI1-0AsTS7lqjNiemZCO9fo1gUzg/edit?usp=sharing)
 
 ## Challenge 4
-- Dynamic Programming
+- Dynamic Programming - working in pairs
+
+
+
+### [Challenge 4 Rubric Document](https://docs.google.com/document/d/1mRnSLMeuHLODGGxVI1-0AsTS7lqjNiemZCO9fo1gUzg/edit?usp=sharing).
+
 
 
 ## Challenge 5
-- Coloring, Scheduling
-
-
-## Challenge 6
 - Algorithm Design
 
-### Stretch Challenges 6
+### Stretch Challenges 5
 - - NP Reduction

@@ -139,12 +139,12 @@ You may not know Kevin Bacon (or _do_ you?), but we can still apply this to our 
 ### Finding the Path
 Think of a graph as a neighborhood, each house as a node, and immediate neighbors as nodes that share an edge. If you wanted to figure out how to get from one house to another, you'd walk to that house, passing other houses along the way. _You'd be walking a path, walking from one node to another via edges!_
 
-**Challenge:** Write a method `findPath(self, from_vert, to_vert)` in the `Graph()` class that takes in two nodes (`from_vert` and `to_vert`) as input, and outputs the list of nodes that must be traversed to get from `from_vert` to `to_vert`. The output list of nodes _must be in order of nodes visited starting from `from_vert`  and ending at `to_vert`._
+**Challenge:** Write a method `find_path(self, from_vert, to_vert)` in the `Graph()` class that takes in two nodes (`from_vert` and `to_vert`) as input, and outputs the list of nodes that must be traversed to get from `from_vert` to `to_vert`. The output list of nodes _must be in order of nodes visited starting from `from_vert`  and ending at `to_vert`._  Note: This path doesn't have to be the shortest path, just a path.
 
 **Hint:** BFS or it's familiar friend **Depth First Search (DFS)** could be useful here. Again if you need a refresher, here's that [Tree Traversals lesson](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/TreeTraversals.md) from CS 1.3
 
 ```python
-def findPath(self, from_vert, to_vert):
+def find_path(self, from_vert, to_vert):
 
 # Make sure that both nodes from_vert and to_vert are actually in the graph
 # Run BFS or DFS starting from from_vert
@@ -177,38 +177,14 @@ def find_shortest_path(self, A, B):
 ```
 
 
-### The Long and Short of it is...
-Now we can handle the shortest path for  unweighted graphs! Great work!  When it comes to weighted graphs, we need a stronger algorithm which we'll explore in later tutorials.  If you're feeling curious, you can read about [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) and even implement it in your class.
-
-
  It's great to find the _shortest_ path, but sometimes we want to know more about a graph. There's a lot of properties around distance we can measure, and we'll dive into another one of them in the next chapter!
 
-## Chapter 6: Long-Distance Friendships
-
-We know you're six degrees away from Kevin Bacon, but who are you the _furthest_ away from? Not your pen pal in Bhutan (that would still be a neighbor!), but someone you _don't_ know, and who you in fact know the least!
-
-### Graph Diameter
-One concept around graph distance that helps us solve this problem is finding the **diameter** of a graph. The diameter of a graph is the calculated by _finding the shortest path between every possible pair of nodes, and then selecting the longest of those paths._
-
-**Challenge:** Write a method  `diameter(self)` that outputs the diameter of the graph
-
-```python
-def diameter(self):
-# For every node, find the shortest path from it to every other node in the graph and track the paths and their length
-# From your list of path/length pairs, pick the one with the largest length and return the length.
-```
-**Stretch Challenges:** Find other properties of a graph! See if you can calculate the center or radius of a weighted graph. Keep these notes in mind:
-
-- A radius of a graph _must_ also have a diameter.
-- Radius can be calculated by finding the minimum distance among all the maximum distances between a node to all other nodes
-- The center of a graph is the set of all nodes where the greatest distance to other nodes is the shortest.
-    - Read up on [eccentricity](https://en.wikipedia.org/wiki/Distance_(graph_theory) to help with this!
 
 
 ### Clique through
 As with any large group of people, smaller groups start to form within the larger ones. We can find these cliques through graph theory.  On to the next chapter to discover how..
 
-## Chapter 7: Find your friend group
+## Chapter 6: Find your friend group
 Find “cliques” of friends (small groups of tightly-connected users), etc…
 
 The [clique problem](https://en.wikipedia.org/wiki/Clique_problem) is a popular computational problem in computer science.
@@ -231,11 +207,34 @@ If v is adjacent to every other vertex already in the clique.
 
 ```
 
-### Becoming an Influencer
-We've seen a lot of social network applications with our graph so far, but there are other real applications of graph theory throughout the industry! One of the biggest applications is in the tool you use every day...
+# Stretch Challenges
+Now that you've gotten a taste of how you can use graphs to find out more about your friends, here's a couple more applications to explore.  These are stretch challenges, so feel free to skip too.
 
+## STRETCH : Chapter 7: Long-Distance Friendships
 
-## Chapter 8: How to Win Friends and Influence Users (Stretch)
+We know you're six degrees away from Kevin Bacon, but who are you the _furthest_ away from? Not your pen pal in Bhutan (that would still be a neighbor!), but someone you _don't_ know, and who you in fact know the least!
+
+### Graph Diameter
+One concept around graph distance that helps us solve this problem is finding the **diameter** of a graph. The diameter of a graph is the calculated by _finding the shortest path between every possible pair of nodes, and then selecting the longest of those paths._  
+
+**Challenge:** Write a method  `diameter(self)` that outputs the diameter of the graph
+
+```python
+def diameter(self):
+# For every node, find the shortest path from it to every other node in the graph and track the paths and their length
+# From your list of path/length pairs, pick the one with the largest length and return the length.
+```
+
+*Note:* The algorithm above will work for small graphs, but takes a lot of time. There are lots of quicker algorithms you can use.
+
+**Stretch Challenges:** Find other properties of a graph! See if you can calculate the center or radius of a weighted graph. Keep these notes in mind:
+
+- A radius of a graph _must_ also have a diameter.
+- Radius can be calculated by finding the minimum distance among all the maximum distances between a node to all other nodes
+- The center of a graph is the set of all nodes where the greatest distance to other nodes is the shortest.
+    - Read up on [eccentricity](https://en.wikipedia.org/wiki/Distance_(graph_theory) to help with this!
+
+## STRETCH : Chapter 8: How to Win Friends and Influence Users
 Google's [PageRank](https://en.wikipedia.org/wiki/PageRank) algorithm is what they use to show you the most relevant search results for your query. Through this and other factors, Google influences what you see on that first page every single time you search something (and how often are you going past the first page?)
 
 

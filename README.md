@@ -38,11 +38,11 @@ Students by the end of the course will be able to ...
 |  3 |  Mon, July 15  |  [Graph Properties & Modeling]  | Challenge #1 - Midnight |  
 |  4 |  Wed, July 17 | [Graph Traversals] |  Quiz #1 |  
 |  5 |  Mon, July 22 | [Weighted Graph Algorithms] | Challenge #2 - Midnight|  
-|  6 |  Wed, July 24  | [Advanced Recursion & Dynamic Programming] |  Challenge #3 <br> Quiz #2  |  
-|  7 |  Mon, July 29   | [Traveling Salesman Problem] | Tutorial Due <br>  Project Proposal Due |  
-|  8 |  Wed, July 31    | [Graph Coloring and Scheduling] | Challenge #4 <br> Quiz #3  |  
-|  9 |  Mon, Aug 5      | [Algorithm Classification] | Challenge #5 |   
-| 10 |  Wed, Aug 7      | [Advanced Modeling] | Challenge #6 <br> Quiz #4 |  
+|  6 |  Wed, July 24  | [Advanced Recursion & Dynamic Programming] |  Quiz #2 <br> Tutorial Work Day |  
+|  7 |  Mon, July 29   | [Advanced Recursion & Dynamic Programming Part 2] | Tutorial Due <br>  Project Proposal Due <br> Challenge #3 |  
+|  8 |  Wed, July 31    | [Traveling Salesman Problem] |   Quiz #3  |  
+|  9 |  Mon, Aug 5      | [Algorithm Classification] | Challenge #4 |   
+| 10 |  Wed, Aug 7      | [Advanced Modeling] | Challenge #5 <br> Quiz #4 |  
 | 11 |  Mon, Aug 12                           |  Final Presentations  |   Project Due <br> Project Presentations <br> Optional quiz retake|
 | 12 |  Wed, Aug 14   | No Class - Mock Interviews | - |  
 
@@ -53,6 +53,7 @@ Students by the end of the course will be able to ...
 [Graph Traversals]: Lessons/3.Graph-Traversals.md
 [Weighted Graph Algorithms]: Lessons/4.Weighted-Graph-Algorithms.md
 [Advanced Recursion & Dynamic Programming]: Lessons/5.Advanced-Recursion-Dynamic-Programming.md
+[Advanced Recursion & Dynamic Programming Part 2]: Lessons/5.Advanced-Recursion-Dynamic-Programming.md
 [Traveling Salesman Problem]: Lessons/5.Routing-2.md
 [Graph Coloring and Scheduling]: Lessons/7.Graph-Coloring.md
 [Algorithm Classification]: Lessons/8.Algorithm-Classification.md
