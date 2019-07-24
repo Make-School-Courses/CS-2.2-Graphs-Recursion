@@ -1,4 +1,6 @@
 # Your Social Network - Graph Tutorial
+[Graph Rubric](https://docs.google.com/document/d/1ICVRzuDMIapVhpqbG7oHpk7_yCWu2bET8EYv6o_J9io/edit?usp=sharing)
+
 
 ## Chapter 0: Set up
 How many social network platforms are you currently on? Each of those is an example of graph theory being applied to solve the problem of finding connections – and recommending appropriate ones.
