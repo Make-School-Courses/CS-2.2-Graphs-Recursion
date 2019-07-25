@@ -141,7 +141,7 @@ Vertices in the path: 1,2,3,5
 ```
 
 ### Stretch Challenges 3 : Dijkstra's and Priority Queue
-1. Implement Dijkstra's Algorithm to find the minimum weight path between two vertices in a weighted undirected graph.
+**Stretch Challenge 3.1** Implement Dijkstra's Algorithm to find the minimum weight path between two vertices in a weighted undirected graph.
 
 **Input:** A file containing a weighted undirected graph, a from_vertex and a to_vertex.
 
@@ -166,8 +166,7 @@ The weight of the minimum weight path between vertex 1 and 5 is: 10
 Vertices in the path: 1,2,5
 ```
 
-
-1. (From CS 2.1).  Implement BinaryMinHeap using a dynamic array and then implement Priory Queue using BinaryMinHeap.  See [binary heap starter code](https://github.com/Make-School-Courses/CS-2.1-Advanced-Trees-and-Sorting-Algorithms/blob/master/Code/binaryheap.py) and [priority queue starter code](https://github.com/Make-School-Courses/CS-2.1-Advanced-Trees-and-Sorting-Algorithms/blob/master/Code/priorityqueue.py) for outline.
+**Stretch Challenge 3.2** (From CS 2.1).  Implement BinaryMinHeap using a dynamic array and then implement Priory Queue using BinaryMinHeap.  See [binary heap starter code](https://github.com/Make-School-Courses/CS-2.1-Advanced-Trees-and-Sorting-Algorithms/blob/master/Code/binaryheap.py) and [priority queue starter code](https://github.com/Make-School-Courses/CS-2.1-Advanced-Trees-and-Sorting-Algorithms/blob/master/Code/priorityqueue.py) for outline.
 
 
 ### [Challenge 3 Rubric](https://docs.google.com/document/d/1mRnSLMeuHLODGGxVI1-0AsTS7lqjNiemZCO9fo1gUzg/edit?usp=sharing)
