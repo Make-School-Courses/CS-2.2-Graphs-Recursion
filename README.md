@@ -79,10 +79,10 @@ Students by the end of the course will be able to ...
 
 To pass this course you must meet the following requirements ( submit to [course progress tracker](https://docs.google.com/spreadsheets/d/15hcKLR304z73YXmMATaA9FvrAi5rWPnLyISCwZMwNXE/edit#gid=0)
 
-- Complete all required challenges.
+- Complete all required challenges - you will be able to resubmit some of these to improve score.
 - Pass the [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md) according to the associated [Graph Tutorial Rubric](https://docs.google.com/document/d/1ICVRzuDMIapVhpqbG7oHpk7_yCWu2bET8EYv6o_J9io/edit?usp=sharing)
 - Pass the - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)  according to the associated [Project Rubric]()
-- Pass the 4 quizzes given during the term (1 retake allowed).  See the [Quiz Study Guide](Assignments/Quiz-Study-Guide.md) for more information.
+- Pass the 4 quizzes given during the term (1 retake allowed at teh end of the term).  See the [Quiz Study Guide](Assignments/Quiz-Study-Guide.md) for more information.
 
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
