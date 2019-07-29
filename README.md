@@ -39,8 +39,7 @@ Students by the end of the course will be able to ...
 |  4 |  Wed, July 17 | [Graph Traversals] |  Quiz #1 |  
 |  5 |  Mon, July 22 | [Weighted Graph Algorithms] | Challenge #2 - Midnight|  
 |  6 |  Wed, July 24  | [Dijkstra's Algorithm] |  Quiz #2 <br> Tutorial Work Day |  
-|  7 |  Mon, July 29   | [Advanced Recursion & Dynamic Programming] | Tutorial Due <br>  Project Proposal Due <br> Challenge #3 - Midnight
- |  
+|  7 |  Mon, July 29   | [Advanced Recursion & Dynamic Programming] | Tutorial Due <br>  Project Proposal Due <br> Challenge #3 - Midnight|  
 |  8 |  Wed, July 31    | [Advanced Recursion & Dynamic Programming Part 2] |   Quiz #3  |  
 |  9 |  Mon, Aug 5      | [Traveling Salesman Problem]| Challenge #4 |   
 | 10 |  Wed, Aug 7      | [Algorithm Classification]  | Challenge #5 <br> Quiz #4 |  
