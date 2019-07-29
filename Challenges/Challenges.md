@@ -181,7 +181,4 @@ Vertices in the path: 1,2,5
 
 
 ## Challenge 5
-- Algorithm Design
-
-### Stretch Challenges 5
-- - NP Reduction
+- Traveling Salesman Problem

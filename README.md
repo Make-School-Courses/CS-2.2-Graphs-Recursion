@@ -38,11 +38,12 @@ Students by the end of the course will be able to ...
 |  3 |  Mon, July 15  |  [Graph Properties & Modeling]  | Challenge #1 - Midnight |  
 |  4 |  Wed, July 17 | [Graph Traversals] |  Quiz #1 |  
 |  5 |  Mon, July 22 | [Weighted Graph Algorithms] | Challenge #2 - Midnight|  
-|  6 |  Wed, July 24  | [Advanced Recursion & Dynamic Programming] |  Quiz #2 <br> Tutorial Work Day |  
-|  7 |  Mon, July 29   | [Advanced Recursion & Dynamic Programming Part 2] | Tutorial Due <br>  Project Proposal Due <br> Challenge #3 |  
-|  8 |  Wed, July 31    | [Traveling Salesman Problem] |   Quiz #3  |  
-|  9 |  Mon, Aug 5      | [Algorithm Classification] | Challenge #4 |   
-| 10 |  Wed, Aug 7      | [Advanced Modeling] | Challenge #5 <br> Quiz #4 |  
+|  6 |  Wed, July 24  | [Dijkstra's Algorithm] |  Quiz #2 <br> Tutorial Work Day |  
+|  7 |  Mon, July 29   | [Advanced Recursion & Dynamic Programming] | Tutorial Due <br>  Project Proposal Due <br> Challenge #3 - Midnight
+ |  
+|  8 |  Wed, July 31    | [Advanced Recursion & Dynamic Programming Part 2] |   Quiz #3  |  
+|  9 |  Mon, Aug 5      | [Traveling Salesman Problem]| Challenge #4 |   
+| 10 |  Wed, Aug 7      | [Algorithm Classification]  | Challenge #5 <br> Quiz #4 |  
 | 11 |  Mon, Aug 12                           |  Final Presentations  |   Project Due <br> Project Presentations <br> Optional quiz retake|
 | 12 |  Wed, Aug 14   | No Class - Mock Interviews | - |  
 
@@ -52,7 +53,8 @@ Students by the end of the course will be able to ...
 [Graph Properties & Modeling]: Lessons/2.Graph-Properties.md
 [Graph Traversals]: Lessons/3.Graph-Traversals.md
 [Weighted Graph Algorithms]: Lessons/4.Weighted-Graph-Algorithms.md
-[Advanced Recursion & Dynamic Programming]: Lessons/5.Advanced-Recursion-Dynamic-Programming.md
+[Dijkstra's Algorithm]: Lessons/4.Weighted-Graph-Algorithms.md
+[Advanced Recursion & Dynamic Programming]: Lessons/6.Advanced-Recursion-Dynamic-Programming.md
 [Advanced Recursion & Dynamic Programming Part 2]: Lessons/6.Advanced-Recursion-Dynamic-Programming-2.md
 [Traveling Salesman Problem]: Lessons/5.Routing-2.md
 [Graph Coloring and Scheduling]: Lessons/7.Graph-Coloring.md
