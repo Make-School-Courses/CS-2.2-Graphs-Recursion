@@ -169,7 +169,7 @@ Vertices in the path: 1,2,5
 **Stretch Challenge 3.2** (From CS 2.1).  Implement BinaryMinHeap using a dynamic array and then implement Priory Queue using BinaryMinHeap.  See [binary heap starter code](https://github.com/Make-School-Courses/CS-2.1-Advanced-Trees-and-Sorting-Algorithms/blob/master/Code/binaryheap.py) and [priority queue starter code](https://github.com/Make-School-Courses/CS-2.1-Advanced-Trees-and-Sorting-Algorithms/blob/master/Code/priorityqueue.py) for outline.
 
 
-### [Challenge 3 Rubric](https://docs.google.com/document/d/1mRnSLMeuHLODGGxVI1-0AsTS7lqjNiemZCO9fo1gUzg/edit?usp=sharing)
+### [Challenge 3 Rubric](https://docs.google.com/document/d/1VHCcs3rFtrIaJRT5GWL3P-m3oagptYXuA2T9O67eJQU/preview)
 
 ## Challenge 4
 - Dynamic Programming - working in pairs
