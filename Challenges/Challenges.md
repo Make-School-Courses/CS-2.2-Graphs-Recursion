@@ -172,11 +172,43 @@ Vertices in the path: 1,2,5
 ### [Challenge 3 Rubric](https://docs.google.com/document/d/1VHCcs3rFtrIaJRT5GWL3P-m3oagptYXuA2T9O67eJQU/preview)
 
 ## Challenge 4
-- Dynamic Programming - working in pairs
+For this challenge, you can choose to work in pairs (recommended) or solo.  If you work in pairs, both partners should submit an answer and clearly note who you worked with in your solution. 
+- Your solutions will be in your Challenge GitHub repo and have both a README markdown file and code file(s). 
+
+### Part 1: Solve the Knapsack Problem using Dynamic Programming. 
+1. In your README - Clearly define the problem. Give full credit to any references you use.
+1. In your README - Define in words, the 5 steps of DP as applied to this problem.
+1. Write a memoized recursive solution to this problem with hardcoded sample input of size 10.  You do not have to read sample data from a file. Write your code in `knapsack.py` and other files as needed.
+1. Print the sample input and solution output similar to how it is shown below (your structure for storing input may be different).
+
+```
+For this input:
+    List of items with size and value:
+    [[size1, value1],[size2,value2 ],.....[size10, value10]]
+    Size of knapsack: S
+
+The solution to the knapsack problem is to take these items
+    [[size3, value3], [size5,value5]]
+```
 
 
+### Part 2: Solve any other DP problem not discussed in class.
+Choose any other Dynamic Programming problem from this list []() or elsewhere. 
+1. In your README - Clearly define the problem. Give full credit to any references you use.
+1. In your README - Define in words, the 5 steps of DP as applied to this problem.
+1. Write a memoized recursive solution to this problem with hardcoded sample input of size 10.  You do not have to read sample data from a file. Write your code in `dynamic_program.py` and other files as needed.
+1. Print the sample input and solution output similar to how it is shown below with actual data from your problem. 
 
-### [Challenge 4 Rubric Document](https://docs.google.com/document/d/1mRnSLMeuHLODGGxVI1-0AsTS7lqjNiemZCO9fo1gUzg/edit?usp=sharing).
+```
+For this input:
+    XXXXX
+
+The solution is:
+    YYYYYYY
+```
+
+
+### [Challenge 4 Rubric](https://docs.google.com/document/d/1mRnSLMeuHLODGGxVI1-0AsTS7lqjNiemZCO9fo1gUzg/edit?usp=sharing)
 
 
 
