@@ -4,7 +4,7 @@
 It's your turn to tackle a real world problem using your graph theory skills.  You will chose a problem and a set of solutions to implement, using a similar approach to the [Graph Modeling Tutorial]().  You will implement graph theory solutions in python for small amounts of data within your problem scope and then innovate towards solutions when working with data at scale.  
 
 ## Project Timeline
-- **Due Date 1:** Problem choice submitted and approved.
+- **Due Date 1:** Problem choice and the three solutions you will be modeling submitted and approved.  Upload the Project Repo link to the course tracker with your proposal in the repo README.  
 - **Due Date 2:** Graph Implementation complete.
 - **Due Date 3:** Blog or Presentation complete.
 
