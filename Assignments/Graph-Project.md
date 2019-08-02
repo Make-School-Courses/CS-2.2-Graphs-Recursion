@@ -1,7 +1,9 @@
 # CS 2.2 Graph Modeling Project
 
 ## Project Description
-It's your turn to tackle a real world problem using your graph theory skills.  You will chose a problem and a set of solutions to implement, using a similar approach to the [Graph Modeling Tutorial]().  You will implement graph theory solutions in python for small amounts of data within your problem scope and then innovate towards solutions when working with data at scale.  
+It's your turn to tackle a real world problem using your graph theory skills.  You will chose a problem and a set of solutions to implement, using a similar approach to the [Graph Modeling Tutorial]().  You will implement graph theory solutions in python for small amounts of data within your problem scope and then innovate towards solutions when working with data at scale. 
+
+## [Project Rubric](https://docs.google.com/document/d/1hq2D0HFCVIqkEI0HvE3SxCUlhNkSdG1Xoe62b3g9wp4/edit?usp=sharing)
 
 ## Project Timeline
 - **Due Date 1:** Problem choice and the three solutions you will be modeling submitted and approved.  Upload the Project Repo link to the course tracker with your proposal in the repo README.  
@@ -9,6 +11,7 @@ It's your turn to tackle a real world problem using your graph theory skills.  Y
 - **Due Date 3:** Blog or Presentation complete.
 
 ## Project requirements
+
 - **Choose the problem:** Choose a problem from the provided list or a different problem that can be modeled and a graph and has solutions that can be implemented with graph algorithms from this class. You must use at least 3 different algorithms to define at least 3 different solutions.
     - **Example:** Given a network of friends, find the biggest influencer, the largest group of friends who all know each other, and the longest time it would take for a message to pass from person A to person B via friends.
 
