@@ -178,17 +178,19 @@ For this challenge, you can choose to work in pairs (recommended) or solo.  If y
 ### Part 1: Solve the Knapsack Problem using Dynamic Programming. 
 1. In your README - Clearly define the problem. Give full credit to any references you use.
 1. In your README - Define in words, the 5 steps of DP as applied to this problem.
-1. Write a memoized recursive solution to this problem with hardcoded sample input of size 10.  You do not have to read sample data from a file. Write your code in `knapsack.py` and other files as needed.
-1. Print the sample input and solution output similar to how it is shown below (your structure for storing input may be different).
+1. Write a an iterative **or** memoized recursive solution to this problem with hardcoded sample input of size 10.  You do not have to read sample data from a file. Write your code in `knapsack.py` and other files as needed.
+1. Print the sample input, optimal solution and values included in the optimal solution (if computed) similar to how it is shown below with actual data from your problem. (your structure for storing input may be different).
 
 ```
 For this input:
-    List of items with size and value:
-    [[size1, value1],[size2,value2 ],.....[size10, value10]]
-    Size of knapsack: S
+    List of items with capacity ( weight / size ) and value:
+    [[weight1, value1],[weight2,value2 ],.....[weight10, value10]]
+    Capacity of knapsack: C
 
-The solution to the knapsack problem is to take these items
-    [[size3, value3], [size5,value5]]
+The optimal solution to the knapsack problem is to take items with combined (Capacity, Value) of (C,V) 
+
+The items included in the knapsack for this optimal solution are
+    [[weight3, value3], [weight5,value5]]
 ```
 
 
@@ -196,21 +198,44 @@ The solution to the knapsack problem is to take these items
 Choose any other Dynamic Programming problem from this list []() or elsewhere. 
 1. In your README - Clearly define the problem. Give full credit to any references you use.
 1. In your README - Define in words, the 5 steps of DP as applied to this problem.
-1. Write a memoized recursive solution to this problem with hardcoded sample input of size 10.  You do not have to read sample data from a file. Write your code in `dynamic_program.py` and other files as needed.
-1. Print the sample input and solution output similar to how it is shown below with actual data from your problem. 
+1. Write an iterative **or** memoized recursive solution to this problem with hardcoded small sample input.  You do not have to read sample data from a file. Write your code in `dynamic_program.py` and other files as needed.
+1. Print the sample input, optimal solution and values included in the optimal solution (if computed) similar to how it is shown below with actual data from your problem. 
 
 ```
 For this input:
-    XXXXX
+    XXXX
 
-The solution is:
-    YYYYYYY
+The optional solution is:
+    YYYY
+
+The [values] included for this optimal solution are: 
+    ZZZZ
 ```
 
 
-### [Challenge 4 Rubric](https://docs.google.com/document/d/1mRnSLMeuHLODGGxVI1-0AsTS7lqjNiemZCO9fo1gUzg/edit?usp=sharing)
+### [Challenge 4 Rubric](https://docs.google.com/document/d/1mRnSLMeuHLODGGxVI1-0AsTS7lqjNiemZCO9fo1gUzg/edit?usp=sharing) (updated)
 
 
 
 ## Challenge 5
-- Traveling Salesman Problem
+Using your Graph ADT code, or in a completely separate program (without a graph class). Determine if a given undirected graph is Eulerian (has an Eulerian Cycle). Your code should be well documented, tested and organized. 
+
+**Input:** A file containing a undirected graph.
+
+`python3 challenge_5.py graph_data.txt`
+
+```
+G
+1,2,3,4,5
+(1,2)
+(2,3)
+(3,4)
+(4,5)
+(1,5)
+```
+
+**Output** TRUE or FALSE
+
+``` This graph is Eulerian: TRUE
+```
+[Challenge 5 Rubric](https://docs.google.com/document/d/1R3Zf4ogpu9g3dWJNxKAnnvV3c_EZ2q66lDUOJpptkjs/edit?usp=sharing)

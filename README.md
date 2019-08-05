@@ -55,7 +55,7 @@ Students by the end of the course will be able to ...
 [Dijkstra's Algorithm]: Lessons/4.Weighted-Graph-Algorithms.md
 [Advanced Recursion & Dynamic Programming]: Lessons/5.Advanced-Recursion-Dynamic-Programming.md
 [Advanced Recursion & Dynamic Programming Part 2]: Lessons/6.Advanced-Recursion-Dynamic-Programming-2.md
-[Traveling Salesman Problem]: Lessons/5.Routing-2.md
+[Traveling Salesman Problem]: Lessons/7.Traveling-Salesman.md
 [Graph Coloring and Scheduling]: Lessons/7.Graph-Coloring.md
 [Algorithm Classification]: Lessons/8.Algorithm-Classification.md
 [Advanced Modeling]: Lessons/9.Advanced-Modeling.md

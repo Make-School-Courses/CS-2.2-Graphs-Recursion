@@ -39,9 +39,8 @@ Quizzes will be given in class either using on online format, paper format, or o
 
  ## Quiz 4
   ### Dynamic Programming
- - Explain the 5 steps of dynamic programming.
+ - Explain the 5 steps of Dynamic Programming.
  - Find a recurrence relation from a sub problem definition.
- - Memoize a recursive algorithm implementation.
- - Build the non-recursive approach to a recursive, memoized method.
  - Find the overlapping sub problems from a problem.
- - Decide if Divide & Conquer or Dynamic Programming is the best approach to  a given problem.
+ - Decide & Explain when Divide & Conquer or Dynamic Programming is the best approach to  a given problem.
+ - Define memoization and how it speeds up a Dynamic Programming solution.
