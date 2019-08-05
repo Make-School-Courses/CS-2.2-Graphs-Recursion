@@ -260,6 +260,8 @@ G
 
 **Output** TRUE or FALSE
 
-``` This graph is Eulerian: TRUE
+``` 
+This graph is Eulerian: TRUE
+
 ```
 [Challenge 5 Rubric](https://docs.google.com/document/d/1R3Zf4ogpu9g3dWJNxKAnnvV3c_EZ2q66lDUOJpptkjs/edit?usp=sharing)
