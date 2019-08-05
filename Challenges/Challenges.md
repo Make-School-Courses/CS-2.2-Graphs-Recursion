@@ -178,7 +178,7 @@ For this challenge, you can choose to work in pairs (recommended) or solo.  If y
 ### Part 1: Solve the Knapsack Problem using Dynamic Programming. 
 1. In your README - Clearly define the problem. Give full credit to any references you use.
 1. In your README - Define in words, the 5 steps of DP as applied to this problem.
-1. Write a an iterative **or** memoized recursive solution to this problem with hardcoded sample input of size 10.  You do not have to read sample data from a file. Write your code in `knapsack.py` and other files as needed.
+1. Write a an **iterative or memoized recursive solution** to this problem with hardcoded sample input.  You do not have to read sample data from a file. Write your code in `knapsack.py` and other files as needed.
 ```python
 def knapsack(C, items, n):
   ''' A  method to determine the maximum value of the items included in the knapsack 
@@ -193,7 +193,7 @@ without exceeding the capacity  C
     Returns: max value
 '''
 ```
-1. Print the sample input and optimal solution
+4. Print the sample input and optimal solution
 
 ```
 For this input:
@@ -218,7 +218,7 @@ The items included in the knapsack for this optimal solution are
 Choose any other Dynamic Programming problem from this list []() or elsewhere. 
 1. In your README - Clearly define the problem. Give full credit to any references you use.
 1. In your README - Define in words, the 5 steps of DP as applied to this problem.
-1. Write an iterative **or** memoized recursive solution to this problem with hardcoded small sample input.  You do not have to read sample data from a file. Write your code in `dynamic_program.py` and other files as needed.
+1. Write an **iterative or memoized recursive solution** to this problem with hardcoded small sample input.  You do not have to read sample data from a file. Write your code in `dynamic_program.py` and other files as needed.
 1. Print the sample input and optimal solution.
 
 ```
