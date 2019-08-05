@@ -41,6 +41,5 @@ Quizzes will be given in class either using on online format, paper format, or o
   ### Dynamic Programming
  - Explain the 5 steps of Dynamic Programming.
  - Find a recurrence relation from a sub problem definition.
- - Find the overlapping sub problems from a problem.
- - Decide & Explain when Divide & Conquer or Dynamic Programming is the best approach to  a given problem.
+ - Draw a recursion tree from a recursive implementation of a dynamic programming problem.
  - Define memoization and how it speeds up a Dynamic Programming solution.
