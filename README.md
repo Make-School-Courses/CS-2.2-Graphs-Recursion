@@ -56,8 +56,7 @@ Students by the end of the course will be able to ...
 [Advanced Recursion & Dynamic Programming]: Lessons/5.Advanced-Recursion-Dynamic-Programming.md
 [Advanced Recursion & Dynamic Programming Part 2]: Lessons/6.Advanced-Recursion-Dynamic-Programming-2.md
 [Traveling Salesman Problem]: Lessons/7.Traveling-Salesman.md
-[Graph Coloring and Scheduling]: Lessons/7.Graph-Coloring.md
-[Algorithm Classification]: Lessons/8.Algorithm-Classification.md
+[Graph Coloring and Scheduling]:  Lessons/8.Algorithm-Classification.md
 [Advanced Modeling]: Lessons/9.Advanced-Modeling.md
 
 ## Class Assignments
@@ -74,7 +73,7 @@ Students by the end of the course will be able to ...
 ### Projects
 
 - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)
-
+ - [Project Rubric](https://docs.google.com/document/d/1hq2D0HFCVIqkEI0HvE3SxCUlhNkSdG1Xoe62b3g9wp4/edit?usp=sharing)
 ## Evaluation
 
 To pass this course you must meet the following requirements ( submit to [course progress tracker](https://docs.google.com/spreadsheets/d/15hcKLR304z73YXmMATaA9FvrAi5rWPnLyISCwZMwNXE/edit#gid=0)

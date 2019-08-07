@@ -6,22 +6,23 @@ It's your turn to tackle a real world problem using your graph theory skills.  Y
 ## [Project Rubric](https://docs.google.com/document/d/1hq2D0HFCVIqkEI0HvE3SxCUlhNkSdG1Xoe62b3g9wp4/edit?usp=sharing)
 
 ## Project Timeline
-- **Due Date 1:** Problem choice and the three solutions you will be modeling submitted and approved.  Upload the Project Repo link to the course tracker with your proposal in the repo README.  
-- **Due Date 2:** Graph Implementation complete.
-- **Due Date 3:** Blog or Presentation complete.
+- **Due Date 1: Monday July 29 ** Problem choice and the three solutions you will be modeling submitted and approved.  Upload the Project Repo link to the course tracker with your proposal in the repo README.  
+- **Due Date 2: Friday August 9** Graph Implementation complete in your Project Repo.  
+- **Due Date 3: Monday August 12** Blog or Presentation published / delivered.
 
-## [Project Rubric](https://docs.google.com/document/d/1hq2D0HFCVIqkEI0HvE3SxCUlhNkSdG1Xoe62b3g9wp4/edit?usp=sharing) 
 
 ## Project requirements
 
 - **Choose the problem:** Choose a problem from the provided list or a different problem that can be modeled and a graph and has solutions that can be implemented with graph algorithms from this class. You must use at least 3 different algorithms to define at least 3 different solutions.
     - **Example:** Given a network of friends, find the biggest influencer, the largest group of friends who all know each other, and the longest time it would take for a message to pass from person A to person B via friends.
 
-- **Model the problem:** Represent the problem and the desired solutions using graphs and graph theory.
+
+- **Model the problem:** Represent the problem and the desired solutions using graphs, graph properties and algorithms.
     - **Example:** The network of friends is modeled with each person being a vertex in a graph and an edge between any two people if they are friends.  
         - The biggest influencer is the maximum degree of the graph.
         - The largest group of friends is the maximal clique number in the graph.  This can be approximated by Turán's theorem.
         - The time to send a message is the shortest path which can be found via Dijkstra's Algorithm.
+
 
 - **Implement Graph and Algorithms in Python:** Create a python program (from scratch not using graph libraries) that can read in a small (n < 30) version of your problem from a text file and solve the algorithms above. Your code should be:
   - fully documented,
@@ -33,8 +34,19 @@ It's your turn to tackle a real world problem using your graph theory skills.  Y
   - Is your problem still solvable?
   - What is the time complexity of the algorithms you are using?
   - Discuss in your GitHub README and associated Summary.  
-  - If possible, implement a more scalable solution using tools like Dynamic Programming or by using a different algorithm that solves the same problem faster.   
-- **Blog or Present:** Create a presentation or blog post of your project according to the [Presentation Rubric](https://docs.google.com/document/d/1WTLcZNyvRGYDz5L8Kr8a0ILbFAyr92u85paoqGFjxPg/edit?usp=sharing) or [Blog Post Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit?usp=sharing).
+  - [Stretch] If possible, implement a more scalable solution using tools like Dynamic Programming or by using a different algorithm that solves the same problem faster.   
+- **Blog or Present:** Create a presentation or blog post of your project.
+  - **Presentation** Your presentation should take 5 minutes and have at least 4 slides covering:
+    - Problem context (real world situation)
+    - Graph model of problem context with sample data.
+    - 3 solving / discovering in your problem context with a brief description of the results and the algorithm used to find these results.  
+    - You do not have to present how the algorithms work in detail, but you should be able to answer questions about them.
+ - **Blog** Your blog needs to be published on medium and should cover the following:
+    - Problem context (real world situation)
+    - Graph model of problem context with sample data.
+    - 3 things you are solving / discovering in your problem context with a brief description of the results and the algorithm used to find these results.  
+    - You do not have to describe how the algorithms work in detail, but you should clearly illustrate how that algorithm produces the result in each situation and link to full algorithm descriptions on wikipedia or elsewhere. 
+ - **Scoring**Your presentation or blog will be scored using the Presentation or Blog portion of the [Project Rubric](https://docs.google.com/document/d/1hq2D0HFCVIqkEI0HvE3SxCUlhNkSdG1Xoe62b3g9wp4/edit?usp=sharing) 
 
 
 ## Stretch Project Requirements
