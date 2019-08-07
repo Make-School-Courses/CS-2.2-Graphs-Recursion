@@ -56,7 +56,7 @@ Students by the end of the course will be able to ...
 [Advanced Recursion & Dynamic Programming]: Lessons/5.Advanced-Recursion-Dynamic-Programming.md
 [Advanced Recursion & Dynamic Programming Part 2]: Lessons/6.Advanced-Recursion-Dynamic-Programming-2.md
 [Traveling Salesman Problem]: Lessons/7.Traveling-Salesman.md
-[Graph Coloring and Scheduling]:  Lessons/8.Algorithm-Classification.md
+[Algorithm Classification]:  Lessons/8.Algorithm-Classification.md
 [Advanced Modeling]: Lessons/9.Advanced-Modeling.md
 
 ## Class Assignments
