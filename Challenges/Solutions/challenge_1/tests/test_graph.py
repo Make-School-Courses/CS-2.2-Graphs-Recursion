@@ -1,10 +1,10 @@
 import unittest
-from graph import Graph
-from vertex import Vertex
+from src.graph import Graph
+from src.vertex import Vertex
 
 class GraphTest(unittest.TestCase):
     def test_add_vertex(self):
-        graph = Graph()
+        graph = Graph(True)
         graph.add_vertex("apple")
         graph.add_vertex("banana")
 
@@ -13,7 +13,7 @@ class GraphTest(unittest.TestCase):
 
 
     def test_add_edge(self):
-        graph = Graph()
+        graph = Graph(True)
         graph.add_vertex("apple")
         graph.add_vertex("banana")
         graph.add_vertex("coconut")
@@ -31,6 +31,19 @@ class GraphTest(unittest.TestCase):
         self.assertCountEqual(
             ["apple", "banana", "coconut", "pineapple", "strawberry"],
             graph.get_vertices())
+    
+    def test_get_edge_as_tuple(self):
+        graph = Graph(True)
+        v1 = graph.add_vertex("apple")
+        v2 = graph.add_vertex("banana")
+        v3 = graph.add_vertex("coconut")
+
+        graph.add_edge("apple", "banana")
+        graph.add_edge("apple", "coconut", 3)
+
+        self.assertEqual(("apple", "banana"), graph.get_edge_as_tuple(v1, v2))
+        self.assertEqual(
+            ("apple", "coconut", 3), graph.get_edge_as_tuple(v1, v3))
 
 if __name__ == "__main__":
     unittest.main()

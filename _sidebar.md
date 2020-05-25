@@ -1,6 +1,6 @@
 - **[Syllabus](README.md)**
 - **Lessons**
-  - [Lesson 1](Lessons/Lesson1.md)
+  - [Intro to Graph Theory](Lessons/01-Intro-to-Graph-Theory)
   - [Lesson 2](Lessons/Lesson2.md)
   - [Lesson 3](Lessons/Lesson1.md)
   - [Lesson 4](Lessons/Lesson1.md)

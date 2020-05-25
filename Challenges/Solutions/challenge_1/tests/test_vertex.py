@@ -1,5 +1,5 @@
 import unittest
-from vertex import Vertex
+from src.vertex import Vertex
 
 class VertexTest(unittest.TestCase):
     def test_add_neighbor(self):

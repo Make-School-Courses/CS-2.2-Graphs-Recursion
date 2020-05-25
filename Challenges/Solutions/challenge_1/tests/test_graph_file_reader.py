@@ -1,5 +1,5 @@
 import unittest
-from graph_file_reader import read_from_file
+from src.graph_file_reader import read_from_file
 
 class FileInputTest(unittest.TestCase):
     """Test the graph output of reading from a file."""
@@ -21,20 +21,19 @@ class FileInputTest(unittest.TestCase):
 
     def test_basic_input(self):
         result_graph = read_from_file("test_inputs/simple.txt")
-        self.assertEqual(4, result_graph.num_vertices)
+        self.assertEqual(4, result_graph.get_num_vertices())
         self.assertCountEqual(
             result_graph.get_vertices(),
             ['1', '2', '3', '4'])
         
-        self.assertEqual(6, result_graph.get_num_edges())
+        self.assertEqual(3, result_graph.get_num_edges())
         self.assertCountEqual(
-            [('1', '2'), ('1', '3'), ('2', '1'), 
-             ('2', '4'), ('3', '1'), ('4', '2')],
+            [('1', '2'), ('1', '3'), ('2', '4')],
             result_graph.get_edges())
 
     def test_extra_vertex(self):
         result_graph = read_from_file("test_inputs/extra_vertex.txt")
-        self.assertEqual(5, result_graph.num_vertices)
+        self.assertEqual(5, result_graph.get_num_vertices())
         self.assertCountEqual(
             result_graph.get_vertices(),
             ['1', '2', '3', '4', '6'])
@@ -47,7 +46,7 @@ class FileInputTest(unittest.TestCase):
 
     def test_unused_vertex(self):
         result_graph = read_from_file("test_inputs/unused_vertex.txt")
-        self.assertEqual(5, result_graph.num_vertices)
+        self.assertEqual(5, result_graph.get_num_vertices())
         self.assertCountEqual(
             result_graph.get_vertices(),
             ['1', '2', '3', '4', '5'])
@@ -60,7 +59,7 @@ class FileInputTest(unittest.TestCase):
 
     def test_weighted(self):
         result_graph = read_from_file("test_inputs/weighted.txt")
-        self.assertEqual(5, result_graph.num_vertices)
+        self.assertEqual(5, result_graph.get_num_vertices())
         self.assertCountEqual(
             result_graph.get_vertices(),
             ['1', '6', '10', '15', '21'])
@@ -75,7 +74,7 @@ class FileInputTest(unittest.TestCase):
                 ('15','1',10),
                 ('1','21',5)
             ],
-            result_graph.get_edges_weighted())
+            result_graph.get_edges())
 
 if __name__ == "__main__":
     unittest.main()

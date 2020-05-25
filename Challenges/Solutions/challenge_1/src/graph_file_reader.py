@@ -1,4 +1,4 @@
-from graph import Graph
+from src.graph import Graph
 
 def read_from_file(filename):
     """Read from a file located at `filename` and return the corresponding graph object."""
@@ -10,9 +10,9 @@ def read_from_file(filename):
     graph_or_digraph_str =  lines[0].strip() if len(lines) > 0 else None
     if graph_or_digraph_str != "G" and graph_or_digraph_str != "D":
         raise Exception("File must start with G or D.")
-    is_bidirectional = graph_or_digraph_str == "G"
+    is_directed = graph_or_digraph_str == "D"
 
-    g = Graph()
+    g = Graph(is_directed)
 
     # Add all vertices
     for vertex_key in lines[1].strip("() \n").split(","):
@@ -33,7 +33,5 @@ def read_from_file(filename):
 
         # Add edge(s)
         g.add_edge(vertex1, vertex2, weight)
-        if is_bidirectional:
-            g.add_edge(vertex2, vertex1, weight)
 
     return g
