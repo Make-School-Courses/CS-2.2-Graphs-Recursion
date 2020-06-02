@@ -134,7 +134,7 @@ For example, using the graph above:
 
 Your solution should be similar to the `find_shortest_path` method shown above. You may want to start by writing pseudocode, then writing real code.
 
-_**TIP**_: Make sure you clearly understand whether each variable created is referring to the "id" of a vertex (that is, the string _label_ that defines it, such as `'A'`), or the `Vertex` object itself, and name your variables accordingly by suffixing them with `_id` or `_obj`. This will prevent a lot of confusion down the line!
+_**TIP**: Make sure you clearly understand whether each variable created is referring to the "id" of a vertex (that is, the string **label** that defines it, such as `'A'`), or the `Vertex` object itself, and name your variables accordingly by suffixing them with `_id` or `_obj`. This will prevent a lot of confusion down the line!_
 
 To test your code, make sure you run `main.py` to test manually, and run the provided unit tests with `python3 -m unittest discover`.
 
