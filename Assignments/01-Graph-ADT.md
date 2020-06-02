@@ -26,7 +26,7 @@ Follow the steps below to set up your GitHub repository for this course.
 
 **Step 1**: Set up your local clone of the starter code repo on your computer.
 
-1. Clone the [Homework 1 starter code]() to your local machine.
+1. Clone the [Homework 1 starter code](https://github.com/Make-School-Labs/Graph-ADT-Starter-Code) to your local machine.
 1. Go to [GitHub.com](https://github.com) and create an _empty_, public repository to contain your code. Do not initialize it with a README.
 1. Set the origin remote's URL on your local repo to point to your new repo on GitHub: `git remote set-url origin https://github.com/<your-username>/<your-repo-name>.git`.
 1. Push your local repo to your remote GitHub repo to link your master branch to your origin remote: `git push -u origin master`
@@ -35,7 +35,7 @@ Follow the steps below to set up your GitHub repository for this course.
 
 **Step 2**: Connect your local clone of this course repo to the _upstream_ repo on GitHub.
 
-1. Add the starter code's upstream repo as another remote to your local repo with: `git remote add upstream https://github.com/Make-School-Courses/CS-2.1-Trees-Sorting.git`
+1. Add the starter code's upstream repo as another remote to your local repo with: `git remote add upstream https://github.com/Make-School-Labs/Graph-ADT-Starter-Code.git`
 1. Verify that you have two remotes: `origin` (with your username in the URL) and `upstream` (with Make-School-Labs) with `git remote -v`
 1. When you want to access new starter code for future assignments, first be sure you've committed and pushed your recent work (run `git status` to check) and then pull from the course's upstream repo with: `git pull upstream master`.
 
@@ -148,7 +148,7 @@ In your repository's `README.txt`, answer the following discussion questions:
 
 ## Submission
 
-Submit your code for Assignment 1 using [Gradescope](https://gradescope.com).
+Submit your code for Assignment 1 using [Gradescope](https://gradescope.com) using the GitHub integration feature. If you are unable to submit for any reason, please reach out to your instructor.
 
 ## Resources
 
