@@ -149,3 +149,9 @@ table>tbody>tr>td::before {
   text-decoration: none;
   color: white;
 }
+
+.alert-text {
+    font-size: 0.8em;
+    color: red;
+    font-weight: bold;
+}
