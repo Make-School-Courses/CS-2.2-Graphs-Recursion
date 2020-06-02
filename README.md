@@ -42,7 +42,7 @@ All assignments are due by **Midnight, 11:59PM on the day specified.**
 |  10 | Thurs, July 2 | [More Max Flow](Lessons/10-More-Max-Flow) <span class="alert-text">OPTIONAL</span><br><strong>OR</strong><br>[Review Lesson #2](Lessons/10-Review-II) | - |
 |  11 | Tues, July 7 | [NP-Complete Algorithms](Lessons/13-NP-Complete) | [Homework 5a: Max Flow](Assignments/05-Dynamic-Programming) <br><strong>OR</strong><br> [Homework 5b: Review]() |
 |  12 | Thurs, July 9 | [Applications & Problem-Solving](Lessons/11-Graph-Applications) | - |
-|  13 | Tues, July 14 | [Applications & Problem-Solving LAB](Lessons/12-Graph-Applications-Lab) | - | [Quiz 3: Cumulative Assessment](Assessments/Quiz-3-Study-Guide) |
+|  13 | Tues, July 14 | Lab & Work Time | - | [Quiz 3: Cumulative Assessment](Assessments/Quiz-3-Study-Guide) |
 |  14 | Thurs, July 16 | Final Project Presentations | [Final Project](Projects/Graph-Project) |
 
 ## Class Assignments
@@ -53,6 +53,20 @@ This course includes 5 assignments, assigned weekly and linked in the schedule a
 
 - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)
   - [Project Rubric](https://docs.google.com/document/d/1hq2D0HFCVIqkEI0HvE3SxCUlhNkSdG1Xoe62b3g9wp4/edit?usp=sharing)
+
+## Late Assignment Policy
+
+If you submit an assignment after the due date, your instructor will apply a late penalty as follows:
+
+- Late assignments that are submitted **no later that 2 days (48 hours)** after the deadline will be given a **10% late penalty**.
+- Another **10% late penalty** will be applied for **every 2 days (48 hours)** that pass after the deadline. For example, an assignment that is submitted 5 days late will receive a 30% late penalty.
+- Assignments submitted **more than 7 days (1 week) late** will **not** be accepted.
+
+Late assignment penalties **do not apply** to resubmissions. You may redo and resubmit your old assignments as many times as you would like up to the final course deadline. _**In other words, I will only consider your first submission when applying a late penalty.**_
+
+The **absolute last day** to submit any assignment will be **Friday, July 17 at 11:59 PM**.
+
+If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
 
 ## Class Recordings
 
