@@ -123,7 +123,7 @@ Run the method on a graph by running `main.py` and make sure it works as intende
 
 Complete the `find_vertices_n_away` method in the `Graph` class. This method should use breadth-first search to find all vertices that are `n` away from the start vertex, for some `n`.
 
-<img src="Lessons/Assets/graph.png" width="500px">
+<img src="Lessons/assets/graph.png" width="500px">
 
 For example, using the graph above:
 
