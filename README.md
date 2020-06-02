@@ -21,7 +21,7 @@ Students by the end of the course will be able to ...
 
 **Course Dates:** Tuesday, June 2 – Thursday, July 16, 2012 (7 weeks)
 
-**Class Times:** Tuesday and Thursday from 2:30–5:15pm
+**Class Times:** Tuesday and Thursday from 2:00–4:45pm
 
 All assignments are due **by midnight (11:59pm) on the day specified.**
 
@@ -90,6 +90,7 @@ The following resources were used in developing this course and are a great plac
 - [Runestone Academy Data Structures and Algorithms](https://runestone.academy/runestone/static/pythonds/index.html)
 
 ## A note on code:
+
 Much of the code you will be implementing in this class is for standard algorithms and thus is readily available from many sources. By using these resources, we can focus on deepening our understanding of the algorithms themselves and on the process of solving real world problems with these algorithms.  This means it may be likely that class members will have relatively similar algorithmic implementations, however, in keeping with the [Academic Honesty Policy](https://make.sc/academic-honesty-policy), you are expected to always give credit to code sources (online or classmates), write each line of code yourself with full understanding, add appropriate comments, and fully test your code.
 
 ## Make School Course Policies
