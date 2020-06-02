@@ -23,7 +23,7 @@ Students by the end of the course will be able to ...
 
 **Class Times:** Tuesday and Thursday from 2:30–5:15pm
 
-All assignments are due by **midnight, 11:59PM on the day specified.**
+All assignments are due **by midnight (11:59pm) on the day specified.**
 
 | Class | Date | Topics | Assignments Due | Assessment |
 |:-----:|:----:|:------:| :---------: | :--------: |
