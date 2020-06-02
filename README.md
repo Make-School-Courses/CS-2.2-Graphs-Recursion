@@ -2,9 +2,6 @@
 
 This course covers graph theory, data structures, algorithms, and analysis. Key concepts include graph traversals, pathfinding, recursion, greedy algorithms, memoization and dynamic programming. Students will build an original project whose underlying structure requires the use of graph structures and algorithms to solve real-world problems such as airplane routing, social networking, and board games.
 
-
-### Why you should know this:
-
 Graphs can be used to model and solve a wide variety of problems, including systems of roads, airline flights from city to city, how the Internet is connected, or even the sequence of classes you must take to complete your degree here at Make School! Understanding graphs allows you to build models of these problems and use those models to find optimal or best case solutions.
 
 ## Prerequisites:  
@@ -26,7 +23,7 @@ Students by the end of the course will be able to ...
 
 **Class Times:** Tuesday and Thursday from 2:30–5:15pm
 
-All assignments are due by **Midnight, 11:59PM on the day specified.**
+All assignments are due by **midnight, 11:59PM on the day specified.**
 
 | Class | Date | Topics | Assignments Due | Assessment |
 |:-----:|:----:|:------:| :---------: | :--------: |
@@ -54,6 +51,19 @@ This course includes 5 assignments, assigned weekly and linked in the schedule a
 - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)
   - [Project Rubric](https://docs.google.com/document/d/1hq2D0HFCVIqkEI0HvE3SxCUlhNkSdG1Xoe62b3g9wp4/edit?usp=sharing)
 
+## Evaluation
+
+**To pass this course, you must earn at least a 70% weighted average, according to the following breakdown**:
+
+- Assignments & Class Participation: 50%
+- Quizzes/Assessments: 30%
+- Final Project: 20%
+
+In order to pass this course, you must also:
+
+- Actively participate in class and abide by the attendance policy
+- Make up all classwork from all absences
+
 ## Late Assignment Policy
 
 If you submit an assignment after the due date, your instructor will apply a late penalty as follows:
@@ -72,19 +82,8 @@ If you require accommodations or have extenuating circumstances such as prolonge
 
 Recordings of the course video lectures can be found in [this shared Google Drive folder](https://drive.google.com/drive/u/0/folders/1AGfMCI75bF2JWzEFjIBoxnJSNv8H0bWu). Please do not share these files outside of Make School.
 
-## Evaluation
-
-To pass this course you must meet the following requirements:
-
-- Complete all required challenges - you will be able to resubmit some of these to improve score.
-- Pass the [Graph Properties and Algorithms Tutorial](Assignments/Graph-Tutorial.md) according to the associated [Graph Tutorial Rubric](https://docs.google.com/document/d/1ICVRzuDMIapVhpqbG7oHpk7_yCWu2bET8EYv6o_J9io/edit?usp=sharing)
-- Pass the - [Graph Properties and Algorithms Project](Assignments/Graph-Project.md)  according to the associated [Project Rubric](https://docs.google.com/document/d/1hq2D0HFCVIqkEI0HvE3SxCUlhNkSdG1Xoe62b3g9wp4/edit?usp=sharing)
-- Pass the 4 quizzes given during the term (1 retake allowed at the end of the term).  See the [Quiz Study Guide](Assignments/Quiz-Study-Guide.md) for more information.
-
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
-
 ## Resources
+
 The following resources were used in developing this course and are a great place to start for learning more.  These resources are used through the Attribution / Share Alike license.
 - [Geeks for Geeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 - [Wikipedia Graph Theory](https://en.wikipedia.org/wiki/Graph_theory)
