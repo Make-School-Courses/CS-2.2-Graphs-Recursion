@@ -1,6 +1,6 @@
 # Graph Traversals with Breadth-first Search
 
-### [Slides](https://docs.google.com/presentation/d/1bfFSSSj4j9H5nefw1gJfwvViPXt1RzdiyQ6l6ET2wAA/edit#slide=id.g87acb17775_0_437)
+### [Slides](https://docs.google.com/presentation/d/1bfFSSSj4j9H5nefw1gJfwvViPXt1RzdiyQ6l6ET2wAA/edit)
 
 ## Learning Objectives
 
