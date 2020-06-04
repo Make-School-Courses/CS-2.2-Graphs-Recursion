@@ -33,6 +33,27 @@ A **connected component** of a graph is a set of vertices for which there is a p
 
 A **bipartite graph** is a graph whose vertices can be categorized into 2 groups (colors), such that no two vertices in the same group (color) are connected by an edge.
 
+## Activity: Pair Programming
+
+With your group of 3, choose who will be the _driver_, the _navigator_, and the _observer_.
+
+- **Driver**: Share your screen & type in code according to the navigator’s instructions
+- **Navigator**: Decide what to do next & how to solve the problem
+- **Observer**: Give feedback and help your group if they are stuck!
+
+Write pseudocode and then real code for the following methods:
+
+```py
+class Graph:
+    def is_bipartite(self):
+        """Return True if the graph is bipartite, False otherwise."""
+        # ...
+
+    def get_connected_components(self):
+        """Return a list of connected components."""
+        # ...
+```
+
 ## Homework
 
 - [Homework 1](Assignments/01-Graph-ADT): Implement the Graph ADT.
