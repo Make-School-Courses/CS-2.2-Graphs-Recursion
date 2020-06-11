@@ -1,5 +1,7 @@
 # Quiz 1: Graph Traversals
 
+You should be able to understand and explain graph traversal algorithms, including:
+
 - Implement Breadth-first Search / Traversal on a graph or digraph.
 - Implement Recursive Depth-first Search on a graph or digraph.
 - Write pseudocode for BFS, Iterative DFS or Recursive DFS.
