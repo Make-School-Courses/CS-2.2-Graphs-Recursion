@@ -1,6 +1,12 @@
-# Quiz 1: Graph Traversals
+# Quiz 1: Graph Properties and Traversals
 
-You should be able to understand and explain graph traversal algorithms, including:
+Graph properties:
+
+- Given a problem (e.g. find a path from place A to place B), identify the vertices and edges and describe the problem in terms of a graph.
+- Compare and contrast directed & undirected graphs
+- Compare and contrast connected & disconnected graphs
+
+Graph traversals:
 
 - Implement Breadth-first Search / Traversal on a graph or digraph.
 - Implement Recursive Depth-first Search on a graph or digraph.
