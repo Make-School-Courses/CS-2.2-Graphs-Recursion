@@ -2,15 +2,14 @@
 
 In this assignment, you'll continue to practice graph traversals using the algorithms we've studied so far.
 
-Scoring for this assignment is as follows:
+You will need to complete **3 out of 4** of the problems in order to earn full credit. Scoring for this assignment is as follows:
 
 | Criteria | Possible |
 | :------: | :------: |
-| Number of Islands | `15` |
-| Rotting Oranges | `15` |
-| Course Scheduler | `15` |
-| Word Ladder | `15` |
-| **TOTAL** | **60** |
+| Problem #1 | `15` |
+| Problem #2 | `15` |
+| Problem #3 | `15` |
+| **TOTAL** | **`45`** |
 
 ## Instructions
 
@@ -20,7 +19,7 @@ Initialize a Git repository in your project folder, create a repository on [GitH
 
 Create a file called `challenges.py` which will store your solution code.
 
-## Problem 1: Number of Islands _(15 points)_
+## Problem 1: Number of Islands
 
 Write a function, `numIslands`, which takes in a 2D grid map of `1`s (land) and `0`s (water). Your function should return the number of distinct islands in the grid. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 
@@ -76,7 +75,7 @@ assert numIslands(map2) == 3
 Text and examples from: LeetCode [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 
-## Problem 2: Rotting Oranges _(15 points)_
+## Problem 2: Rotting Oranges
 
 Write a function, `timeToRot`, which takes in a grid of numbers, each of which is one of the following three values:
 
@@ -152,7 +151,7 @@ assert timeToRot(oranges3) == 0
 
 Text and examples from: LeetCode [Rotten Oranges](https://leetcode.com/problems/rotting-oranges/)
 
-## Problem 3: Class Scheduling _(15 points)_
+## Problem 3: Class Scheduling
 
 There are a total of `n` courses you have to take, labeled from `0` to `n-1`.
 
