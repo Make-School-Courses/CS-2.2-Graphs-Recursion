@@ -1,5 +1,7 @@
 # Topological Sort
 
+### [Slides](https://docs.google.com/presentation/d/1OKrGMviXcOSTGujs1ZNOemUHegLOcLlJUHEy0G6SdkY/edit?usp=sharing)
+
 ## Learning Objectives
 
 By the end of today, you should be able to...
