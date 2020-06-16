@@ -31,13 +31,13 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  2 | Thurs, June 4 | [Graph Traversals: Breadth-first Search](Lessons/02-Graph-Traversals-BFS) | - |
 |  3 | Tues, June 9 | [Graph Traversals: Depth-first Search](Lessons/03-Graph-Traversals-DFS) | [Homework 1: Graph ADT](Assignments/01-Graph-ADT) |
 |  4 | Thurs, June 11 | [Topological Sort](Lessons/04-Topological-Sort) | - |  |
-|  5 | Tues, June 16 | [Weighted Graph Algorithms - Dijkstra & Prim](Lessons/05-Weighted-Graphs) | [Homework 2: Graph Traversals](Assignments/02-Graph-Traversals) | [Quiz 1: Graph Properties & Traversals](Assessments/Quiz-1-Study-Guide) |
-|  6 | Thurs, June 18 | [Weighted Graph Algorithms - Kruskal & Floyd-Warshall](Lessons/06-More-Weighted-Graphs) | - |
-|  7 | Tues, June 23 | [Recursion & Dynamic Programming Part 1](Lessons/07-Dynamic-Programming) | [Homework 3: Weighted Graphs](Assignments/03-Weighted-Graphs) |
-|  8 | Thurs, June 25 | [Recursion & Dynamic Programming Part 2](Lessons/08-More-Dynamic-Programming) | - |
-|  9 | Tues, June 30 | [Max Flow Algorithms](Lessons/09-Max-Flow) <span class="alert-text">OPTIONAL</span><br><strong>OR</strong><br>[Review Lesson #1](Lessons/09-Review-I) | [Homework 4: Dynamic Programming](Assignments/04-Dynamic-Programming)<br>Final Project Proposal | [Quiz 2: Weighted Graphs & Dynamic Programming](Assessments/Quiz-2-Study-Guide) |
-|  10 | Thurs, July 2 | [More Max Flow](Lessons/10-More-Max-Flow) <span class="alert-text">OPTIONAL</span><br><strong>OR</strong><br>[Review Lesson #2](Lessons/10-Review-II) | - |
-|  11 | Tues, July 7 | [NP-Complete Algorithms](Lessons/13-NP-Complete) | [Homework 5a: Max Flow](Assignments/05-Dynamic-Programming) <br><strong>OR</strong><br> [Homework 5b: Review]() |
+|  5 | Tues, June 16 | [Graph Applications](https://docs.google.com/presentation/d/1ykYtxuS-L2UemvAykJrW0m11oTyCyDrB6gQbTzaz6jE/edit?usp=sharing) | [Homework 2: Graph Traversals](Assignments/02-Graph-Traversals) | [Quiz 1: Graph Properties & Traversals](Assessments/Quiz-1-Study-Guide) |
+|  6 | Thurs, June 18 | [Weighted Graph Algorithms - Dijkstra & Prim](Lessons/05-Weighted-Graphs) | - |
+|  7 | Tues, June 23 | [Weighted Graph Algorithms - Kruskal & Floyd-Warshall](Lessons/06-More-Weighted-Graphs) | [Homework 3: Graph Applications](Assignments/03-Graph-Applications) |
+|  8 | Thurs, June 25 | [Recursion & Dynamic Programming Part 1](Lessons/07-Dynamic-Programming) | - |
+|  9 | Tues, June 30 | [Recursion & Dynamic Programming Part 2](Lessons/08-More-Dynamic-Programming) | [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs)<br>Final Project Proposal | [Quiz 2: Weighted Graphs & Dynamic Programming](Assessments/Quiz-2-Study-Guide) |
+|  10 | Thurs, July 2 | Review | - |
+|  11 | Tues, July 7 | [NP-Complete Algorithms](Lessons/13-NP-Complete) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) |
 |  12 | Thurs, July 9 | [Applications & Problem-Solving](Lessons/11-Graph-Applications) | - |
 |  13 | Tues, July 14 | Lab & Work Time | - | [Quiz 3: Cumulative Assessment](Assessments/Quiz-3-Study-Guide) |
 |  14 | Thurs, July 16 | Final Project Presentations | [Final Project](Projects/Graph-Project) |
