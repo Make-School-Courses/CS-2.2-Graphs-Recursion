@@ -20,9 +20,8 @@
 - **Homeworks**
   - [Homework 1: Graph ADT](Assignments/01-Graph-ADT)
   - [Homework 2: Graph Traversals](Assignments/02-Graph-Traversals)
-  - [Homework 3: Weighted Graphs](Assignments/03-Weighted-Graphs)
-  - [Homework 4: Dynamic Programming](Assignments/04-Dynamic-Programming)
-  - [Homework 5a: Max Flow](Assignments/05-Dynamic-Programming)
-  - [Homework 5b: Review](Assignments/05-Review)
+  - [Homework 3: Graph Applications](Assignments/03-Graph-Applications)
+  - [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs)
+  - [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming)
 - **Project**
   - [Graph Project](Projects/Graph-Project)
