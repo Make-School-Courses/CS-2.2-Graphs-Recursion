@@ -8,7 +8,7 @@ In this assignment, you'll practice implementing **weighted graph algorithms**, 
 | Kruskal's Algorithm | `15` |
 | Prim's Algorithm | `15` |
 | Dijkstra's Algorithm | `15` |
-| **TOTAL** | **`45`** |
+| **TOTAL** | **`60`** |
 
 ## Instructions
 
