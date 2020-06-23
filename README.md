@@ -33,7 +33,7 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  4 | Thurs, June 11 | [Topological Sort](Lessons/04-Topological-Sort) | - |  |
 |  5 | Tues, June 16 | [Graph Applications](https://docs.google.com/presentation/d/1ykYtxuS-L2UemvAykJrW0m11oTyCyDrB6gQbTzaz6jE/edit?usp=sharing) | [Homework 2: Graph Traversals](Assignments/02-Graph-Traversals) | [Quiz 1: Graph Properties & Traversals](Assessments/Quiz-1-Study-Guide) |
 |  6 | Thurs, June 18 | [Weighted Graph Algorithms - Overview](https://docs.google.com/presentation/d/1mvH1YpsiDTl8T_fB6xYF_gkwF_M11DDCme8Agd0EACc/edit?usp=sharing) | - |
-|  7 | Tues, June 23 | [Weighted Graph Algorithms - Implementation](Lessons/06-More-Weighted-Graphs) | [Homework 3: Graph Applications](Assignments/03-Graph-Applications) |
+|  7 | Tues, June 23 | [Weighted Graph Algorithms - Implementation](https://docs.google.com/presentation/d/1UGOzxEXlPRV-Mlwfg-hEBovL-3ZkAQgUlaZbmJzt3fU/edit?usp=sharing) | [Homework 3: Graph Applications](Assignments/03-Graph-Applications) |
 |  8 | Thurs, June 25 | [Recursion & Dynamic Programming Part 1](Lessons/07-Dynamic-Programming) | - |
 |  9 | Tues, June 30 | [Recursion & Dynamic Programming Part 2](Lessons/08-More-Dynamic-Programming) | [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs)<br>Final Project Proposal | [Quiz 2: Weighted Graphs & Dynamic Programming](Assessments/Quiz-2-Study-Guide) |
 |  10 | Thurs, July 2 | Review | - |
