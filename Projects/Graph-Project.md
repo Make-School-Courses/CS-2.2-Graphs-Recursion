@@ -6,14 +6,13 @@ It's your turn to tackle a real world problem using your graph theory skills.  Y
 ## [Project Rubric](https://docs.google.com/document/d/1hq2D0HFCVIqkEI0HvE3SxCUlhNkSdG1Xoe62b3g9wp4/edit?usp=sharing)
 
 ## Project Timeline
-- **Due Date 1: Monday July 29 ** Problem choice and the three solutions you will be modeling submitted and approved.  Upload the Project Repo link to the course tracker with your proposal in the repo README.  
-- **Due Date 2: Friday August 9** Graph Implementation complete in your Project Repo.  
-- **Due Date 3: Monday August 12** Blog or Presentation published / delivered.
-
+- **Due Date 1: Tuesday, Jun 29** Problem choice and the three solutions you will be modeling submitted and approved. Submit the project repo link in Gradescope with your proposal in the repo README.  
+- **Due Date 2: Thursday, July 9** Graph Implementation complete in your Project Repo.  
+- **Due Date 3: Thursday, July 16** Blog or Presentation published / delivered.
 
 ## Project requirements
 
-- **Choose the problem:** Choose a problem from the provided list or a different problem that can be modeled and a graph and has solutions that can be implemented with graph algorithms from this class. You must use at least 3 different algorithms to define at least 3 different solutions.
+- **Choose the problem:** Choose a problem from the provided list or a different problem that can be modeled and a graph and has solutions that can be implemented with graph algorithms from this class. **You must use at least 3 different algorithms to define at least 3 different solutions.**
     - **Example:** Given a network of friends, find the biggest influencer, the largest group of friends who all know each other, and the longest time it would take for a message to pass from person A to person B via friends.
 
 
@@ -36,12 +35,12 @@ It's your turn to tackle a real world problem using your graph theory skills.  Y
   - Discuss in your GitHub README and associated Summary.  
   - [Stretch] If possible, implement a more scalable solution using tools like Dynamic Programming or by using a different algorithm that solves the same problem faster.   
 - **Blog or Present:** Create a presentation or blog post of your project.
-  - **Presentation** Your presentation should take 5 minutes and have at least 4 slides covering:
+  - **Presentation:** Your presentation should take 5 minutes and have at least 4 slides covering:
     - Problem context (real world situation)
     - Graph model of problem context with sample data.
     - 3 solving / discovering in your problem context with a brief description of the results and the algorithm used to find these results.  
     - You do not have to present how the algorithms work in detail, but you should be able to answer questions about them.
- - **Blog** Your blog needs to be published on medium and should cover the following:
+ - **Blog:** Your blog needs to be published on Medium and should cover the following:
     - Problem context (real world situation)
     - Graph model of problem context with sample data.
     - 3 things you are solving / discovering in your problem context with a brief description of the results and the algorithm used to find these results.  
@@ -51,12 +50,17 @@ It's your turn to tackle a real world problem using your graph theory skills.  Y
 
 ## Stretch Project Requirements
 - Implement a common graph algorithm that was not covered in class on your program.
-- Use graph libraries to refactor your code implementations, benchmark and compare results.
+- Use graph libraries to refactor your code implementations, benchmark, and compare results.
 
-## List of possible problem choices:  
-(Do not choose social network as that was already covered in the tutorial)
-- Airplane Scheduling
+## Examples
+
+An example of a completed project and blog post can be found [here](https://medium.com/@sukhrobgolibboev/modeling-google-maps-using-graph-theory-b7e90a6cf3e0).
+
+## List of possible problem choices:
+(Do not choose social network as that was already covered in class examples)
+- The Internet - e.g. [Google Knowledge Graph](https://searchengineland.com/google-launches-knowledge-graph-121585), [PageRank](https://searchengineland.com/what-is-google-pagerank-a-guide-for-searchers-webmasters-11068)
+- Biology - e.g. [Food Webs](https://www.nature.com/scitable/knowledge/library/food-web-concept-and-applications-84077181/)
+- [Airplane Scheduling](http://www.math.wm.edu/~rrkinc/hmk_current/AirNets2017.pdf)
 - Computer Networks
 - Job Scheduling
-- The Internet
 - [Applications of Graph Theory](https://en.wikipedia.org/wiki/Graph_theory#Applications)
