@@ -63,4 +63,4 @@ An example of a completed project and blog post can be found [here](https://medi
 - [Airplane Scheduling](http://www.math.wm.edu/~rrkinc/hmk_current/AirNets2017.pdf)
 - Computer Networks
 - Job Scheduling
-- [Applications of Graph Theory](https://en.wikipedia.org/wiki/Graph_theory#Applications)
+- [More Applications of Graph Theory](https://en.wikipedia.org/wiki/Graph_theory#Applications)
