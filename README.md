@@ -35,12 +35,12 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  6 | Thurs, June 18 | [Weighted Graph Algorithms - Overview](https://docs.google.com/presentation/d/1mvH1YpsiDTl8T_fB6xYF_gkwF_M11DDCme8Agd0EACc/edit?usp=sharing) | - |
 |  7 | Tues, June 23 | [Weighted Graph Algorithms - Implementation](https://docs.google.com/presentation/d/1UGOzxEXlPRV-Mlwfg-hEBovL-3ZkAQgUlaZbmJzt3fU/edit?usp=sharing) | [Homework 3: Graph Applications](Assignments/03-Graph-Applications) |
 |  8 | Thurs, June 25 | [Review](https://docs.google.com/presentation/d/1Nssu35WyawQzsmKHlpJr5vfZr25MwAoLOHsV0JsZCDY/edit?usp=sharing) | - |
-|  9 | Tues, June 30 | [Recursion & Dynamic Programming Part 1](Lessons/07-Dynamic-Programming) | [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs)<br>[Final Project Phase 1: Proposal](Projects/Graph-Project) | [Quiz 2: Weighted Graphs & Dynamic Programming](Assessments/Quiz-2-Study-Guide) |
-|  10 | Thurs, July 2 | [Recursion & Dynamic Programming Part 2](Lessons/08-More-Dynamic-Programming) | - |
+|  9 | Tues, June 30 | [Recursion & Dynamic Programming Part 1](Lessons/07-Dynamic-Programming) | [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs)<br>[Final Project Phase 1: Proposal](Projects/Graph-Project) |
+|  10 | Thurs, July 2 | [Recursion & Dynamic Programming Part 2](Lessons/08-More-Dynamic-Programming) | - | [Quiz 2: Weighted Graphs & Dynamic Programming](Assessments/Quiz-2-Study-Guide) |
 |  11 | Tues, July 7 | [NP-Complete Algorithms](Lessons/13-NP-Complete) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) |
 |  12 | Thurs, July 9 | [Applications & Problem-Solving](Lessons/11-Graph-Applications) | [Final Project Phase 2: Solutions](Projects/Graph-Project) |
-|  13 | Tues, July 14 | Lab & Work Time | - | [Quiz 3: Cumulative Assessment](Assessments/Quiz-3-Study-Guide) |
-|  14 | Thurs, July 16 | Final Project Presentations | [Final Project Phase 3: Blog or Presentation](Projects/Graph-Project) |
+|  13 | Tues, July 14 | Lab & Work Time | - |  |
+|  14 | Thurs, July 16 | Final Project Presentations | [Final Project Phase 3: Blog or Presentation](Projects/Graph-Project) | [Quiz 3: Cumulative Assessment](Assessments/Quiz-3-Study-Guide) |
 
 ## Class Assignments
 
