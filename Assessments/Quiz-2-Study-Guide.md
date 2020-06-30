@@ -1,5 +1,7 @@
 # Quiz 2: Greedy Algorithms & Weighted Graphs
 
+You should be able to...
+
 - Describe a greedy algorithm to solve a real-world problem.
 - Describe a real-world use case for Minimum Spanning Tree.
 - Write pseudocode for Prim's Algorithm, Kruskal's Algorithm, and Dijkstra's Algorithm.
