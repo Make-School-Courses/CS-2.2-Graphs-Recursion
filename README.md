@@ -36,10 +36,10 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  7 | Tues, June 23 | [Weighted Graph Algorithms - Implementation](https://docs.google.com/presentation/d/1UGOzxEXlPRV-Mlwfg-hEBovL-3ZkAQgUlaZbmJzt3fU/edit?usp=sharing) | [Homework 3: Graph Applications](Assignments/03-Graph-Applications) |
 |  8 | Thurs, June 25 | [Review](https://docs.google.com/presentation/d/1Nssu35WyawQzsmKHlpJr5vfZr25MwAoLOHsV0JsZCDY/edit?usp=sharing) | - |
 |  9 | Tues, June 30 | [Recursion & Dynamic Programming Part 1](https://docs.google.com/presentation/d/17WsNYYmEWjOa9fLuiTHxI8Q3N47WWVlOimQOsrmYCkk/edit?usp=sharing) | [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs)<br>[Final Project Phase 1: Proposal](Projects/Graph-Project) |
-|  10 | Thurs, July 2 | [Recursion & Dynamic Programming Part 2](Lessons/08-More-Dynamic-Programming) | - | [Quiz 2: Weighted Graphs & Dynamic Programming](Assessments/Quiz-2-Study-Guide) |
-|  11 | Tues, July 7 | [NP-Complete Algorithms](Lessons/13-NP-Complete) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) |
-|  12 | Thurs, July 9 | [Applications & Problem-Solving](Lessons/11-Graph-Applications) | [Final Project Phase 2: Solutions](Projects/Graph-Project) |
-|  13 | Tues, July 14 | Lab & Work Time | - |  |
+|  10 | Thurs, July 2 | [Recursion & Dynamic Programming Part 2](Lessons/08-More-Dynamic-Programming) | - | [Quiz 2: Weighted Graphs & Greedy Algorithms](Assessments/Quiz-2-Study-Guide) |
+|  11 | Tues, July 7 | [NP-Complete Algorithms](Lessons/13-NP-Complete) |  |
+|  12 | Thurs, July 9 | [Applications & Problem-Solving](Lessons/11-Graph-Applications) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) |
+|  13 | Tues, July 14 | Lab & Work Time | [Final Project Phase 2: Solutions](Projects/Graph-Project) |  |
 |  14 | Thurs, July 16 | Final Project Presentations | [Final Project Phase 3: Blog or Presentation](Projects/Graph-Project) | [Quiz 3: Cumulative Assessment](Assessments/Quiz-3-Study-Guide) |
 
 ## Class Assignments
