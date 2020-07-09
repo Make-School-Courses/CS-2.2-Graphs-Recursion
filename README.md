@@ -37,10 +37,10 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  8 | Thurs, June 25 | [Review](https://docs.google.com/presentation/d/1Nssu35WyawQzsmKHlpJr5vfZr25MwAoLOHsV0JsZCDY/edit?usp=sharing) | - |
 |  9 | Tues, June 30 | [Recursion & Dynamic Programming Part 1](https://docs.google.com/presentation/d/17WsNYYmEWjOa9fLuiTHxI8Q3N47WWVlOimQOsrmYCkk/edit?usp=sharing) | [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs)<br>[Final Project Phase 1: Proposal](Projects/Graph-Project) |
 |  10 | Thurs, July 2 | [Recursion & Dynamic Programming Part 2](https://docs.google.com/presentation/d/1XCdXLpo_UyCq-FLJeRiCcatKaRylypu0g3kG54903RY/edit?usp=sharing) | - | [Quiz 2: Weighted Graphs & Greedy Algorithms](Assessments/Quiz-2-Study-Guide) |
-|  11 | Tues, July 7 | [NP-Complete Algorithms](Lessons/13-NP-Complete) |  |
-|  12 | Thurs, July 9 | [Applications & Problem-Solving](Lessons/11-Graph-Applications) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) |
+|  11 | Tues, July 7 | [Recursion & Dynamic Programming Review + Lab](https://docs.google.com/presentation/d/1yJBf_DUEbzDRW5K0JVjLU8vX50MMGQh4K38r1khDyk4/edit?usp=sharing) |  |
+|  12 | Thurs, July 9 | [NP-Complete Algorithms](https://docs.google.com/presentation/d/1nKk05Cw-1G2HvdXKPXixbl_UtpQcjo-iWzFClP_eM8E/edit?usp=sharing) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) |
 |  13 | Tues, July 14 | Lab & Work Time | [Final Project Phase 2: Solutions](Projects/Graph-Project) |  |
-|  14 | Thurs, July 16 | Final Project Presentations | [Final Project Phase 3: Blog or Presentation](Projects/Graph-Project) | [Quiz 3: Cumulative Assessment](Assessments/Quiz-3-Study-Guide) |
+|  14 | Thurs, July 16 | Final Project Presentations | [Final Project Phase 3: Blog or Presentation](Projects/Graph-Project) | [Quiz 3: Dynamic Programming & NP-Hard Algorithms](Assessments/Quiz-3-Study-Guide) |
 
 ## Class Assignments
 
