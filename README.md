@@ -8,6 +8,12 @@ Graphs can be used to model and solve a wide variety of problems, including syst
 
 - [CS 1.3](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures)
 
+## Course Specifics
+
+**Course Delivery**: online | 7 weeks | 14 sessions
+
+**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+
 ## Learning Outcomes
 
 Students by the end of the course will be able to ...
@@ -92,6 +98,12 @@ The following resources were used in developing this course and are a great plac
 ## A note on code:
 
 Much of the code you will be implementing in this class is for standard algorithms and thus is readily available from many sources. By using these resources, we can focus on deepening our understanding of the algorithms themselves and on the process of solving real world problems with these algorithms.  This means it may be likely that class members will have relatively similar algorithmic implementations, however, in keeping with the [Academic Honesty Policy](https://make.sc/academic-honesty-policy), you are expected to always give credit to code sources (online or classmates), write each line of code yourself with full understanding, add appropriate comments, and fully test your code.
+
+##  Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 
