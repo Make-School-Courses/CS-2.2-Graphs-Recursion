@@ -25,9 +25,9 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
-**Course Dates:** Tuesday, June 2 – Thursday, July 16, 2012 (7 weeks)
+**Course Dates:** Wednesday, Jan 20 – Wednesday, March 3 (7 weeks)
 
-**Class Times:** Tuesday and Thursday from 2:00–4:45pm
+**Class Times:** Monday and Wednesday from 2:45-5:30pm
 
 All assignments are due **by midnight (11:59pm) on the day specified.**
 
