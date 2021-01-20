@@ -37,14 +37,14 @@ All assignments are due **by the start of class (2:45pm) on the day specified.**
 |  1 | Wed, Jan 20 | [Introduction to Graph Theory](Lessons/01-Intro-to-Graph-Theory) | - |
 |  2 | Mon, Jan 25 | [Graph Traversals: Breadth-first Search](Lessons/02-Graph-Traversals-BFS) | - |
 |  3 | Wed, Jan 27 | [Graph Traversals: Depth-first Search](Lessons/03-Graph-Traversals-DFS) | [Homework 1: Graph ADT](Assignments/01-Graph-ADT) |
-|  4 | Mon, Feb 1 | [Topological Sort](Lessons/04-Topological-Sort) | - | [Quiz 1: Graph Properties & Traversals](Assessments/Quiz-1-Study-Guide) |
+|  4 | Mon, Feb 1 | [Topological Sort](Lessons/04-Topological-Sort) | - | [Practice Quiz 1: Graph Properties & Traversals](Assessments/Quiz-1-Study-Guide) |
 |  5 | Wed, Feb 3 | [Graph Applications](https://docs.google.com/presentation/d/1ykYtxuS-L2UemvAykJrW0m11oTyCyDrB6gQbTzaz6jE/edit?usp=sharing) | [Homework 2: Graph Traversals](Assignments/02-Graph-Traversals) |  |
 |  6 | Mon, Feb 8 | [Weighted Graph Algorithms - Overview](https://docs.google.com/presentation/d/1mvH1YpsiDTl8T_fB6xYF_gkwF_M11DDCme8Agd0EACc/edit?usp=sharing) | - |
 |  7 | Wed, Feb 10 | [Weighted Graph Algorithms - Implementation](https://docs.google.com/presentation/d/1UGOzxEXlPRV-Mlwfg-hEBovL-3ZkAQgUlaZbmJzt3fU/edit?usp=sharing) | [Homework 3: Graph Applications](Assignments/03-Graph-Applications) |
-|  8 | Mon, Feb 15 | [Recursion & Dynamic Programming Part 1](https://docs.google.com/presentation/d/17WsNYYmEWjOa9fLuiTHxI8Q3N47WWVlOimQOsrmYCkk/edit?usp=sharing) | - | [Quiz 2: Weighted Graphs & Greedy Algorithms](Assessments/Quiz-2-Study-Guide) |
+|  8 | Mon, Feb 15 | [Recursion & Dynamic Programming Part 1](https://docs.google.com/presentation/d/17WsNYYmEWjOa9fLuiTHxI8Q3N47WWVlOimQOsrmYCkk/edit?usp=sharing) | - | [Practice Quiz 2: Weighted Graphs & Greedy Algorithms](Assessments/Quiz-2-Study-Guide) |
 |  9 | Wed, Feb 17 | [Recursion & Dynamic Programming Part 2](https://docs.google.com/presentation/d/1XCdXLpo_UyCq-FLJeRiCcatKaRylypu0g3kG54903RY/edit?usp=sharing) | [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs)<br>[Final Project Phase 1: Proposal](Projects/Graph-Project) |  |
 |  10 | Mon, Feb 22 | [Recursion & Dynamic Programming Review + Lab](https://docs.google.com/presentation/d/1yJBf_DUEbzDRW5K0JVjLU8vX50MMGQh4K38r1khDyk4/edit?usp=sharing) |  |
-|  11 | Wed, Feb 24 | [NP-Complete Algorithms](https://docs.google.com/presentation/d/1nKk05Cw-1G2HvdXKPXixbl_UtpQcjo-iWzFClP_eM8E/edit?usp=sharing) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) | [Quiz 3: Dynamic Programming](Assessments/Quiz-3-Study-Guide) |
+|  11 | Wed, Feb 24 | [NP-Complete Algorithms](https://docs.google.com/presentation/d/1nKk05Cw-1G2HvdXKPXixbl_UtpQcjo-iWzFClP_eM8E/edit?usp=sharing) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) | [Practice Quiz 3: Dynamic Programming](Assessments/Quiz-3-Study-Guide) |
 |  12 | Mon, Mar 1 | [NP-Complete Algorithms 2](https://docs.google.com/presentation/d/13M_FuoNE8CSqz8AASR9Ma6id1gUQ4o7on5Azrc52pFE/edit?usp=sharing) | [Final Project Phase 2: Solutions](Projects/Graph-Project) |  |
 |  13 | Wed, Mar 3 | Final Project Presentations | [Final Project Phase 3: Blog or Presentation](Projects/Graph-Project) | Final Assessment (Cumulative) |
 
