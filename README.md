@@ -73,9 +73,9 @@ If you earn ≥70% on all 3 practice quizzes, you do not need to take the final.
 
 - Pass all but 1 homework assignment (≥70%)
 - Pass the final project (≥70%)
-- Pass the final assessment (≥70%) OR earn ≥70% on all 3 practice quizzes
+- Pass the final assessment (≥70%) **OR** earn ≥70% on all 3 practice quizzes
 
-In order to pass this course, you must also:
+**In order to pass this course, you must also:**
 
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
@@ -90,6 +90,26 @@ The **absolute last day** to submit any assignment will be **Friday, March 5 at 
 
 If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
 
+## Academic Honesty Policy
+
+At Make School, we highly encourage collaboration between students on assignments. Working with other people is the best way to learn!
+
+However, there's a big difference between **collaboration** (writing code together with another person) and **plagiarism** (copying code from a classmate or outside source without providing proper attribution). 
+
+Here are some guidelines to follow in order to avoid plagiarism:
+
+1. If you are looking at an outside source for help, **close the window** containing the code before writing your own solution.
+1. Do not write down a line of code unless you **completely understand** how it works. (This is true even if the source you're referencing is the lesson slides/examples/etc!)
+1. If your code is still similar to an outside source or another student's, **provide attribution** by adding a comment to your code explaining where it was taken from.
+
+We take academic honesty very seriously at Make School. The consequences for violating the policy are as follows:
+
+- You will be required to write a [Self-Reflection Letter](https://docs.google.com/document/d/140_PHfDh7gu33OZI_caxEtvNzAlAepjnGcbQcXZ-MRo/edit?usp=sharing) to reflect on how your actions affected others.
+- If this is your first offense, you may be permitted to redo the assignment for a reduced grade (at the instructor's discretion).
+- The incident will be added to your permanent record at Make School and you may be placed on a Participation Improvement Plan (PIP).
+
+For subsequent offenses, more serious consequences may be considered. For more information, please see [Make School's academic honesty policy](https://make.sc/academic-honesty-policy).
+
 ## Class Recordings
 
 Recordings of the course video lectures can be found in [this shared Google Drive folder](https://drive.google.com/drive/u/0/folders/1AGfMCI75bF2JWzEFjIBoxnJSNv8H0bWu). Please do not share these files outside of Make School.
@@ -100,10 +120,6 @@ The following resources were used in developing this course and are a great plac
 - [Geeks for Geeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 - [Wikipedia Graph Theory](https://en.wikipedia.org/wiki/Graph_theory)
 - [Runestone Academy Data Structures and Algorithms](https://runestone.academy/runestone/static/pythonds/index.html)
-
-## A note on code:
-
-Much of the code you will be implementing in this class is for standard algorithms and thus is readily available from many sources. By using these resources, we can focus on deepening our understanding of the algorithms themselves and on the process of solving real world problems with these algorithms.  This means it may be likely that class members will have relatively similar algorithmic implementations, however, in keeping with the [Academic Honesty Policy](https://make.sc/academic-honesty-policy), you are expected to always give credit to code sources (online or classmates), write each line of code yourself with full understanding, add appropriate comments, and fully test your code.
 
 ##  Information Resources
 
