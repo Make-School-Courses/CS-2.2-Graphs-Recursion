@@ -29,7 +29,7 @@ Students by the end of the course will be able to ...
 
 **Class Times:** Monday and Wednesday from 2:45-5:30pm
 
-All assignments are due **by midnight (11:59pm) on the day specified.**
+All assignments are due **by the start of class (2:45pm) on the day specified.**
 
 | Class | Date | Topics | Assignments Due | Assessment Due |
 |:-----:|:----:|:------:| :---------: | :--------: |
