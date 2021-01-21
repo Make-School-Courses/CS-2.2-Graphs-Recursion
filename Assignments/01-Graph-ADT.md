@@ -4,13 +4,13 @@ In this assignment, you'll build out the **Graph** and **Vertex** classes, which
 
 ## Purpose (Why should I do this?)
 
-There are many ways to represent a graph in code. We'll be getting up close and friendly with the **Adjacency List** implementation. Building out the code will give you a better understanding of how the **Graph** and **Vertex** classes work together, which will build up a foundation for tackling more complex graph algorithms.
+There are many ways to represent a graph in code. We'll be getting up close and friendly with the **Adjacency List** implementation. Building out the code will give you a better understanding of how the **Graph** class works, which will build up a foundation for tackling more complex graph algorithms.
 
 Scoring is as follows:
 
 | Criteria | Possible |
 | :------: | :------: |
-| Graph & Vertex classes | 20 |
+| Graph class | 20 |
 | File Reader | 20 |
 | Breadth-first Search & Find Neighbors | 20 |
 | Discussion Questions | 10 |
@@ -24,11 +24,11 @@ Create a fork of the [Homework 1 starter code](https://classroom.github.com/a/_s
 
 If you have trouble with this, check out [this guide](https://hmc-cs-131-spring2020.github.io/howtos/assignments.html) on how to use GitHub Classroom and Gradescope. (Keep in mind there are some differences, e.g. our assignments are individual and not partnered, but it should answer most questions.)
 
-## Graph & Vertex Classes _(20 Points)_
+## Graph Class _(20 Points)_
 
-Open the `graphs/graph.py` file and take a look at the code. The `Vertex` class contains a _dictionary_ of its neighbors. The _keys_ of the dictionary are the neighbor vertices' IDs, and the _values_ of the dictionary are the corresponding neighbor objects. If two vertices `A` and `B` are connected (i.e. if there is an edge between them), then `A` will be in `B`'s neighbors, and vice versa. Similary, the `Graph` class contains a dictionary of its vertices that maps a vertex id to a `Vertex` object.
+Open the `graphs/graph.py` file and take a look at the code. The `Graph` class contains a _dictionary_ of its edges, with each vertex mapped to a list of edges.
 
-**Complete the code for** the `Vertex` method `add_neighbor`, and the `Graph` methods `add_vertex` and `add_edge`.
+**Complete the code for** the missing `Graph` methods.
 
 After you are done, _manually test_ your code by running the `main.py` file in your terminal. Modify the `main.py` code to test many types of graphs!
 
