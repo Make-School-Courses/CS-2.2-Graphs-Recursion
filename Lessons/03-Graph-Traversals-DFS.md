@@ -6,7 +6,7 @@
 
 By the end of today, you should be able to...
 
-1. Implement iterative & recursive versions of Depth-first search (BFS).
+1. Implement iterative & recursive versions of Depth-first search (DFS).
 1. Find a path between two vertices using Depth-first search.
 1. Identify uses for Depth-first Search.
 

@@ -37,8 +37,8 @@ All assignments are due **by the start of class (2:45pm) on the day specified.**
 |  1 | Wed, Jan 20 | [Introduction to Graph Theory](Lessons/01-Intro-to-Graph-Theory) | - |
 |  2 | Mon, Jan 25 | [Graph Traversals: Breadth-first Search](Lessons/02-Graph-Traversals-BFS) | - |
 |  3 | Wed, Jan 27 | [Graph Traversals: Depth-first Search](Lessons/03-Graph-Traversals-DFS) | [Homework 1: Graph ADT](Assignments/01-Graph-ADT) |
-|  4 | Mon, Feb 1 | [Topological Sort](Lessons/04-Topological-Sort) | - | [Practice Quiz 1: Graph Properties & Traversals](Assessments/Quiz-1-Study-Guide) |
-|  5 | Wed, Feb 3 | [Graph Applications](https://docs.google.com/presentation/d/1ykYtxuS-L2UemvAykJrW0m11oTyCyDrB6gQbTzaz6jE/edit?usp=sharing) | [Homework 2: Graph Traversals](Assignments/02-Graph-Traversals) |  |
+|  4 | Mon, Feb 1 | [Topological Sort](Lessons/04-Topological-Sort) | - |  |
+|  5 | Wed, Feb 3 | [Graph Applications](https://docs.google.com/presentation/d/1ykYtxuS-L2UemvAykJrW0m11oTyCyDrB6gQbTzaz6jE/edit?usp=sharing) | [Homework 2: Graph Traversals](Assignments/02-Graph-Traversals) | [Practice Quiz 1: Graph Properties & Traversals](Assessments/Quiz-1-Study-Guide) |
 |  6 | Mon, Feb 8 | [Weighted Graph Algorithms - Overview](https://docs.google.com/presentation/d/1mvH1YpsiDTl8T_fB6xYF_gkwF_M11DDCme8Agd0EACc/edit?usp=sharing) | - |
 |  7 | Wed, Feb 10 | [Weighted Graph Algorithms - Implementation](https://docs.google.com/presentation/d/1UGOzxEXlPRV-Mlwfg-hEBovL-3ZkAQgUlaZbmJzt3fU/edit?usp=sharing) | [Homework 3: Graph Applications](Assignments/03-Graph-Applications) |
 |  8 | Mon, Feb 15 | [Recursion & Dynamic Programming Part 1](https://docs.google.com/presentation/d/17WsNYYmEWjOa9fLuiTHxI8Q3N47WWVlOimQOsrmYCkk/edit?usp=sharing) | - | [Practice Quiz 2: Weighted Graphs & Greedy Algorithms](Assessments/Quiz-2-Study-Guide) |
