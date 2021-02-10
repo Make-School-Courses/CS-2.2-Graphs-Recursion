@@ -14,88 +14,16 @@ In this assignment, you'll practice implementing **weighted graph algorithms**, 
 
 Continue to use your **Homework 1 and 2** starter code for this assignment. Alternatively, you may make a copy of your existing code and submit it instead.
 
-## WeightedVertex & WeightedGraph Classes _(15 Points)_
+## WeightedVertex & WeightedGraph Classes
 
-In the `graphs` folder, add a file called `weighted_graph.py` and give it the following contents:
-
-```py
-from graphs.graph import Graph, Vertex
-
-class WeightedVertex(Vertex):
-    def __init__(self, vertex_id):
-        """
-        Initialize a vertex and its neighbors.
-        
-        Parameters:
-        vertex_id (string): A unique identifier to identify this vertex.
-        """
-        self.__id = vertex_id
-        self.__neighbors_dict = {} # id -> (obj, weight)
-
-    def add_neighbor(self, vertex_obj, weight):
-        """
-        Add a neighbor along a weighted edge by storing it in the neighbors dictionary.
-
-        Parameters:
-        vertex_obj (Vertex): An instance of Vertex to be stored as a neighbor.
-        weight (int): The edge weight from self -> neighbor.
-        """
-        # TODO: Implement this function.
-        pass
-
-    def get_neighbors(self):
-        """Return the neighbors of this vertex as a list of neighbor ids."""
-        # TODO: Implement this function.
-        pass
-
-    def get_neighbors_with_weights(self):
-        """Return the neighbors of this vertex as a list of tuples of (neighbor_id, weight)."""
-        # TODO: Implement this function.
-        pass
-
-
-class WeightedGraph(Graph):
-    def __init__(self, is_directed=True):
-        """
-        Initialize a weighted graph object with an empty vertex dictionary.
-
-        Parameters:
-        is_directed (boolean): Whether the graph is directed (edges go in only one direction).
-        """
-        self.vertex_dict = {} # id -> object
-        self.__is_directed = is_directed
-
-    def add_vertex(self, vertex_id):
-        """
-        Add a new vertex object to the graph with the given key and return the vertex.
-        
-        Parameters:
-        vertex_id (string): The unique identifier for the new vertex.
-
-        Returns:
-        Vertex: The new vertex object.
-        """
-        # TODO: Implement this function.
-        pass
-    
-    def add_edge(self, vertex_id1, vertex_id2, weight):
-        """
-        Add an edge from vertex with id `vertex_id1` to vertex with id `vertex_id2`.
-
-        Parameters:
-        vertex_id1 (string): The unique identifier of the first vertex.
-        vertex_id2 (string): The unique identifier of the second vertex.
-        """
-        # TODO: Implement this function.
-        pass
-```
+In the `graphs` folder, take a look at the `weighted_graph.py` file. It contains two classes, `WeightedVertex` and `WeightedGraph`. Note that we are now storing vertices as objects, instead of strings. This is so that each vertex can keep track of the edge weights of each of their neighbors.
 
 Implement the `WeightedVertex` class methods `add_neighbor()`, `get_neighbors()`, 
 and `get_neighbors_with_weights()`, as described.
 
 Implement the `WeightedGraph` class methods `add_vertex()` and `add_edge()`, as described.
 
-## Kruskal's Algorithm - Find Edges of MST _(15 Points)_
+## Kruskal's Algorithm - Find Edges of MST
 
 In the `WeightedGraph` class, add the following method signatures for finding a **Minimum Spanning Tree** using **Kruskal's Algorithm**:
 
@@ -141,7 +69,7 @@ class WeightedGraph(Graph):
 
 Fill in the TODOs to complete `minimum_spanning_tree_kruskal`. Make sure to test your code thoroughly to ensure its correctness.
 
-## Prim's Algorithm - Find Weight of MST _(15 Points)_
+## Prim's Algorithm - Find Weight of MST
 
 In the `WeightedGraph` class, add the following method signature for finding a **Minimum Spanning Tree** using **Prim's Algorithm**:
 
@@ -174,7 +102,7 @@ Fill in the TODOs to complete `minimum_spanning_tree_prim`. Make sure to test yo
 
 **Stretch Challenge**: Modify the algorithm to use a [heap](https://www.geeksforgeeks.org/heap-data-structure/) to find and retrieve the minimum weight vertex.
 
-## Dijkstra's Algorithm - Shortest Path _(15 Points)_
+## Dijkstra's Algorithm - Shortest Path
 
 In the `WeightedGraph` class, add the following method signature for finding the **shortest path** between two vertices using **Dijkstra's Algorithm**:
 
