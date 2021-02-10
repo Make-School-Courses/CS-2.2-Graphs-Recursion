@@ -28,7 +28,7 @@ Implement the `WeightedGraph` class methods `add_vertex()` and `add_edge()`, as 
 In the `WeightedGraph` class, add the following method signatures for finding a **Minimum Spanning Tree** using **Kruskal's Algorithm**:
 
 ```py
-class WeightedGraph(Graph):
+class WeightedGraph:
     # ...
 
     def union(self, parent_map, vertex_id1, vertex_id2):
