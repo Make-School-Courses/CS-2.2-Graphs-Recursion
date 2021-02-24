@@ -29,7 +29,6 @@ Students by the end of the course will be able to ...
 
 **Class Times:** Monday and Wednesday from 2:45-5:30pm
 
-All assignments are due **by the start of class (2:45pm) on the day specified.**
 
 | Class | Date | Topics | Assignments Due | Assessment Due |
 |:-----:|:----:|:------:| :---------: | :--------: |
@@ -42,11 +41,11 @@ All assignments are due **by the start of class (2:45pm) on the day specified.**
 |  6 | Mon, Feb 8 | [Weighted Graph Algorithms - Overview](https://docs.google.com/presentation/d/1mvH1YpsiDTl8T_fB6xYF_gkwF_M11DDCme8Agd0EACc/edit?usp=sharing) | - |
 |  7 | Wed, Feb 10 | [Weighted Graph Algorithms - Implementation](https://docs.google.com/presentation/d/1UGOzxEXlPRV-Mlwfg-hEBovL-3ZkAQgUlaZbmJzt3fU/edit?usp=sharing) | [Homework 3: Graph Applications](Assignments/03-Graph-Applications)<br> _Optional - can opt to re-submit homework 1 or 2_ |
 |  8 | Mon, Feb 15 | [Recursion & Dynamic Programming Part 1](https://docs.google.com/presentation/d/17WsNYYmEWjOa9fLuiTHxI8Q3N47WWVlOimQOsrmYCkk/edit?usp=sharing) | - | [Practice Quiz 2: Weighted Graphs & Greedy Algorithms](Assessments/Quiz-2-Study-Guide) |
-|  9 | Wed, Feb 17 | [Recursion & Dynamic Programming Part 2](https://docs.google.com/presentation/d/1XCdXLpo_UyCq-FLJeRiCcatKaRylypu0g3kG54903RY/edit?usp=sharing) | [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs)<br>[Final Project Phase 1: Proposal](Projects/Graph-Project) |  |
+|  9 | Wed, Feb 17 | [Recursion & Dynamic Programming Part 2](https://docs.google.com/presentation/d/1XCdXLpo_UyCq-FLJeRiCcatKaRylypu0g3kG54903RY/edit?usp=sharing) | [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs) |  |
 |  10 | Mon, Feb 22 | [Recursion & Dynamic Programming Review + Lab](https://docs.google.com/presentation/d/1yJBf_DUEbzDRW5K0JVjLU8vX50MMGQh4K38r1khDyk4/edit?usp=sharing) |  |
 |  11 | Wed, Feb 24 | [NP-Complete Algorithms](https://docs.google.com/presentation/d/1nKk05Cw-1G2HvdXKPXixbl_UtpQcjo-iWzFClP_eM8E/edit?usp=sharing) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) | [Practice Quiz 3: Dynamic Programming](Assessments/Quiz-3-Study-Guide) |
-|  12 | Mon, Mar 1 | [NP-Complete Algorithms 2](https://docs.google.com/presentation/d/13M_FuoNE8CSqz8AASR9Ma6id1gUQ4o7on5Azrc52pFE/edit?usp=sharing) | [Final Project Phase 2: Solutions](Projects/Graph-Project) |  |
-|  13 | Wed, Mar 3 | Final Project Presentations | [Final Project Phase 3: Blog or Presentation](Projects/Graph-Project) | Final Assessment (Cumulative) |
+|  12 | Mon, Mar 1 | [NP-Complete Algorithms 2](https://docs.google.com/presentation/d/13M_FuoNE8CSqz8AASR9Ma6id1gUQ4o7on5Azrc52pFE/edit?usp=sharing) |  |  |
+|  13 | Wed, Mar 3 | - | [Final Project](Projects/Final-Project) | Final Assessment (Cumulative) |
 
 ## Class Work
 
@@ -56,8 +55,7 @@ This course includes 5 assignments, assigned weekly and linked in the schedule a
 
 ### Projects
 
-- [Graph Properties and Algorithms Project](Projects/Graph-Project.md)
-  - [Project Rubric](https://docs.google.com/document/d/1hq2D0HFCVIqkEI0HvE3SxCUlhNkSdG1Xoe62b3g9wp4/edit?usp=sharing)
+- [Final Project](Projects/Final-Project.md)
 
 ### Quizzes and Final Assessment
 
