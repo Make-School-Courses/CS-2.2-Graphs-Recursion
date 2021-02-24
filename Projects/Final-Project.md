@@ -24,6 +24,14 @@ For this project, you will submit 2 videos of algorithm explanations. This will 
 
 A passing project earns an average score of 2 (Basic) across both video submissions.
 
+## Examples
+
+For inspiration, check out algorithm explanation videos on YouTube such as [this video on BFS](https://www.youtube.com/watch?v=oDqjPvD54Ss).
+
+## Video Recording Software
+
+You can use the [QuickTime](https://support.apple.com/kb/dl923?locale=en_US) recording sofware to record a screen capture video, or the Photo Booth software to take a video with your webcam. No need to edit your video or use any fancy software! 
+
 ## Submission
 
 Please submit your work on [Gradescope](https://gradescope.com).
