@@ -43,7 +43,7 @@ Students by the end of the course will be able to ...
 |  8 | Mon, Feb 15 | [Recursion & Dynamic Programming Part 1](https://docs.google.com/presentation/d/17WsNYYmEWjOa9fLuiTHxI8Q3N47WWVlOimQOsrmYCkk/edit?usp=sharing) | - | [Practice Quiz 2: Weighted Graphs & Greedy Algorithms](Assessments/Quiz-2-Study-Guide) |
 |  9 | Wed, Feb 17 | [Recursion & Dynamic Programming Part 2](https://docs.google.com/presentation/d/1XCdXLpo_UyCq-FLJeRiCcatKaRylypu0g3kG54903RY/edit?usp=sharing) | [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs) |  |
 |  10 | Mon, Feb 22 | [Recursion & Dynamic Programming Review + Lab](https://docs.google.com/presentation/d/1yJBf_DUEbzDRW5K0JVjLU8vX50MMGQh4K38r1khDyk4/edit?usp=sharing) |  |
-|  11 | Wed, Feb 24 | [NP-Complete Algorithms](https://docs.google.com/presentation/d/1nKk05Cw-1G2HvdXKPXixbl_UtpQcjo-iWzFClP_eM8E/edit?usp=sharing) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) | [Practice Quiz 3: Dynamic Programming](Assessments/Quiz-3-Study-Guide) |
+|  11 | Wed, Feb 24 | [NP-Complete Algorithms](https://docs.google.com/presentation/d/1nKk05Cw-1G2HvdXKPXixbl_UtpQcjo-iWzFClP_eM8E/edit?usp=sharing) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) |  |
 |  12 | Mon, Mar 1 | [NP-Complete Algorithms 2](https://docs.google.com/presentation/d/13M_FuoNE8CSqz8AASR9Ma6id1gUQ4o7on5Azrc52pFE/edit?usp=sharing) |  |  |
 |  13 | Wed, Mar 3 | - | [Final Project](Projects/Final-Project) | Final Assessment (Cumulative) |
 
