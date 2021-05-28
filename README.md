@@ -10,9 +10,11 @@ Graphs can be used to model and solve a wide variety of problems, including syst
 
 ## Course Specifics
 
-**Course Delivery**: online | 7 weeks | 13 sessions
+**Course Delivery**: Synchronous | 7 weeks | 18 sessions
 
-**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+**Course Credits**:
+
+Synchronous: 3 units | 37.5 Contact Hours/Term | 92 Non-Contact Hours/Term | 129.5 Total Hours/Term
 
 ## Learning Outcomes
 
@@ -25,68 +27,82 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
-**Course Dates:** Wednesday, Jan 20 – Wednesday, March 3 (7 weeks)
+**Course Dates:** Monday, May 31 – Friday, July 16, 2021 (7 weeks)
 
-**Class Times:** Monday and Wednesday from 2:45-5:30pm
+**Class Times:** Monday, Wednesday, Friday at 9:30am–11:15am (19 class sessions)
 
+| Class |          Date          |                 Topics                  | Assignments Due |
+|:-----:|:----------------------:|:---------------------------------------:|:-----:|
+|  - |  Mon, May 31         | **No Class - Memorial Day** | |
+|  1 |  Wed, June 2         | [Introduction to Graph Theory](Lessons/01-Intro-to-Graph-Theory) | |
+|  2 |  Fri, June 4         | Lab | |
+|  3 |  Mon, June 7         | [How to Proof](Lessons/02-Graph-Traversals-BFS)| |
+|  4 |  Wed, June 9         | [Graph Traversals](Lessons/03-Graph-Traversals-DFS) |  |
+|  5 |  Fri, June 11        | Lab | |
+|  6 |  Mon, June 14        | [Topological Sort](Lessons/04-Topological-Sort)| |
+|  7 |  Wed, June 16        | [Graph Applications](https://docs.google.com/presentation/d/1ykYtxuS-L2UemvAykJrW0m11oTyCyDrB6gQbTzaz6jE/edit?usp=sharing)  | |
+|  8 |  Fri, June 18        | Lab |
+|  9 |  Mon, June 21        | [Weighted Graph Algorithms](https://docs.google.com/presentation/d/1mvH1YpsiDTl8T_fB6xYF_gkwF_M11DDCme8Agd0EACc/edit?usp=sharing) |
+| 10 |  Wed, June 23        | [Weighted Graph Algorithms](https://docs.google.com/presentation/d/1mvH1YpsiDTl8T_fB6xYF_gkwF_M11DDCme8Agd0EACc/edit?usp=sharing) |
+| 11 |  Fri, June 25        | Lab|
+| 12 |  Mon, June 28        | [Recursion & Dynamic Programming](https://docs.google.com/presentation/d/17WsNYYmEWjOa9fLuiTHxI8Q3N47WWVlOimQOsrmYCkk/edit?usp=sharing) |
+| 13 |  Wed, June 30        | [Recursion & Dynamic Programming](https://docs.google.com/presentation/d/1yJBf_DUEbzDRW5K0JVjLU8vX50MMGQh4K38r1khDyk4/edit?usp=sharing) |
+| 14 |  Fri, July 2         | Lab |
+| -  |  Mon, July 5         | **No Class - Independence Day Observed** |
+| 15 |  Wed, July 7         | [NP-Complete Algorithms](https://docs.google.com/presentation/d/1nKk05Cw-1G2HvdXKPXixbl_UtpQcjo-iWzFClP_eM8E/edit?usp=sharing) |
+| 16 |  Fri, July 9         | Lab|
+| 17 |  Mon, July 12        | Practice Problems |
+| 18 |  Wed, July 14        | Practice Problems |
+| 19 |  Fri, July 16        | Lab |
 
-| Class | Date | Topics | Assignments Due | Assessment Due |
-|:-----:|:----:|:------:| :---------: | :--------: |
-|  - |  Mon, Jan 18 | **No Class - MLK Day** | - | - |
-|  1 | Wed, Jan 20 | [Introduction to Graph Theory](Lessons/01-Intro-to-Graph-Theory) | - |
-|  2 | Mon, Jan 25 | [Graph Traversals: Breadth-first Search](Lessons/02-Graph-Traversals-BFS) | - |
-|  3 | Wed, Jan 27 | [Graph Traversals: Depth-first Search](Lessons/03-Graph-Traversals-DFS) | [Homework 1: Graph ADT](Assignments/01-Graph-ADT) |
-|  4 | Mon, Feb 1 | [Topological Sort](Lessons/04-Topological-Sort) | - |  |
-|  5 | Wed, Feb 3 | [Graph Applications](https://docs.google.com/presentation/d/1ykYtxuS-L2UemvAykJrW0m11oTyCyDrB6gQbTzaz6jE/edit?usp=sharing) | [Homework 2: Graph Traversals](Assignments/02-Graph-Traversals) | [Practice Quiz 1: Graph Properties & Traversals](Assessments/Quiz-1-Study-Guide) |
-|  6 | Mon, Feb 8 | [Weighted Graph Algorithms - Overview](https://docs.google.com/presentation/d/1mvH1YpsiDTl8T_fB6xYF_gkwF_M11DDCme8Agd0EACc/edit?usp=sharing) | - |
-|  7 | Wed, Feb 10 | [Weighted Graph Algorithms - Implementation](https://docs.google.com/presentation/d/1UGOzxEXlPRV-Mlwfg-hEBovL-3ZkAQgUlaZbmJzt3fU/edit?usp=sharing) | [Homework 3: Graph Applications](Assignments/03-Graph-Applications)<br> _Optional - can opt to re-submit homework 1 or 2_ |
-|  8 | Mon, Feb 15 | [Recursion & Dynamic Programming Part 1](https://docs.google.com/presentation/d/17WsNYYmEWjOa9fLuiTHxI8Q3N47WWVlOimQOsrmYCkk/edit?usp=sharing) | - | [Practice Quiz 2: Weighted Graphs & Greedy Algorithms](Assessments/Quiz-2-Study-Guide) |
-|  9 | Wed, Feb 17 | [Recursion & Dynamic Programming Part 2](https://docs.google.com/presentation/d/1XCdXLpo_UyCq-FLJeRiCcatKaRylypu0g3kG54903RY/edit?usp=sharing) | [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs) |  |
-|  10 | Mon, Feb 22 | [Recursion & Dynamic Programming Review + Lab](https://docs.google.com/presentation/d/1yJBf_DUEbzDRW5K0JVjLU8vX50MMGQh4K38r1khDyk4/edit?usp=sharing) |  |
-|  11 | Wed, Feb 24 | [NP-Complete Algorithms](https://docs.google.com/presentation/d/1nKk05Cw-1G2HvdXKPXixbl_UtpQcjo-iWzFClP_eM8E/edit?usp=sharing) | [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming) |  |
-|  12 | Mon, Mar 1 | [NP-Complete Algorithms 2](https://docs.google.com/presentation/d/13M_FuoNE8CSqz8AASR9Ma6id1gUQ4o7on5Azrc52pFE/edit?usp=sharing) |  |  |
-|  13 | Wed, Mar 3 | - | [Final Project](Projects/Final-Project) | Final Assessment (Cumulative) |
 
 ## Class Work
 
 ### Assignments
 
-This course includes 5 assignments, assigned weekly and linked in the schedule above.
+### Coding Modules
 
-### Projects
+Each lesson will have an associated module consisting of review, conceptual, and coding activities as well as interview prep related to the topic. At the end of each week you will turn your module work into gradescope for feedback and a score.
 
-- [Final Project](Projects/Final-Project.md)
+### Final Project
 
-### Quizzes and Final Assessment
+Students will also create a [final project] applying and implementing an advanced graph related topic
 
-This course includes 3 practice quizzes and 1 final assessment. The quizzes are designed to level up your skills and illuminate the areas in which you can improve.
+## Assignment Submissions
 
-The final assessment will contain similar material to the quizzes, and will cover the same topics.
+We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback on your work. *All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope.*
 
-If you earn ≥70% on all 3 practice quizzes, you do not need to take the final.
+As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
+
+Your Gradescope login is your Make School email, and your password can be changed at [https://gradescope.com/reset_password](https://gradescope.com/reset_password). The same link can be used if you need to set your password for the first time.
 
 ## Evaluation
 
-**To pass this course, you must complete the following:**:
+To pass this course you must meet the following requirements:
 
-- Pass all but 1 homework assignment (≥70%)
-- Pass the final project (≥70%)
-- Pass the final assessment (≥70%) **OR** earn ≥70% on all 3 practice quizzes
+* Pass all modules with a score 70% or higher
+* Your lowest module will be dropped
+* Complete and publish the Technical Article by the end of the term
+* Actively participate in class and abide by the attendance policy
+* Make up all classwork from all absences
 
-**In order to pass this course, you must also:**
+## Course Policies and Format
 
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
+* This course will use a self paced format
+* You will be given recommended dates to turn assignments in to stay on track, but you can turn in any assignment later than the recommended date with no penalty provided it is turned in no later than the last day of class (Fri July 16th) 
+* You can resubmit any assignment after receiving feedback to improve your score provided it is turned in no later than the last day of class (Fri July 16th)
+* Assignments should be completed by the recommended date in the above schedules section in order to receive timely feedback. Students falling behind should connect with the instructor for help staying on pace! 
+* The absolute last date to turn in any assignment will be the last day of class (Fri July 16th)
+* Any assignments not complete by the final day of class (Fri July 16) will be given a score of 0
+* Lectures will be given during the first hour of class and will be optional (9:30 am - 10:30 am on M & W)
+* Labs will be during the last portion of the class and all of Friday sessions and attendance will be required (10:45 - 11:15 am M & W, 9:30 am - 11:15 am F)
 
-## Late Assignment Policy
+##  Information Resources
 
-In this class, we will be using student submissions as material for in-class discussions and activities, such as peer code reviews. **If you do not submit your homework assignments by the deadline, you will miss out on these opportunities.** However, no explicit late penalty will be applied for submissions under 1 week late. You may also re-submit your work to correct errors and increase your homework score.
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
 
-Assignments or corrections submitted **more than 7 days (1 week) late** will **not** be accepted.
+- [make.sc/library](http://make.sc/library)
 
-The **absolute last day** to submit any assignment will be **Friday, March 5 at 11:59 PM**. After that, no other extensions may be granted even in extenuating circumstances due to a hard deadline for submitting grades.
-
-If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
 
 ## Academic Honesty Policy
 
@@ -107,10 +123,6 @@ We take academic honesty very seriously at Make School. The consequences for vio
 - The incident will be added to your permanent record at Make School and you may be placed on a Participation Improvement Plan (PIP).
 
 For subsequent offenses, more serious consequences may be considered. For more information, please see [Make School's academic honesty policy](https://make.sc/academic-honesty-policy).
-
-## Class Recordings
-
-Recordings of the course video lectures can be found in [this shared Google Drive folder](https://drive.google.com/drive/u/0/folders/1AGfMCI75bF2JWzEFjIBoxnJSNv8H0bWu). Please do not share these files outside of Make School.
 
 ## Resources
 
