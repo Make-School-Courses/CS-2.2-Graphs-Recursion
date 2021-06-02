@@ -29,7 +29,7 @@ Students by the end of the course will be able to ...
 
 **Course Dates:** Monday, May 31 – Friday, July 16, 2021 (7 weeks)
 
-**Class Times:** Monday, Wednesday, Friday at 9:30am–11:15am (19 class sessions)
+**Class Times:** Monday, Wednesday, Friday at 2:15pm–4:00pm (19 class sessions)
 
 | Class |          Date          |                 Topics                  | Assignments Due |
 |:-----:|:----------------------:|:---------------------------------------:|:-----:|
@@ -94,8 +94,8 @@ To pass this course you must meet the following requirements:
 * Assignments should be completed by the recommended date in the above schedules section in order to receive timely feedback. Students falling behind should connect with the instructor for help staying on pace! 
 * The absolute last date to turn in Modules 1-3 is Fri June 25th and  the last date to turn in modules 3-6 and the final project is Fri July 16th
 * Any assignments not complete by the above midterm Fri June 25th and final day of class Fri July 16th dates will receive a score of 0
-* Lectures will be given during the first hour of class and will be optional (9:30 am - 10:30 am on M & W)
-* Labs will be during the last portion of the class and all of Friday sessions and attendance will be required (10:45 - 11:15 am M & W, 9:30 am - 11:15 am F)
+* Lectures will be given during the first hour of class and will be optional (2:15 pm - 03:15pm on M & W)
+* Labs will be during the last portion of the class and all of Friday sessions and attendance will be required (3:30 - 4:00 pm M & W, 2:15 pm - 04:00pm F)
 
 ##  Information Resources
 
