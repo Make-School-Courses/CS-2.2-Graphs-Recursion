@@ -36,24 +36,24 @@ Students by the end of the course will be able to ...
 |  - |  Mon, May 31         | **No Class - Memorial Day** | |
 |  1 |  Wed, June 2         | [Introduction to Graph Theory](Lessons/01-Intro-to-Graph-Theory) | |
 |  2 |  Fri, June 4         | Lab | |
-|  3 |  Mon, June 7         | [How to Proof](Lessons/02-Graph-Traversals-BFS)| |
+|  3 |  Mon, June 7         | [How to Proof](Lessons/02-Graph-Traversals-BFS)| Module 1 |
 |  4 |  Wed, June 9         | [Graph Traversals](Lessons/03-Graph-Traversals-DFS) |  |
-|  5 |  Fri, June 11        | Lab | |
+|  5 |  Fri, June 11        | Lab | Module 2|
 |  6 |  Mon, June 14        | [Topological Sort](Lessons/04-Topological-Sort)| |
 |  7 |  Wed, June 16        | [Graph Applications](https://docs.google.com/presentation/d/1ykYtxuS-L2UemvAykJrW0m11oTyCyDrB6gQbTzaz6jE/edit?usp=sharing)  | |
-|  8 |  Fri, June 18        | Lab |
+|  8 |  Fri, June 18        | Lab | Module 3
 |  9 |  Mon, June 21        | [Weighted Graph Algorithms](https://docs.google.com/presentation/d/1mvH1YpsiDTl8T_fB6xYF_gkwF_M11DDCme8Agd0EACc/edit?usp=sharing) |
 | 10 |  Wed, June 23        | [Weighted Graph Algorithms](https://docs.google.com/presentation/d/1mvH1YpsiDTl8T_fB6xYF_gkwF_M11DDCme8Agd0EACc/edit?usp=sharing) |
-| 11 |  Fri, June 25        | Lab|
-| 12 |  Mon, June 28        | [Recursion & Dynamic Programming](https://docs.google.com/presentation/d/17WsNYYmEWjOa9fLuiTHxI8Q3N47WWVlOimQOsrmYCkk/edit?usp=sharing) |
+| 11 |  Fri, June 25        | Lab| Module 4 Midterm (you must have modules 1-4 turned in)
+| 12 |  Mon, June 28        | [Recursion & Dynamic Programming](https://docs.google.com/presentation/d/17WsNYYmEWjOa9fLuiTHxI8Q3N47WWVlOimQOsrmYCkk/edit?usp=sharing) | 
 | 13 |  Wed, June 30        | [Recursion & Dynamic Programming](https://docs.google.com/presentation/d/1yJBf_DUEbzDRW5K0JVjLU8vX50MMGQh4K38r1khDyk4/edit?usp=sharing) |
-| 14 |  Fri, July 2         | Lab |
+| 14 |  Fri, July 2         | Lab | Module 5
 | -  |  Mon, July 5         | **No Class - Independence Day Observed** |
 | 15 |  Wed, July 7         | [NP-Complete Algorithms](https://docs.google.com/presentation/d/1nKk05Cw-1G2HvdXKPXixbl_UtpQcjo-iWzFClP_eM8E/edit?usp=sharing) |
-| 16 |  Fri, July 9         | Lab|
+| 16 |  Fri, July 9         | Lab| Module 6
 | 17 |  Mon, July 12        | Practice Problems |
 | 18 |  Wed, July 14        | Practice Problems |
-| 19 |  Fri, July 16        | Lab |
+| 19 |  Fri, July 16        | Lab | Final Project
 
 
 ## Class Work
@@ -82,18 +82,18 @@ To pass this course you must meet the following requirements:
 
 * Pass all modules with a score 70% or higher
 * Your lowest module will be dropped
-* Complete and publish the Technical Article by the end of the term
+* Complete the final project with a score of 70% or higher
 * Actively participate in class and abide by the attendance policy
 * Make up all classwork from all absences
 
 ## Course Policies and Format
 
 * This course will use a self paced format
-* You will be given recommended dates to turn assignments in to stay on track, but you can turn in any assignment later than the recommended date with no penalty provided it is turned in no later than the last day of class (Fri July 16th) 
+* You will be given recommended dates to turn assignments in to stay on track, but you can turn in any assignment later than the recommended date with no penalty provided Modules 1-3 are turned in no later than midterm (Fri June 25th) and modules 3-6 and the final project are turned in no later than the last day of class (Fri July 16th) 
 * You can resubmit any assignment after receiving feedback to improve your score provided it is turned in no later than the last day of class (Fri July 16th)
 * Assignments should be completed by the recommended date in the above schedules section in order to receive timely feedback. Students falling behind should connect with the instructor for help staying on pace! 
-* The absolute last date to turn in any assignment will be the last day of class (Fri July 16th)
-* Any assignments not complete by the final day of class (Fri July 16) will be given a score of 0
+* The absolute last date to turn in Modules 1-3 is Fri June 25th and  the last date to turn in modules 3-6 and the final project is Fri July 16th
+* Any assignments not complete by the above midterm Fri June 25th and final day of class Fri July 16th dates will receive a score of 0
 * Lectures will be given during the first hour of class and will be optional (9:30 am - 10:30 am on M & W)
 * Labs will be during the last portion of the class and all of Friday sessions and attendance will be required (10:45 - 11:15 am M & W, 9:30 am - 11:15 am F)
 
