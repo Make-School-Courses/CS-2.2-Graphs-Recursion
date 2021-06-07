@@ -1,27 +1,7 @@
 - **[Syllabus](README.md)**
 - **Lessons**
-  - [Introduction to Graph Theory](Lessons/01-Intro-to-Graph-Theory)
-  - [Graph Traversals: Breadth-first Search](Lessons/02-Graph-Traversals-BFS)
-  - [Graph Traversals: Depth-first Search](Lessons/03-Graph-Traversals-DFS)
-  - [DAG & Topological Sort](Lessons/04-Topological-Sort)
-  - [Weighted Graph Algorithms I - Dijkstra & Prim](Lessons/05-Weighted-Graphs)
-  - [Weighted Graph Algorithms II - Kruskal & Floyd-Warshall](Lessons/06-More-Weighted-Graphs)
-  - [Recursion & Dynamic Programming I](Lessons/07-Dynamic-Programming)
-  - [Recursion & Dynamic Programming II](Lessons/08-More-Dynamic-Programming)
-  - [Max Flow Algorithms (Optional)](Lessons/09-Max-Flow)
-  - [More Max Flow (Optional)](Lessons/10-More-Max-Flow)
-  - [Review Lesson #1](Lessons/09-Review-I)
-  - [Review Lesson #2](Lessons/10-Review-II)
-  - [NP-Complete Algorithms](Lessons/13-NP-Complete)
-  - [Applications & Problem-Solving](Lessons/11-Graph-Applications)
-  - [Applications & Problem-Solving LAB](Lessons/12-Graph-Applications-Lab)
-  - Final Class (Presentations, Demos, etc)
-  - Final Exam/Presentations
+  
 - **Homeworks**
-  - [Homework 1: Graph ADT](Assignments/01-Graph-ADT)
-  - [Homework 2: Graph Traversals](Assignments/02-Graph-Traversals)
-  - [Homework 3: Graph Applications](Assignments/03-Graph-Applications)
-  - [Homework 4: Weighted Graphs](Assignments/04-Weighted-Graphs)
-  - [Homework 5: Dynamic Programming](Assignments/05-Dynamic-Programming)
+
 - **Project**
-  - [Graph Project](Projects/Graph-Project)
+
